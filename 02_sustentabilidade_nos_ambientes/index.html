@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Template paginado</title>
+
+    <!-- Bootstrap -->
+    <link href="../template/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
+    <link href="../template/css/cores.css" rel="stylesheet">
+    <link href="../template/css/sncload.css" rel="stylesheet">
+    <link href="../template/css/magnific-popup.css" rel="stylesheet">
+    <!-- referencia ao arquivo css com estilos especificos da pagina -->
+    <link href="../template/css/modal-100.css" type="text/css" rel="stylesheet">
+    <link href="../template/css/extras.css" type="text/css" rel="stylesheet">
+
+    <link href="css/custom.css" type="text/css" rel="stylesheet">
+    <!-- css necessario para o print -->
+    <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="../template/css/print.css" type="text/css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Jo�o Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">20153600.0000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Jo�o Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+    <!-- MARCA D´ÁGUA -->
+    <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo">
+    <!-- /MARCA D´ÁGUA -->
+
+    <div id='sncloader' class='over-loader'><div class="over-cell"><div id="sncload"></div></div></div>
+    <header id="topo" class="senac no-print">
+        <div  class="header-tecnicos container">
+        	  <h1 id="nome-curso">Design de interiores</h1>
+            <div id="logo-senac"><img src="../template/images/logo-senac.png" alt="logo do senac"></div>
+        </div>
+        <div id="sombra"></div>
+    </header>
+
+    <div id="booklet">
+        <header class="no-print container">
+          <!-- BTO IMPRIMIR -->
+          <div class="grupo-imprimir no-print">
+            <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+                <span class="fa fa-print"></span> <span>Imprimir</span>
+            </button>
+          </div>
+          <!-- /BTO IMPRIMIR -->
+        </header>
+<!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+        <section class="paginas">
+
+          <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+          <div class="pagina" >
+            <div class="bloco">
+              <div class="container">
+                <h2>Sustentabilidade nos ambientes construídos</h2>
+                <p>A sustentabilidade está relacionada à ideia de que o uso de recursos para suprir as necessidades da atual geração não pode prejudicar o acesso a eles pelas gerações futuras. Neste conhecimento, será abordada a amplitude do termo sustentabilidade e também como ele se relaciona com os ramos da arquitetura, do <i>design</i> de interiores e da construção civil.</p>
+                <h3>Tripé da sustentabilidade</h3>
+                <p>A expressão <i>triple botton line</i>, traduzida para o português como o “tripé da sustentabilidade”, foi criada pelo sociólogo britânico John Elkington, em 1994. Ela aborda uma gestão empresarial na qual sejam considerados aspectos do desenvolvimento econômico, da responsabilidade social e da gestão ambiental. De acordo com o tripé da sustentabilidade, a obtenção de lucro de uma empresa deve vir acompanhada de um olhar ecológico, que considera impactos no meio ambiente, assim como valoriza tanto as pessoas que estão inseridas na empresa quanto aquelas que não fazem parte da organização. Entenda melhor o que são os pilares da sustentabilidade:</p>
+               
+                <div class="no-print" aria-hidden="true">
+                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">Desenvolvimento Econômico</button>
+                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">Responsabilidade Social</button>
+                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">Gestão Ambiental</button>
+
+                  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-live="polite" aria-atomic="true" aria-hidden="false">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Desenvolvimento econômico</h4>
+                        </div>
+                        <div class="modal-body">
+                          Este pilar refere-se à sustentabilidade econômica da empresa, em que ela tem uma visão a longo prazo e não foca apenas no lucro imediato. A empresa então investe em tecnologias e equipamentos, faz uma boa gestão do patrimônio e pensa em ações que podem melhorar a produtividade, lucratividade e competitividade.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-live="polite" aria-atomic="true" aria-hidden="false">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Responsabilidade Social</h4>
+                        </div>
+                        <div class="modal-body">
+                          Este pilar está relacionado às condições de trabalho, à remuneração justa e aos benefícios oferecidos aos colaboradores da empresa, assim como à adoção de práticas sociais que melhoram as condições de vida da comunidade local por meio de projetos sociais, educacionais e ofertas de emprego. A responsabilidade social envolve colaboradores, mas também investidores e fornecedores. Pense que, quando alguém melhora as condições de vida de quem utilizará um edifício, trazendo maior bem-estar tanto para o cliente quanto para aqueles que participarão da obra, também está se responsabilizando socialmente, assim como quando se dá preferência por comprar produtos ou utilizar mão de obra local.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-live="polite" aria-atomic="true" aria-hidden="false">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Gestão ambiental</h4>
+                        </div>
+                        <div class="modal-body">
+                          Este pilar tem como foco ações que possam reduzir a exploração de recursos naturais e o impacto da empresa ao meio ambiente. É necessário identificar o efeito que sua produção tem no ecossistema e quais as formas de minimizar os danos causados. Apoiar causas socioambientais também contribui para a implementação desse pilar. Podem ser enumeradas como ações sustentáveis os investimentos em eficiência energética e o reúso de água em edifícios, assim como o descarte correto de resíduos de obras.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <p>Você pode aplicar os pilares da sustentabilidade na sua vida profissional procurando escolher produtos de empresas que se orientem a partir dos conceitos mencionados. Além disso, também pode adotar ações na sua empresa ou na sua conduta como profissional autônomo que considerem o meio ambiente, a sociedade e a gestão financeira a partir de um olhar sustentável.</p>
+                </div>
+                              
+                <div class="acessivel print">
+                  <h4>Desenvolvimento econômico</h4>
+                  <p>Este pilar refere-se à sustentabilidade econômica da empresa, em que ela tem uma visão a longo prazo e não foca apenas no lucro imediato. A empresa então investe em tecnologias e equipamentos, faz uma boa gestão do patrimônio e pensa em ações que podem melhorar a produtividade, lucratividade e competitividade.</p>
+                  <h4>Responsabilidade Social</h4>
+                  <p>Este pilar está relacionado às condições de trabalho, à remuneração justa e aos benefícios oferecidos aos colaboradores da empresa, assim como à adoção de práticas sociais que melhoram as condições de vida da comunidade local por meio de projetos sociais, educacionais e ofertas de emprego. A responsabilidade social envolve colaboradores, mas também investidores e fornecedores. Pense que, quando alguém melhora as condições de vida de quem utilizará um edifício, trazendo maior bem-estar tanto para o cliente quanto para aqueles que participarão da obra, também está se responsabilizando socialmente, assim como quando se dá preferência por comprar produtos ou utilizar mão de obra local.</p>
+                  <h4>Gestão Ambiental</h4>
+                  <p>Este pilar tem como foco ações que possam reduzir a exploração de recursos naturais e o impacto da empresa ao meio ambiente. É necessário identificar o efeito que sua produção tem no ecossistema e quais as formas de minimizar os danos causados. Apoiar causas socioambientais também contribui para a implementação desse pilar. Podem ser enumeradas como ações sustentáveis os investimentos em eficiência energética e o reúso de água em edifícios, assim como o descarte correto de resíduos de obras.</p>
+                  <p>Você pode aplicar os pilares da sustentabilidade na sua vida profissional procurando escolher produtos de empresas que se orientem a partir dos conceitos mencionados. Além disso, também pode adotar ações na sua empresa ou na sua conduta como profissional autônomo que considerem o meio ambiente, a sociedade e a gestão financeira a partir de um olhar sustentável.</p>
+                </div>
+
+              </div> 
+            </div>
+
+            <div class="bloco" >
+              <div class="container">
+                <h3>Estratégias de sustentabilidade aplicada</h3>
+                <p>Agora você já entendeu que sustentabilidade vai além de soluções que diminuam o impacto no meio ambiente. Então, confira a seguir quais estratégias podem ser utilizadas no <i>design</i> de interiores e arquitetura para que se tenham projetos mais sustentáveis e que contribuam para o bem-estar das pessoas, do mercado e do meio ambiente.</p>
+                <div class="no-print" aria-hidden="true">
+                  <p>Clique ou toque para visualizar o conteúdo.</p>
+                  <div class="painel painel1">
+                    <button type="button" class="bt-nome" data-toggle="modal" data-target="#modal-longevidade-e-flexibilidade">Longevidade e flexibilidade</button>
+                    <button type="button" class="bt-nome" data-toggle="modal" data-target="#modal-biofilia">Biofilia</button>
+                    <button type="button" class="bt-nome" data-toggle="modal" data-target="#modal-conforto-ambiental">Conforto ambiental</button>
+                    <button type="button" class="bt-nome" data-toggle="modal" data-target="#modal-eficiencia-energetica">Eficiência energética</button>
+                    <button type="button" class="bt-nome" data-toggle="modal" data-target="#modal-reducao-impactos-ambientais">Redução de impactos ambientais</button>
+                    <button type="button" class="bt-nome" data-toggle="modal" data-target="#modal-ergonomia">Ergonomia</button>
+
+
+
+                  </div>
+                   
+                  <div class="modal modal-100 fade" id="modal-longevidade-e-flexibilidade" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            </div>
+                            <h3>Longevidade e flexibilidade</h3>
+                            <p>Criar ou reformar um ambiente costuma envolver um custo financeiro significativo, logo, é coerente esperar que o resultado seja o mais duradouro possível. Ao mesmo tempo, o ser humano e a sociedade na qual está inserido sofrem constantes transformações. Se os ambientes nos quais se vive, trabalha e movimenta são reflexos da sociedade de uma época, eles também precisam se adaptar a essas mudanças. </p>                          
+                            <p><strong>Mas como projetar ambientes que tenham longa vida útil e ao mesmo tempo possam se adaptar às mudanças de rotina, de modos de vida e de tendências de mercado?</strong></p>
+                            <p>Você pode começar a pensar a longevidade a partir da escolha de revestimentos e produtos que tenham materiais mais duráveis, que possam ser facilmente substituídos e limpos, exigindo, dessa forma, menos intervenções e acarretando menos desperdício. Um exemplo seria a utilização de pisos de tacos de madeira certificada, que podem ser renovados várias vezes ao longo da sua vida útil, mantendo as características iniciais por décadas até que se tenha que trocar efetivamente o revestimento, quando aplicado ao uso residencial. Há ainda a opção do piso elevado em ambientes comerciais, com a possibilidade de substituir apenas um módulo, caso necessária a manutenção apenas de um trecho específico. Também se pode escolher um tecido para um sofá, que seja resistente e de fácil limpeza, adequado ao uso por crianças e animais domésticos, quando for o caso.</p>
+                            <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs">
+                            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                            <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                            <p class="legenda-imagem">
+                              Figura 2 – Piso de tacos de madeira em sala de estar <br>
+                              Fonte: Campos <i>apud</i> Moreira (2021)
+                            </p>
+                            <p>É importante verificar as especificações dos fabricantes referentes à vida útil dos produtos escolhidos no projeto, assim como observar o tipo de atividade desenvolvida no ambiente no qual esse produto será aplicado, pois isso gera nele um maior ou menor desgaste ao longo do tempo. 
+                              Para que um espaço tenha longevidade, ele também precisa ser flexível. Isso garante que ele seja útil por mais tempo sem a necessidade de grandes mudanças. Buscar entender o crescimento de uma família ou de uma empresa ao longo dos próximos anos facilita a tomada de decisão para um projeto mais assertivo ao longo do tempo.
+                              Paredes e divisórias leves, móveis com alturas adaptáveis, elementos decorativos que possam ser facilmente substituídos com baixo custo, leiaute sem divisórias são alguns exemplos de soluções para manter a flexibilidade. Além disso, tentar seguir a moda, que muda constantemente, aplicada em elementos de maior custo e mais duráveis não é um caminho sustentável. Nesse caso, é melhor optar pela atemporalidade e manter as tendências nos objetos de menor custo e impacto ambiental.</p>
+                            <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs">
+                            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                            <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                            <p class="legenda-imagem">
+                              Figura 3 – Espaço com estações de trabalho de escritório de arquitetura <br>
+                              Fonte: Bauce <i>apud</i> Ghisleni (2023)
+                            </p>
+                            <p>
+                              As escolhas de materiais duráveis e ambientes flexíveis geram projetos com longevidade. Lembre-se sempre de que, quanto mais reformas, maiores serão a utilização de recursos naturais e a geração de resíduos, logo, mais impacto causará no meio ambiente.
+                            </p>
+
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal modal-100 fade" id="modal-biofilia" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            </div>
+                            <h3>Biofilia</h3>
+                            <p>Diante de estudos que comprovam cientificamente os benefícios dos elementos naturais para o ser humano surge o <i>design</i> biofílico, que trata de aplicar estratégias de biofilia nos ambientes construídos na intenção de propiciar bem-estar aos usuários de um espaço. As estratégias para essa aplicação podem ocorrer a partir de três pilares. O primeiro consiste em experiências diretas com a natureza, nas quais se utilizam elementos como luz natural, água, fogo, vegetação, animais, sons, aromas e ventilação. O segundo refere-se às experiências indiretas, na quais se utilizam objetos, cores, formas e padrões encontrados na natureza e elementos que sugerem uma conexão indireta ou análoga. O terceiro pilar é o das experiências espaciais naturais e de lugar, que buscam trazer a essência das cenas naturais e do lugar para os ambientes.</p>                          
+                            <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs">
+                            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                            <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                            <p class="legenda-imagem">
+                              Figura 4 – Aplicação de estratégias biofílicas de experiência direta de natureza <br>
+                              Fonte: Luque <i>apud</i> Coulleri (2021)
+                            </p>
+                            <p>
+                              Projetos que contemplam o design biofílico proporcionam mais bem-estar, produtividade, motivação e interação social, além de maior conexão do ser humano com a natureza e consequentemente maior respeito e preocupação com seus recursos.
+                            </p>
+                            
+                        
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal modal-100 fade" id="modal-conforto-ambiental" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            </div>
+                            <h3>Conforto ambiental</h3>
+                            <p>O conforto ambiental está relacionado à satisfação de um ser humano dentro de um espaço. Ele deve proporcionar sensações térmica, acústica e visual confortáveis para a realização de tarefas, assim como boas condições psicológicas, de qualidade do ar e ergonômicas. A seguir, confira uma abordagem desse tema a partir da implantação de estratégias para os confortos térmico, acústico e lumínico.</p>                          
+                            <h3>Conforto térmico</h3>
+                            <p>Cada indivíduo percebe a temperatura de forma diferente. O próprio metabolismo e o vestuário utilizado modificarão essa percepção nos indivíduos. Portanto, utilizar normas como parâmetro é uma forma de buscar maior satisfação. Atualmente, a norma mais utilizada para avaliar o conforto térmico em ambientes internos é a americana ASHRAE 55, da American Society of Heating, Refrigerating and Air-Conditioning Engineers (Sociedade Americana de Engenheiros de Aquecimento e Ar-Condicionado), que pode ser adquirida no site oficial da sociedade. Ela utiliza uma escala que vai de -3 (muito frio) até +3 (muito quente). Dessa forma, é possível prever o clima médio entre as pessoas de um grupo. O ideal é manter o nível de insatisfação entre -0,5 (ligeiramente frio) e +0,5 (ligeiramente quente) e um índice menor que 10% de pessoas insatisfeitas. Confira algumas estratégias para melhorar o conforto térmico:</p>
+                            <ol>
+                              <li>Em residências, averigue e avalie as preferências de cada morador para a tomada de decisão. Em locais de trabalho, verifique as normas vigentes para a climatização de acordo com a atividade desenvolvida. Caso não haja nenhuma especificidade, a utilização da ASHRAE 55 poderá guiar a condição mais próxima da ideal.</li>
+                              <li>Quando possível, proponha sistemas de automação residencial com sensores e controles de temperatura. Eles possibilitam acionamento do ar-condicionado e fechamento de cortinas e persianas quando a temperatura se eleva no interior da residência, por exemplo.</li>
+                              <li>Escolha materiais que proporcionam conforto térmico, como isolamento acústico com lã de rocha, paredes de drywall, telhas cerâmicas, metálicas ou verdes, cobogós e brises.</li>
+                              <li>Tenha atenção ao uso da cor. Cores escuras absorvem mais radiação e cores claras refletem mais. Isso que significa que paredes com cores escuras gerarão mais calor para o ambiente após receber a radiação solar, por exemplo.</li>
+                            </ol>
+                            <p>Veja um exemplo de estratégia de escolha de material.</p>
+                            <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs">
+                            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                            <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                            <p class="legenda-imagem">
+                              Cobogós na fachada <br>Fonte: França <i>apud</i> Delaqua (2021)
+                            </p>
+                            <h3>Conforto acústico</h3>
+                            <p>O conforto acústico dependerá do controle do som gerado e percebido nos ambientes. Nos ambientes internos, os sons podem ser externos, internos, de ruído de equipamentos ou de impactos, e serão transmitidos pelo ar e pelas texturas dos materiais aplicados nos objetos. Neste caso, é importante saber que existem materiais refletores, difusores, isolantes e de absorção.</p>
+                            
+                            <div class="no-print" aria-hidden="true">
+                              <p>Clique ou toque para visualizar o conteúdo.</p>
+                              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        1.	Materiais refletores
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                      São materiais mais duros, com superfícies mais lisas e que refletem mais o som, aumentando a reverberação, logo, aumentando o som produzido. São exemplos as madeiras duras, a massa corrida, as cerâmicas e os azulejos.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        2.	Materiais difusores
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                      São materiais refletores e rugosos que refletirão o som em diversas direções, trazendo maior uniformidade sonora. São muito utilizados em auditórios, casas noturnas, teatros e estúdios de gravação. São exemplos os lambris de madeira e as pedras.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        3.	Materiais isolantes
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                      Os materiais isolantes são rígidos e densos, e impedem que o som se propague por eles. São exemplos o vidro, a madeira, a pedra lisa, o gesso e o tijolo maciço.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="headingFour">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                        4.	Materiais de absorção
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                      Os materiais de absorção ajudam a diminuir o tempo de reverberação, pois diminuem a reflexão e transmissão do som. Por serem mais porosos, o ar dentro deles dificulta a passagem do som. São exemplos os carpetes grossos, as cortinas pesadas, a lã de vidro revestida, as mantas de poliuretano, as forrações com cortiças ou os painéis acústicos, como os da figura.
+                                      <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs">
+                                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                                      <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                                      <p class="legenda-imagem">
+                                        Painéis acústicos<br>Fonte: Acoustical Surfaces apud Souza (2021)
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <p>A aplicação de materiais com o intuito de controlar o som pode ocorrer no piso, no teto e nas paredes, ou nos objetos de dentro do ambiente. Sempre observe as atividades que serão realizadas no local para identificar as melhores soluções.Espaços fechados e muito cheios, como alguns restaurantes, por exemplo, precisam ter tratamento para reduzir ruído de reverberação, portanto, necessitam em maior quantidade de materiais que absorvam o som. Em projetos que precisam de maior controle e atendimento de normas sugere-se a contratação de profissionais especialistas em conforto acústico.</p>
+
+                            <h3>Conforto lumínico</h3>
+                            <p>A iluminação é fundamental para o conforto ambiental, uma vez que a luz natural atua no ciclo circadiano das pessoas, regulando seu sono e hormônios, assim como melhorando o sistema imunológico. No entanto, como nem sempre é possível atuar em relação à iluminação natural das edificações, podem-se buscar recursos como persianas e vegetações para dosar a quantidade de luz que entra no ambiente, reduzindo, quando necessário, o calor dentro do ambiente e o uso de ar-condicionado. Já a opção por aplicação de cores claras pode ajudar a distribuir a luz por meio da reflexão das superfícies, reduzindo o uso desnecessário de luz artificial durante o dia. <br> <br> Com relação à iluminação artificial, é importante lembrar do uso de lâmpadas mais eficientes. Além dos benefícios do controle na intensidade luminosa, essa iluminação ainda pode ser adequada à necessidade ao longo do dia. Além disso, utilizar <i>softwares</i> como o DIALux para simulações luminotécnicas trará maior economia e conforto aos projetos. Considerar a atividade no ambiente é fundamental para promover o conforto lumínico, como é o caso de ambientes hospitalares, nos quais a iluminação direta e com temperatura de cor alta pode causar ofuscamento e alteração do ciclo circadiano. Na figura, o quarto de um hospital infantil recebe pontos discretos de luz no teto e iluminação indireta na parede.</p>
+                    
+                            <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs">
+                            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                            <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                            <p class="legenda-imagem">
+                              Iluminação em quarto hospitalar<br>Fonte: Wongwan <i>apud</i> Ghisleni (2023)
+                            </p>
+
+                            <p>Perceba que conforto ambiental é um tema amplo e envolve muitas variáveis, portanto, nunca deixe de pesquisar referências e consultar parceiros e fabricantes para realizar as melhores escolhas para o projeto do seu cliente de forma sustentável.</p>
+
+
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal modal-100 fade" id="modal-eficiencia-energetica" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            </div>
+                            <h3>Eficiência energética </h3>
+                            <p>É possível reduzir a quantidade de energia para aquecer, resfriar, iluminar e fazer com que os aparelhos funcionem dentro de uma edificação. <i>Designers</i> que consideram em seus projetos as questões relacionadas à eficiência energética não apenas favorecem o planeta, uma vez que o consumo de energia é um dos fatores que mais contribuem para as mudanças climáticas, mas também geram maior satisfação nos seus clientes. Observe algumas estratégias para a redução do consumo de energia:</p>                          
+                            
+                            <div class="no-print" aria-hidden="true">
+                              <p>Clique ou toque para visualizar o conteúdo.</p>
+                              <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading5">
+                                    <h4 class="panel-title">
+                                      <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                        1.	Isolamento térmico
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading5">
+                                    <div class="panel-body">
+                                      Verifique a qualidade das janelas para certificar-se de que os ambientes não estão prejudicando a climatização e promovendo maiores gastos de energia tanto em climas quentes quanto nos frios. Tapetes também são ótimos isolantes térmicos, retendo calor no ambiente.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading6">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                        2.	Controle de temperatura                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                                    <div class="panel-body">
+                                      Elementos de sombreamento nas fachadas, tais como <i>brises</i> horizontais e verticais, auxiliam no controle da radiação solar e consequentemente a manter a temperatura agradável no interior da edificação. Você também pode utilizar recursos internos, como cortinas grossas e persianas. Todos podem ser manipulados conforme a necessidade de controle.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading7">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                        3.	Sistemas de automação                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+                                    <div class="panel-body">
+                                      Podem ser utilizados para controlar a temperatura, acionando cortinas, <i>brises</i>, persianas e ares-condicionados apenas quando necessário para manter a temperatura desejada. O controle da intensidade da luz e da temperatura de cor, assim como o controle remoto, também proporciona maior eficiência energética.                                    </div>
+                                  </div>
+                                </div>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading8">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                        4.	Aplicação de cores                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+                                    <div class="panel-body">
+                                      Cores mais claras refletem mais luz, já paredes, pisos e mobiliários escuros não. Nesses casos, os ambientes precisam de mais iluminação artificial, o que gera maior gasto de energia.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading9">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                        5.	Especificação de lâmpadas e luminárias                                    </a>
+                                      </h4>
+                                  </div>
+                                  <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+                                    <div class="panel-body">
+                                      Para a especificação de lâmpadas ou luminárias, considere, primeiramente, a atividade realizada no ambiente, o tipo de usuário e os materiais aplicados nos objetos, nas paredes, nos piso e no teto e suas cores. Após isso, busque tecnologias que proporcionem as especificações desejadas com o menor consumo de energia. Atualmente, a tecnologia LED (diodo emissor de luz) tem oferecido maior número de opções com boa eficiência energética.                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <p>E então, o que achou dessas estratégias? Lembrou de mais alguma forma de reduzir o consumo de energia nas edificações? Em seguida você conferirá mais alternativas referentes aos eletrodomésticos.</p>
+
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal modal-100 fade" id="modal-reducao-impactos-ambientais" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            </div>
+                            <h3>Redução de impactos ambientais </h3>
+                            <p>O <i>designer</i> de interiores pode contribuir muito para a redução dos impactos ambientais a partir das suas escolhas de projeto, seja de forma direta ou indireta. Conheça agora algumas formas de atuar de maneira mais consciente, contribuindo com o meio ambiente.</p>                          
+                            
+                            <div class="no-print" aria-hidden="true">
+                              <p>Clique ou toque para visualizar o conteúdo.</p>
+                              <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
+                                
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading10">
+                                    <h4 class="panel-title">
+                                      <a role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse10" aria-expanded="true" aria-controls="collapse10">
+                                        1.	Moda
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapse10" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading10">
+                                    <div class="panel-body">
+                                      <p>
+                                        Seguir a moda no que diz respeito ao design de interiores pode resultar em mudanças a curto prazo que gerarão resíduos desnecessários caso as escolhas fossem mais atemporais. Conversar com o cliente a esse respeito é importante. Ele também se beneficiará com a economia e evitará o transtorno de novas obras ou intervenções. Na figura consta um ambiente social de uma residência do ano de 1939, projeto do arquiteto Alvar Aalto. As escolhas de materiais naturais, cores neutras e elementos com formas simples conferem atemporalidade, de modo que o ambiente, mesmo décadas depois, continua moderno.
+                                      </p>
+                                      <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs" alt="Descrição: A imagem mostra um ambiente de lavatórios de banheiro de um complexo na praia, que tem um rebaixo de forro com peças de bambu alinhadas.">
+                                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                                      <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                                      <p class="legenda-imagem">
+                                        Ambiente social residencial <br> Fonte: Lindman <i>apud</i> Moreira (2020)
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading11">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                        2.	Materiais orgânicos                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+                                    <div class="panel-body">
+                                    <p>
+                                      Utilizar materiais orgânicos, como a madeira (certificada) ou a pedra. A madeira, desde que certificada e de reflorestamento, é um dos materiais mais sustentáveis que se pode ter. Já a pedra possui durabilidade, baixa manutenção e possibilidade de reúso.
+                                    </p> 
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading12">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                        3.	Materiais renováveis                                     </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+                                    <div class="panel-body">
+                                    <p>
+                                      Utilizar materiais que se renovam rapidamente, em até dez anos, como bambu, linóleo e cortiça.
+                                    </p>  
+                                    <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs" alt="Descrição: A imagem mostra um ambiente de lavatórios de banheiro de um complexo na praia, que tem um rebaixo de forro com peças de bambu alinhadas.">
+                                      <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                                      <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                                      <p class="legenda-imagem">
+                                        Forro de bambu <br> Fonte: França <i>apud</i> ArchDaily (2022)
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading13">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                        4.	Reúso, reciclagem e reaproveitamento                                  </a>
+                                    </h4>
+                                  </div>
+                                  <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                                    <div class="panel-body">
+                                      <p>Quando possível, é melhor optar por manter materiais e objetos já existentes em uma edificação, preferindo renová-los para o uso do que os retirar para colocar um novo. A escolha por produtos feitos a partir da reciclagem ou que possam ser reciclados é outra opção sustentável.</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading14">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                                        5.	Aparelhos para economia de água                                    </a>
+                                      </h4>
+                                  </div>
+                                  <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+                                    <div class="panel-body">
+                                      Utilizar equipamentos como torneiras automatizadas, arejador para torneira, sanitário com caixa acoplada e acabamento com acionamento duplo para descarga.</div>
+                                  </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading15">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                                        6.	Cadeia produtiva                                    </a>
+                                      </h4>
+                                  </div>
+                                  <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15">
+                                    <div class="panel-body">
+                                      <p>
+                                        Conhecer o ciclo de vida dos produtos permite optar por aqueles que não utilizam mão de obra escrava e impactam o mínimo possível o meio ambiente, seja na sua produção, seja no seu transporte. Empresas com programas de logística reversa costumam ter maior responsabilidade ambiental.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading16">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                                        7.	Energia solar                                    </a>
+                                      </h4>
+                                  </div>
+                                  <div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
+                                    <div class="panel-body">
+                                      <p>
+                                        Uso de placas fotovoltaicas para geração de energia elétrica;
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading17">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                                        8.	Captação e reutilização da água                                    </a>
+                                      </h4>
+                                  </div>
+                                  <div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17">
+                                    <div class="panel-body">
+                                      <p>
+                                        As águas derivadas do banho, das torneiras e das lavagem das roupas podem ser utilizadas para molhar o jardim, lavar as calçadas ou no vaso sanitário. Essa opção depende de projeto de engenharia.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading18">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                                        9.	Produtos ecológicos                                    </a>
+                                      </h4>
+                                  </div>
+                                  <div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading18">
+                                    <div class="panel-body">
+                                      <p>
+                                        Atualmente o mercado da construção civil tem investido em produtos mais sustentáveis e menos prejudiciais à saúde. É possível encontrar tintas biodegradáveis, produzidas com pigmentos naturais, minerais, proteínas do leite. Outras opções são solventes e vernizes à base de óleos vegetais.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                  <div class="panel-heading" role="tab" id="heading19">
+                                    <h4 class="panel-title">
+                                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse19" aria-expanded="false" aria-controls="collapse19">
+                                        10.	Certificações ambientais                                    </a>
+                                      </h4>
+                                  </div>
+                                  <div id="collapse19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19">
+                                    <div class="panel-body">
+                                      <p>
+                                        Especificar produtos com certificações ambientais garante escolhas mais sustentáveis.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                              </div>
+                            </div>
+                            
+                            <p>E então, o que achou dessas estratégias? Lembrou de mais alguma forma de reduzir o consumo de energia nas edificações? Em seguida você conferirá mais alternativas referentes aos eletrodomésticos.</p>
+
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal modal-100 fade" id="modal-reducao-impactos-ambientais" aria-hidden="false">
+                    <div class="modal-dialog">
+                      <div class="modal-content no-print">
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="modal-header" style="padding-top: 30px;">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            </div>
+                            <h3>Ergonomia</h3>
+                            <p>A ergonomia aplicada ao design de interiores tem por objetivo criar espaços que integrem as limitações e habilidades do ser humano por meio do design, proporcionando maior conforto, produtividade e segurança. Para tanto, são considerados o tamanho do corpo, sua força, velocidade e habilidades sensoriais. Assim, a ergonomia envolve diversas disciplinas, como antropometria, biomecânica, física ambiental, psicologia aplicada e psicologia social. </p>
+                            <p>A ergonomia deve ser considerada em todos os espaços, mas a seguir serão destacadas estratégias essenciais para ambientes de trabalho, pois as pessoas passam uma parte significativa do seu tempo nesses locais e as lesões relacionadas à ergonomia são muito comuns.</p>
+                           
+                            <div class="modal-footer">
+                              <button type="button" class="botao borda-primaria-03" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+                </div>
+
+                <div class="acessivel print">
+                  <h3>Longevidade e flexibilidade</h3>
+                  <p>Criar ou reformar um ambiente costuma envolver um custo financeiro significativo, logo, é coerente esperar que o resultado seja o mais duradouro possível. Ao mesmo tempo, o ser humano e a sociedade na qual está inserido sofrem constantes transformações. Se os ambientes nos quais se vive, trabalha e movimenta são reflexos da sociedade de uma época, eles também precisam se adaptar a essas mudanças. </p>                          
+                  <p><strong>Mas como projetar ambientes que tenham longa vida útil e ao mesmo tempo possam se adaptar às mudanças de rotina, de modos de vida e de tendências de mercado?</strong></p>
+                  <p>Você pode começar a pensar a longevidade a partir da escolha de revestimentos e produtos que tenham materiais mais duráveis, que possam ser facilmente substituídos e limpos, exigindo, dessa forma, menos intervenções e acarretando menos desperdício. Um exemplo seria a utilização de pisos de tacos de madeira certificada, que podem ser renovados várias vezes ao longo da sua vida útil, mantendo as características iniciais por décadas até que se tenha que trocar efetivamente o revestimento, quando aplicado ao uso residencial. Há ainda a opção do piso elevado em ambientes comerciais, com a possibilidade de substituir apenas um módulo, caso necessária a manutenção apenas de um trecho específico. Também se pode escolher um tecido para um sofá, que seja resistente e de fácil limpeza, adequado ao uso por crianças e animais domésticos, quando for o caso.</p>
+                  <img src="imgs/imagem.png" class="center-block img-responsive">
+                  <p class="legenda-imagem">
+                    Piso de tacos de madeira em sala de estar <br>
+                    Fonte: Campos apud Moreira (2021)
+                  </p>
+                  <p class="no-print">A imagem mostra piso de taco de madeira aplicado em uma sala de estar e jantar.</p>
+                  <p>É importante verificar as especificações dos fabricantes referentes à vida útil dos produtos escolhidos no projeto, assim como observar o tipo de atividade desenvolvida no ambiente no qual esse produto será aplicado, pois isso gera nele um maior ou menor desgaste ao longo do tempo. 
+                    Para que um espaço tenha longevidade, ele também precisa ser flexível. Isso garante que ele seja útil por mais tempo sem a necessidade de grandes mudanças. Buscar entender o crescimento de uma família ou de uma empresa ao longo dos próximos anos facilita a tomada de decisão para um projeto mais assertivo ao longo do tempo.
+                    Paredes e divisórias leves, móveis com alturas adaptáveis, elementos decorativos que possam ser facilmente substituídos com baixo custo, leiaute sem divisórias são alguns exemplos de soluções para manter a flexibilidade. Além disso, tentar seguir a moda, que muda constantemente, aplicada em elementos de maior custo e mais duráveis não é um caminho sustentável. Nesse caso, é melhor optar pela atemporalidade e manter as tendências nos objetos de menor custo e impacto ambiental.</p>
+                  <img src="imgs/imagem.png" class="center-block img-responsive">
+                  <p class="legenda-imagem">
+                    Espaço com estações de trabalho de escritório de arquitetura <br>
+                    Fonte: Bauce <i>apud</i> Ghisleni (2023)
+                  </p>
+                  <p>
+                    As escolhas de materiais duráveis e ambientes flexíveis geram projetos com longevidade. Lembre-se sempre de que, quanto mais reformas, maiores serão a utilização de recursos naturais e a geração de resíduos, logo, mais impacto causará no meio ambiente.
+                  </p>
+                  <h3>Biofilia</h3>
+                  <p>Diante de estudos que comprovam cientificamente os benefícios dos elementos naturais para o ser humano surge o <i>design</i> biofílico, que trata de aplicar estratégias de biofilia nos ambientes construídos na intenção de propiciar bem-estar aos usuários de um espaço. As estratégias para essa aplicação podem ocorrer a partir de três pilares. O primeiro consiste em experiências diretas com a natureza, nas quais se utilizam elementos como luz natural, água, fogo, vegetação, animais, sons, aromas e ventilação. O segundo refere-se às experiências indiretas, na quais se utilizam objetos, cores, formas e padrões encontrados na natureza e elementos que sugerem uma conexão indireta ou análoga. O terceiro pilar é o das experiências espaciais naturais e de lugar, que buscam trazer a essência das cenas naturais e do lugar para os ambientes.</p>                          
+                  <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs">
+                  <p class="legenda-imagem">
+                    Aplicação de estratégias biofílicas de experiência direta de natureza <br>
+                    Fonte: Luque <i>apud</i> Coulleri (2021)
+                  </p>
+                  <p class="no-print">A imagem mostra um ambiente de sala de estar e jantar com grandes janelas de vidro que permitem a passagem de luz natural e a conexão visual para jardim interno. O ambiente tem aplicação de piso de madeira natural e a presença de vasos com vegetação.</p>
+                  <p>Projetos que contemplam o design biofílico proporcionam mais bem-estar, produtividade, motivação e interação social, além de maior conexão do ser humano com a natureza e consequentemente maior respeito e preocupação com seus recursos.</p> 
+                  <h3>Conforto ambiental</h3>
+                  <p>O conforto ambiental está relacionado à satisfação de um ser humano dentro de um espaço. Ele deve proporcionar sensações térmica, acústica e visual confortáveis para a realização de tarefas, assim como boas condições psicológicas, de qualidade do ar e ergonômicas. A seguir, confira uma abordagem desse tema a partir da implantação de estratégias para os confortos térmico, acústico e lumínico.</p>                          
+                  <h3>Conforto térmico</h3>
+                  <p>Cada indivíduo percebe a temperatura de forma diferente. O próprio metabolismo e o vestuário utilizado modificarão essa percepção nos indivíduos. Portanto, utilizar normas como parâmetro é uma forma de buscar maior satisfação. Atualmente, a norma mais utilizada para avaliar o conforto térmico em ambientes internos é a americana ASHRAE 55, da American Society of Heating, Refrigerating and Air-Conditioning Engineers (Sociedade Americana de Engenheiros de Aquecimento e Ar-Condicionado), que pode ser adquirida no site oficial da sociedade. Ela utiliza uma escala que vai de -3 (muito frio) até +3 (muito quente). Dessa forma, é possível prever o clima médio entre as pessoas de um grupo. O ideal é manter o nível de insatisfação entre -0,5 (ligeiramente frio) e +0,5 (ligeiramente quente) e um índice menor que 10% de pessoas insatisfeitas. Confira algumas estratégias para melhorar o conforto térmico:</p>
+                  <ol>
+                    <li>Em residências, averigue e avalie as preferências de cada morador para a tomada de decisão. Em locais de trabalho, verifique as normas vigentes para a climatização de acordo com a atividade desenvolvida. Caso não haja nenhuma especificidade, a utilização da ASHRAE 55 poderá guiar a condição mais próxima da ideal.</li>
+                    <li>Quando possível, proponha sistemas de automação residencial com sensores e controles de temperatura. Eles possibilitam acionamento do ar-condicionado e fechamento de cortinas e persianas quando a temperatura se eleva no interior da residência, por exemplo.</li>
+                    <li>Escolha materiais que proporcionam conforto térmico, como isolamento acústico com lã de rocha, paredes de drywall, telhas cerâmicas, metálicas ou verdes, cobogós e brises.</li>
+                    <li>Tenha atenção ao uso da cor. Cores escuras absorvem mais radiação e cores claras refletem mais. Isso que significa que paredes com cores escuras gerarão mais calor para o ambiente após receber a radiação solar, por exemplo.</li>
+                  </ol>
+                  <p>Veja um exemplo de estratégia de escolha de material.</p>
+                  <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs">
+                  <p class="legenda-imagem">
+                    Cobogós na fachada <br>Fonte: França <i>apud</i> Delaqua (2021)
+                  </p>
+                  <h3>Conforto acústico</h3>
+                  <p>O conforto acústico dependerá do controle do som gerado e percebido nos ambientes. Nos ambientes internos, os sons podem ser externos, internos, de ruído de equipamentos ou de impactos, e serão transmitidos pelo ar e pelas texturas dos materiais aplicados nos objetos. Neste caso, é importante saber que existem materiais refletores, difusores, isolantes e de absorção.</p>
+                    <h4>1.	Materiais refletores</h4>
+                    <p>  São materiais mais duros, com superfícies mais lisas e que refletem mais o som, aumentando a reverberação, logo, aumentando o som produzido. São exemplos as madeiras duras, a massa corrida, as cerâmicas e os azulejos.</p>
+                    <h4>2.	Materiais difusores</h4>
+                    <p>São materiais refletores e rugosos que refletirão o som em diversas direções, trazendo maior uniformidade sonora. São muito utilizados em auditórios, casas noturnas, teatros e estúdios de gravação. São exemplos os lambris de madeira e as pedras.</p>
+                    <h4>3.	Materiais isolantes</h4>
+                    <p>Os materiais isolantes são rígidos e densos, e impedem que o som se propague por eles. São exemplos o vidro, a madeira, a pedra lisa, o gesso e o tijolo maciço.</p>
+                    <h4>4.	Materiais de absorção</h4>
+                    <p>Os materiais de absorção ajudam a diminuir o tempo de reverberação, pois diminuem a reflexão e transmissão do som. Por serem mais porosos, o ar dentro deles dificulta a passagem do som. São exemplos os carpetes grossos, as cortinas pesadas, a lã de vidro revestida, as mantas de poliuretano, as forrações com cortiças ou os painéis acústicos, como os da figura.</p>
+                    <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs">
+                    <p class="legenda-imagem">
+                      Painéis acústicos <br> Fonte: Acoustical Surfaces <i>apud</i> Souza (2021)
+                    </p>
+                  <p>A aplicação de materiais com o intuito de controlar o som pode ocorrer no piso, no teto e nas paredes, ou nos objetos de dentro do ambiente. Sempre observe as atividades que serão realizadas no local para identificar as melhores soluções.Espaços fechados e muito cheios, como alguns restaurantes, por exemplo, precisam ter tratamento para reduzir ruído de reverberação, portanto, necessitam em maior quantidade de materiais que absorvam o som. Em projetos que precisam de maior controle e atendimento de normas sugere-se a contratação de profissionais especialistas em conforto acústico.</p>
+                  <h3>Conforto lumínico</h3>
+                  <p>A iluminação é fundamental para o conforto ambiental, uma vez que a luz natural atua no ciclo circadiano das pessoas, regulando seu sono e hormônios, assim como melhorando o sistema imunológico. No entanto, como nem sempre é possível atuar em relação à iluminação natural das edificações, podem-se buscar recursos como persianas e vegetações para dosar a quantidade de luz que entra no ambiente, reduzindo, quando necessário, o calor dentro do ambiente e o uso de ar-condicionado. Já a opção por aplicação de cores claras pode ajudar a distribuir a luz por meio da reflexão das superfícies, reduzindo o uso desnecessário de luz artificial durante o dia. <br> <br> Com relação à iluminação artificial, é importante lembrar do uso de lâmpadas mais eficientes. Além dos benefícios do controle na intensidade luminosa, essa iluminação ainda pode ser adequada à necessidade ao longo do dia. Além disso, utilizar <i>softwares</i> como o DIALux para simulações luminotécnicas trará maior economia e conforto aos projetos. Considerar a atividade no ambiente é fundamental para promover o conforto lumínico, como é o caso de ambientes hospitalares, nos quais a iluminação direta e com temperatura de cor alta pode causar ofuscamento e alteração do ciclo circadiano. Na figura, o quarto de um hospital infantil recebe pontos discretos de luz no teto e iluminação indireta na parede.</p>
+                  <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs">
+                      <p class="legenda-imagem">
+                        Iluminação em quarto hospitalar<br>Fonte: Wongwan <i>apud</i> Ghisleni (2023)
+                      </p>
+                  <p>Perceba que conforto ambiental é um tema amplo e envolve muitas variáveis, portanto, nunca deixe de pesquisar referências e consultar parceiros e fabricantes para realizar as melhores escolhas para o projeto do seu cliente de forma sustentável.</p>
+                  <h3>Eficiência energética</h3>
+                  <p>É possível reduzir a quantidade de energia para aquecer, resfriar, iluminar e fazer com que os aparelhos funcionem dentro de uma edificação. Designers que consideram em seus projetos as questões relacionadas à eficiência energética não apenas favorecem o planeta, uma vez que o consumo de energia é um dos fatores que mais contribuem para as mudanças climáticas, mas também geram maior satisfação nos seus clientes. Observe algumas estratégias para a redução do consumo de energia:</p>
+                  <h4>1.	Isolamento térmico</h4>
+                  <p>Verifique a qualidade das janelas para certificar-se de que os ambientes não estão prejudicando a climatização e promovendo maiores gastos de energia tanto em climas quentes quanto nos frios. Tapetes também são ótimos isolantes térmicos, retendo calor no ambiente.</p>
+                  <h4>2.	Controle de temperatura</h4>
+                  <p>Elementos de sombreamento nas fachadas, tais como brises horizontais e verticais, auxiliam no controle da radiação solar e consequentemente a manter a temperatura agradável no interior da edificação. Você também pode utilizar recursos internos, como cortinas grossas e persianas. Todos podem ser manipulados conforme a necessidade de controle.</p>
+                  <h4>3.	Sistemas de automação</h4>
+                  <p>Podem ser utilizados para controlar a temperatura, acionando cortinas, brises, persianas e ares-condicionados apenas quando necessário para manter a temperatura desejada. O controle da intensidade da luz e da temperatura de cor, assim como o controle remoto, também proporciona maior eficiência energética.</p>
+                  <h4>4.	Aplicação de cores</h4>
+                  <p>Cores mais claras refletem mais luz, já paredes, pisos e mobiliários escuros não. Nesses casos, os ambientes precisam de mais iluminação artificial, o que gera maior gasto de energia.</p>
+                  <h4>5.	Especificação de lâmpadas e luminárias</h4>
+                  <p>Para a especificação de lâmpadas ou luminárias, considere, primeiramente, a atividade realizada no ambiente, o tipo de usuário e os materiais aplicados nos objetos, nas paredes, nos piso e no teto e suas cores. Após isso, busque tecnologias que proporcionem as especificações desejadas com o menor consumo de energia. Atualmente, a tecnologia LED (diodo emissor de luz) tem oferecido maior número de opções com boa eficiência energética.</p>
+                  <p>E então, o que achou dessas estratégias? Lembrou de mais alguma forma de reduzir o consumo de energia nas edificações? Em seguida você conferirá mais alternativas referentes aos eletrodomésticos.</p>
+                </div>  
+              </div>
+            </div>
+
+
+          </div>
+
+        </section>
+<!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+        <footer class="text-center no-print">
+          <ul class="pagination">
+
+          </ul>
+        </footer>
+
+
+      </div>
+
+    </div>
+
+
+
+    <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <footer>
+    </footer>
+	-->
+<!-- carrega todas as imagens dos icones nesta div
+ caso queira adicionar mais imagens de novos icones do css,
+ ou qualquer imagem que deva ser contabilizada durante a fase
+ de loading, referenciar aqui.
+ -->
+<div class="ico-div-loader">
+	<img src="../template/images/atencao.png">
+    <img src="../template/images/bg-content.jpg">
+    <img src="../template/images/bg-topo.jpg">
+    <img src="../template/images/black-zoom-in-256.png">
+    <img src="../template/images/concluindo.png">
+    <img src="../template/images/curtir.png">
+    <img src="../template/images/desafio.png">
+    <img src="../template/images/dica.png">
+    <img src="../template/images/doc.png">
+    <img src="../template/images/fundamental.png">
+    <img src="../template/images/icon-03.png">
+    <img src="../template/images/importante.png">
+    <img src="../template/images/lightbulb.png">
+    <img src="../template/images/link.png">
+    <img src="../template/images/link_pdf_hover.png">
+    <img src="../template/images/link_pdf_normal.png">
+    <img src="../template/images/logo-senac.png">
+    <img src="../template/images/mark-icon.png">
+    <img src="../template/images/mark-icon02.png">
+    <img src="../template/images/midia.png">
+    <img src="../template/images/monitor.png">
+    <img src="../template/images/nao_curtir.png">
+    <img src="../template/images/pergunta.png">
+    <img src="../template/images/pesquisa.png">
+    <img src="../template/images/play.png">
+    <img src="../template/images/radio_flat.png">
+    <img src="../template/images/refletir.png">
+    <img src="../template/images/saiba_mais.png">
+    <img src="../template/images/senac_loader.png">
+    <img src="../template/images/tanamidia.png">
+    <img src="../template/images/transcricao.png">
+    <img src="../template/images/transcricao_small.png">
+    <img src="../template/images/tv.png">
+    <img src="../template/images/tv_bottom.png">
+    <img src="../template/images/zoom.png">
+    <img src="../template/images/zoom_ie.cur">
+    <img src="../template/images/zoom_ie.png">
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../template/js/jquery.min.js"></script>
+<script src="../template/js/bootstrap.min.js"></script>
+<script src="../template/js/jquery.magnific-popup.min.js"></script>
+<script src="../template/js/print.js"></script>
+<script src="../template/js/template.config.js"></script>
+<script src="../template/js/images.loader.js"></script>
+<noscript>
+  <style media="screen">
+    .over-loader { display: none;}
+    .alertaJS {
+
+    }
+  </style>
+</noscript>
+</body>
+</html>
+<script>
+	//inicializa zoom na imagem
+	$('.zoom-imagem').magnificPopup({
+	 type: 'image',
+  	 mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+ 	 zoom: {
+		enabled: true, // By default it's false, so don't forget to enable it
+
+		duration: 300, // duration of the effect, in milliseconds
+		easing: 'ease-in-out', // CSS transition easing function
+
+		// The "opener" function should return the element from which popup will be zoomed in
+		// and to which popup will be scaled down
+		// By defailt it looks for an image tag:
+		opener: function(openerElement) {
+		  // openerElement is the element on which popup was initialized, in this case its <a> tag
+		  // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+		  return openerElement.is('img') ? openerElement : openerElement.find('img');
+		}
+	  },
+	   image: {
+		  markup: '<div class="mfp-figure">'+
+					'<div class="mfp-close"></div>'+
+					'<div class="mfp-img"></div>'+ // Floated left
+					'<div class="mfp-bottom-bar">'+'<figcaption>'+'<div class="mfp-title" style="text-align:center"></div>'+
+					  '<div class="mfp-counter"></div>'+'</figcaption>'+
+					'</div>'+
+				  '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+
+		  cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+
+		  tError: '<a href="%url%">A imagem</a> não pode ser carregada.' // Error message
+	   }
+	});
+
+	//inicializa popover
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
+	//inicializa tooltip
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+
+</script>
