@@ -148,7 +148,7 @@ button.botao{
     color: #0c0c0c  !important;
 }
 .botao.bg-auxiliar-escuro-03:hover{
-    background-color:#31405D  !important;
+    background-color:#E74C3C  !important;
     color: white;
 }
 
@@ -173,7 +173,7 @@ button.botao{
     background-color: #FFFFFF !important;
 }
 .bg-primaria-03{
-    background-color: #31405D !important;
+    background-color: #E74C3C !important;
 }
 
 .bg-auxiliar-escuro-01{
@@ -204,7 +204,7 @@ button.botao{
     color: #FFFFFF !important;
 }
 .texto-primaria-03{
-    color: #31405D !important;
+    color: #E74C3C !important;
 }
 
 .texto-auxiliar-escuro-01{
@@ -237,7 +237,7 @@ button.botao{
     border-color: #FFFFFF !important;
 }
 .borda-primaria-03{
-    border-color: #31405D !important;
+    border-color: #E74C3C !important;
 }
 
 .borda-auxiliar-escuro-01{
