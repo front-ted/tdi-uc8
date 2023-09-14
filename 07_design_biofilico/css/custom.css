@@ -1,0 +1,23 @@
+header {
+  margin-top: 100px;
+}
+
+.citacao {
+  padding-left: 40%;
+}
+
+.citacao p {
+  text-align: justify;
+}
+
+@media (max-width: 480px) {
+  .citacao {
+    padding-left: 10%;
+  }
+}
+
+@media (max-width: 820px) {
+  .citacao {
+    padding-left: 30%;
+  }
+}
