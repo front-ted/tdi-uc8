@@ -1,0 +1,362 @@
+@font-face {
+  font-family: sourcesans-regular;
+  src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+@font-face {
+  font-family: sourcesans-bold;
+  src: url("../fonts/SourceSansPro-Bold.ttf");
+}
+body {
+  background: url("../objetos/background.png") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+html{scroll-behavior: smooth;}
+.topo{
+  margin-top: 30px;
+}
+.elemento1{margin-left: -33%;}
+.elemento2{
+  margin-top: 40px;
+  margin-left: -15%;
+}
+.topo .titulo{
+  margin-top: 16%;
+}
+.fundo-tecnicos{
+  padding-top: 30px;
+  opacity: 0.96;
+}
+.container header{margin-top: 100px;}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 18px;
+}
+p,
+li,
+a,
+td {
+  font-family: sourcesans-regular;
+  font-size: 16px;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: sourcesans-bold;
+  color: #507f7f;
+}
+.citacao{
+  font-size: 14px;
+  margin: 0;
+  padding-left: 30%;
+}
+.clique {
+  text-align: center;
+}
+.video {
+  margin: 30px auto;
+  display: block;
+}
+
+.placas-margin {
+  margin: 40px auto 0px auto;
+}
+.fig-largura {
+  width: 600px;
+}
+
+/*---------- MENU ----------*/
+.eng-item-menu {
+  opacity: 1;
+  margin: 0;
+  padding: 0;
+}
+.eng-item-menu hr {
+  width: 75%;
+  position: relative;
+  background-color: #507f7f;
+  margin: 0 auto;
+  height: 1px;
+  border: none;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10{
+  width: 100%;
+  background-color: #507f7f;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 0 !important;
+  padding: 5px 10px;
+}
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover,
+.item6:hover,
+.item7:hover,
+.item8:hover,
+.item9:hover,
+.item10:hover{
+  transition: 0.3s;
+  background-color: #507f7f;
+}
+
+.fundo-item {
+  width: calc(100% - 5px);
+  position: relative;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 10px;
+  text-align: center;
+  height: calc(100% - 10px);
+  margin: 0 5px 2px 0;
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+}
+.fundo-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+.fundo-item:hover {
+  color: #507f7f;
+  background: #fff;
+  text-decoration: none;
+}
+
+.menu,
+.bg-fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu-checkbox {
+  position: fixed;
+  left: 0;
+  top: 0;
+  left: -30px;
+}
+
+.menu {
+  width: 340px;
+  height: 100%;
+  transform: translate3d(-340px, 0, 0);
+  transition: transform 0.35s;
+  z-index: 1000;
+}
+
+.mod {
+  display: block;
+}
+
+.overflow {
+  position: relative;
+}
+
+.fade-check {
+  transform: translate3d(0, 0, 0);
+}
+
+.menu ul {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+.menu label.menu-toggle {
+  position: absolute;
+  top: 80px;
+  right: -50px;
+  width: 50px;
+  height: 50px;
+  line-height: 0px;
+  display: block;
+  padding: 0;
+  cursor: pointer;
+  text-indent: -9999px;
+  background: #fff url("../objetos/menu-alt.png") 50% 50%/25px 25px no-repeat;
+}
+.menu ul li > label {
+  background: url("../objetos/icon-arrow-right.png") 95% 50%/16px 16px no-repeat;
+}
+.fade-check label.menu-toggle{
+  background: #fff url("../objetos/menu-alt-close.png") 50% 50%/25px 25px no-repeat;
+}
+
+/* hide navigation icon for sublabels */
+.menu .menu label.menu-toggle {
+  background: none;
+}
+
+.scroll-bar {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-left: 50px;
+}
+
+.scroll-bar:first-child {
+  margin-left: 0px;
+}
+
+.force-overflow {
+  width: 100%;
+  height: 100%;
+  margin-right: 10px;
+}
+
+/*---------- FIM MENU ----------*/
+
+/*----------- SLIDESHOW -----------*/
+.carousel-inner .item{
+  padding: 28px;
+}
+.carousel-control.left, .carousel-control.right{
+  background: none;
+  width: 90px;
+  height: 90px;
+  opacity: 1;
+  top:0;
+  bottom:0;
+  margin-top: auto;
+  margin-bottom: auto;
+  transition: all .4s;
+}
+.carousel-control.left{
+  background: url('../objetos/bt_slide2.png') no-repeat;
+  left: -42px;
+}
+.carousel-control.left:hover{
+  background-image: url('../objetos/bt_slide2_hv.png');
+  transform: scale(1.1);
+}
+.carousel-control.right:hover{
+  background-image: url('../objetos/bt_slide1_hv.png');
+  transform: scale(1.1);
+}
+.carousel-control.right{
+  background: url('../objetos/bt_slide1.png') no-repeat;
+  right: -58px;
+}
+.carousel-indicators{
+  margin-bottom: -20px;
+}
+.carousel-indicators li{
+  background-color: #328585;
+  border: #333 solid 2px;
+}
+/*----------- /SLIDESHOW -----------*/
+
+
+.voltar-topo{
+  background: url('../objetos/bt_topo.png') no-repeat;
+  width: 206px;
+  height: 60px;
+  margin: 30px auto;
+  display: block;
+}
+.voltar-topo:hover{background: url('../objetos/bt_topo_press.png') no-repeat;}
+
+.box-shadow{
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+}
+.table-responsive{padding: 50px 0;}
+table.setas th, table.setas td{
+  position: relative;
+  text-align: center;
+}
+table img{
+  position: absolute;
+  z-index: 2;
+}
+.seta1, .seta2, .seta5, .seta6{
+  top: -54px;
+  right: -40px;
+}
+.seta3, .seta4, .seta7, .seta8{
+  bottom: -52px;
+  right: -40px;
+}
+
+#carousel2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.texto-slide{
+  position: relative;
+  width: 500px;
+  left: 50%;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  margin-left: -250px;
+}
+.texto-slide p{
+  margin: 0;
+}
+.texto-slide b{
+  line-height: 40px;
+}
+
+.modal-body ul, .modal-body ol{
+  margin-left: 0;
+}
+
+
+.nav-tabs a, .nav-tabs>li>a:hover{
+  color: #e74c3c;
+}
+
+
+
+@media screen and (max-width: 820px){
+  .topo img{
+    max-width: 100%;
+    margin: unset;
+  }
+  .topo .titulo{margin-top: 0;}
+  .elemento2{display: none;}
+
+  .citacao{
+    padding-left: 20%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  iframe{max-width: 100%;}
+
+  .texto-slide{
+    position: initial;
+    width: 100%;
+    left: 0;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .texto-slide p{
+    margin: 0;
+    color: #000;
+  }
+
+}
