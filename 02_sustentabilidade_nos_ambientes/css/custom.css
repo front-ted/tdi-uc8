@@ -1,3 +1,21 @@
+body{
+    background: url('../imgs/img_lateral.png'), url('../imgs/background_branco.png');
+    background-repeat: no-repeat, repeat;
+    background-position: left top, unset;
+    background-size: 20%, auto;
+}
 header{
     margin-top: 100px;
+}
+.bloco{padding: 50px 0;}
+
+.bloco-plantas1{
+    background: url('../imgs/img_lateral_2.png') no-repeat right bottom;
+    background-size: 18%;
+}
+.bloco.escuro{
+    background: url('../imgs/background_escuro.png') repeat;
+}
+.bloco.escuro h2, .bloco.escuro h3, .bloco.escuro h4, .bloco.escuro p{
+    color: #fff;
 }
