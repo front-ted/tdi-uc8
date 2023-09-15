@@ -1,21 +1,158 @@
-body{
-    background: url('../imgs/img_lateral.png'), url('../imgs/background_branco.png');
-    background-repeat: no-repeat, repeat;
-    background-position: left top, unset;
-    background-size: 20%, auto;
+body {
+  background: url("../imgs/img_lateral.png"),
+    url("../imgs/background_branco.png");
+  background-repeat: no-repeat, repeat;
+  background-position: left top, unset;
+  background-size: 20%, auto;
 }
-header{
-    margin-top: 100px;
+header {
+  margin-top: 100px;
 }
-.bloco{padding: 50px 0;}
+.bloco {
+  padding: 50px 0;
+}
 
-.bloco-plantas1{
-    background: url('../imgs/img_lateral_2.png') no-repeat right bottom;
-    background-size: 18%;
+.bloco-plantas1 {
+  background: url("../imgs/img_lateral_2.png") no-repeat right bottom;
+  background-size: 18%;
 }
-.bloco.escuro{
-    background: url('../imgs/background_escuro.png') repeat;
+
+.bloco-plantas1 h2 {
+  color: rgb(5, 48, 5);
 }
-.bloco.escuro h2, .bloco.escuro h3, .bloco.escuro h4, .bloco.escuro p{
-    color: #fff;
+
+.bloco-plantas1 h3 {
+  color: black;
+}
+
+.bloco.escuro {
+  background: url("../imgs/background_escuro.png") repeat;
+}
+.bloco.escuro h2,
+.bloco.escuro h3,
+.bloco.escuro h4,
+.bloco.escuro p {
+  color: #fff;
+}
+
+.painel-tripe {
+  position: relative;
+  padding: 10px 0;
+  height: 480px;
+  width: 953px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  transition: all 0.4s;
+}
+
+.botao-desenvolvimento {
+  position: absolute;
+  left: 23%;
+}
+
+.botao-gestao {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+.botao-responsabilidade {
+  position: absolute;
+  right: 30%;
+  top: 35%;
+}
+
+.painel-sustentabilidade {
+  position: relative;
+  height: 1000px;
+}
+
+.painel-sustentabilidade button {
+  height: 130px;
+  width: 339px;
+}
+
+.bt-longevidade {
+  position: absolute;
+  background: url("../imgs/pc_btn_1.png");
+  left: 37%;
+  bottom: 5%;
+}
+
+.bt-longevidade:hover {
+  background: url("../imgs/pc_btn_1_hover.png");
+}
+
+.bt-biofilia {
+  position: absolute;
+  background: url("../imgs/pc_btn_2.png");
+  top: 7%;
+  right: 25%;
+}
+
+.bt-biofilia:hover {
+  background: url("../imgs/pc_btn_2_hover.png");
+}
+
+.bt-conforto {
+  position: absolute;
+  background: url("../imgs/pc_btn_3.png");
+  right: -22%;
+  top: 35%;
+}
+
+.bt-conforto:hover {
+  background: url("../imgs/pc_btn_3_hover.png");
+}
+
+.bt-eficiencia {
+  position: absolute;
+  background: url("../imgs/pc_btn_4.png");
+  top: 22%;
+  right: 0%;
+}
+
+.bt-eficiencia:hover {
+  background: url("../imgs/pc_btn_4_hover.png");
+}
+
+.bt-impactos {
+  position: absolute;
+  background: url("../imgs/pc_btn_5.png");
+  top: 18%;
+  left: 3%;
+}
+
+.bt-impactos:hover {
+  background: url("../imgs/pc_btn_5_hover.png");
+}
+
+.bt-ergonomia {
+  position: absolute;
+  background: url("../imgs/pc_btn_6.png");
+  bottom: 35%;
+  left: 33%;
+}
+
+.bt-ergonomia:hover {
+  background: url("../imgs/pc_btn_6_hover.png");
+}
+
+.bt-acessibilidade {
+  position: absolute;
+  background: url("../imgs/pc_btn_7.png");
+  right: -13%;
+  bottom: 33%;
+}
+
+.bt-acessibilidade:hover {
+  background: url("../imgs/pc_btn_7_hover.png");
+}
+
+.bloco.escuro .modal-texto h3,
+.bloco.escuro .modal-texto p {
+  color: black;
 }
