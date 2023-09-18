@@ -5,3 +5,13 @@ body{
   background-attachment: auto, auto, fixed;
   background-size: 12%, 8%, cover;
 }
+
+@media screen and (max-width: 1050px) {
+  body{
+    background: url('../imgs/background_branco.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
