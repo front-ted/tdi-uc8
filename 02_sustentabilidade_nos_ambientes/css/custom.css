@@ -49,17 +49,26 @@ button {
 }
 
 .botao-desenvolvimento {
+  background-image: url("../imgs/bt_1_hover_em_scale.png");
+  height: 301px;
+  width: 301px;
   position: absolute;
   left: 23%;
 }
 
 .botao-gestao {
+  background-image: url("../imgs/bt_2_hover_em_scale.png");
+  height: 301px;
+  width: 301px;
   position: absolute;
   top: 35%;
   left: 10%;
 }
 
 .botao-responsabilidade {
+  background-image: url("../imgs/bt_3_hover_em_scale.png");
+  height: 301px;
+  width: 301px;
   position: absolute;
   right: 30%;
   top: 35%;
@@ -155,4 +164,150 @@ button {
 .bloco.escuro .modal-texto h3,
 .bloco.escuro .modal-texto p {
   color: black;
+}
+.btn_selo_casa_azul {
+  background-image: url("../imgs/selo_1_hover_em_scale.png");
+  height: 232px;
+  width: 214px;
+}
+
+.btn_aqua {
+  background-image: url("../imgs/selo_2_hover_em_scale.png");
+  height: 232px;
+  width: 214px;
+}
+
+.btn_leed {
+  background-image: url("../imgs/selo_3_hover_em_scale.png");
+  height: 232px;
+  width: 214px;
+}
+
+.btn_well {
+  background-image: url("../imgs/selo_4_hover_em_scale.png");
+  height: 232px;
+  width: 214px;
+}
+
+.btn_breeam {
+  background-image: url("../imgs/selo_5_hover_em_scale.png");
+  height: 232px;
+  width: 214px;
+}
+
+.btn_procel {
+  background-image: url("../imgs/selo_6_hover_em_scale.png");
+  height: 232px;
+  width: 214px;
+}
+
+.btn_fsc {
+  background-image: url("../imgs/selo_7_hover_em_scale.png");
+  height: 232px;
+  width: 214px;
+}
+
+.selos {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bloco-plantas-2 {
+  background-image: url("../imgs/img2_lateral.png"),
+    url("../imgs/img2_lateral_2.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right bottom;
+  background-size: 15%;
+}
+
+@media (max-width: 1500px) {
+  body {
+    background: url("../imgs/background_branco.png") repeat;
+  }
+  .bloco-plantas1 {
+    background: unset;
+  }
+  .bloco-plantas-2 {
+    background: unset;
+  }
+}
+
+@media (max-width: 750px) {
+  .botao-desenvolvimento {
+    position: relative;
+    left: unset;
+  }
+  .botao-responsabilidade {
+    position: relative;
+    right: unset;
+    top: unset;
+  }
+  .botao-gestao {
+    position: relative;
+    top: unset;
+    left: unset;
+  }
+
+  .painel-tripe {
+    display: flex;
+    gap: 30px;
+    width: unset;
+    height: 1000px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .painel-sustentabilidade {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: unset;
+    align-items: center;
+  }
+
+  .bt-longevidade {
+    position: unset;
+    left: unset;
+    bottom: unset;
+  }
+
+  .bt-biofilia {
+    position: relative;
+    top: unset;
+    right: unset;
+  }
+
+  .bt-conforto {
+    position: relative;
+    right: unset;
+    top: unset;
+  }
+
+  .bt-eficiencia {
+    position: relative;
+    top: unset;
+    right: unset;
+  }
+
+  .bt-impactos {
+    position: relative;
+    top: unset;
+    left: unset;
+  }
+
+  .bt-ergonomia {
+    position: relative;
+    bottom: unset;
+    left: unset;
+  }
+
+  .bt-acessibilidade {
+    position: unset;
+    right: unset;
+    bottom: unset;
+  }
 }
