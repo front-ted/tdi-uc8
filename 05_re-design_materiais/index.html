@@ -1,101 +1,149 @@
 <!DOCTYPE html>
-<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Redesign: materiais, técnicas (upcycle, retrofit e customização), projetos e selos de garantias</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Redesign: materiais, técnicas (upcycle, retrofit e customização), projetos e selos de garantias</title>
 
-    <!-- Bootstrap -->
-    <link href="../template/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
-    <link href="../template/css/cores.css" rel="stylesheet">
-    <link href="../template/css/sncload.css" rel="stylesheet">
-    <link href="../template/css/magnific-popup.css" rel="stylesheet">
-    <!-- referencia ao arquivo css com estilos especificos da pagina -->
-    <link href="../template/css/modal-100.css" type="text/css" rel="stylesheet">
-    <link href="../template/css/extras.css" type="text/css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="../template/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
+  <link href="../template/css/cores.css" rel="stylesheet">
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="../template/css/extras.css">
+  <link href="../template/css/sncload.css" rel="stylesheet">
+  <link href="../template/css/magnific-popup.css" rel="stylesheet">
+  <link href="../template/css/atividades_interativas.css" rel="stylesheet">
+  <link href="../template/css/modal-100.css" rel="stylesheet">
+  <link href="../template/css/extras.css" rel="stylesheet">
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <link href="css/custom.css" type="text/css" rel="stylesheet">
+  <!-- css necessario para o print -->
+  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+  <link href="../template/css/print.css" type="text/css" rel="stylesheet">
 
-    <link href="css/custom.css" type="text/css" rel="stylesheet">
-    <!-- css necessario para o print -->
-    <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
-    <link href="../template/css/print.css" type="text/css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
-  
-<!--[if gte mso 9]><xml>
+
+  <!--[if gte mso 9]><xml>
 <mso:CustomDocumentProperties>
-<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Jo�o Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
-<mso:Order msdt:dt="string">20153600.0000000</mso:Order>
-<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Jo�o Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Bruna Flores de Oliveira</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">46172400.0000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Bruna Flores de Oliveira</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
 <mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
 </mso:CustomDocumentProperties>
 </xml><![endif]-->
 </head>
 
 <body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
-    <!-- MARCA D´ÁGUA -->
-    <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo">
-    <!-- /MARCA D´ÁGUA -->
+  <!-- MARCA D´ÁGUA -->
+  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo">
+  <!-- /MARCA D´ÁGUA -->
 
-    <div id='sncloader' class='over-loader'><div class="over-cell"><div id="sncload"></div></div></div>
-    <header id="topo" class="senac no-print">
-        <div  class="header-tecnicos container">
-        	  <h1 id="nome-curso">Design de interiores</h1>
-            <div id="logo-senac"><img src="../template/images/logo-senac.png" alt="logo do senac"></div>
-        </div>
-        <div id="sombra"></div>
-    </header>
+  <div id='sncloader' class='over-loader'>
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+  <header id="topo" class="senac no-print">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Design de interiores</h1>
+      <div id="logo-senac"><img src="../template/images/logo-senac.png" alt="logo do senac"></div>
+    </div>
+    <div id="sombra"></div>
+  </header>
 
-    <div id="booklet">
-        <header class="no-print container">
-          <!-- BTO IMPRIMIR -->
-          <div class="grupo-imprimir no-print">
-            <button type="button" data-pdf="true" class="bto-imprimir" name="button">
-                <span class="fa fa-print"></span> <span>Imprimir</span>
-            </button>
-          </div>
-          <!-- /BTO IMPRIMIR -->
-        </header>
-<!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
-        <section class="paginas">
+  <div id="booklet">
 
-          <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
-          <div class="pagina" >
-            <div class="container">
-              <h2>Redesign: materiais, técnicas (upcycle, retrofit e customização), projetos e selos de garantias</h2>
-              <h3>Introdução</h3>
-              <p>Antes de iniciar este conhecimento, é importante que você conheça a pronúncia correta dos termos em inglês que serão trabalhados. Aprender a pronunciar adequadamente essas palavras é fundamental para uma comunicação eficaz e uma compreensão completa do assunto. Ouça as pronúncias nos áudios a seguir:</p>
-              <p><i>Redesign:</i> <a href="https://pt.forvo.com/search/redesign/en_uk/" target="_blank">https://pt.forvo.com/search/redesign/en_uk/</a></p>
-              <p><i>Upcycle:</i> <a href="https://pt.forvo.com/search/upcycle/" target="_blank">https://pt.forvo.com/search/upcycle/</a></p>
-              <p><i>Retrofit:</i> <a href="https://pt.forvo.com/search/retrofit/en_usa/" target="_blank">https://pt.forvo.com/search/retrofit/en_usa/</a></p>
-              <p><i>Upcycling:</i> <a href="https://pt.forvo.com/search/upcycling/" target="_blank">https://pt.forvo.com/search/upcycling/</a></p>
-              <p>O conceito de <i>redesign</i>  tem ganhado destaque no campo do <i>design</i> sustentável, oferecendo uma abordagem inovadora para a criação de espaços funcionais, esteticamente agradáveis e ambientalmente responsáveis. Nesse texto, o <i>redesign</i> e suas diversas facetas serão explorados em detalhes, incluindo a seleção consciente de materiais e as técnicas de <i>upcycle</i>, <i>retrofit</i> e customização. Além disso, serão abordadas a aplicação do <i>redesign</i> em projetos reais e a importância dos selos de garantias para certificar a sustentabilidade de produtos. Você compreenderá como esses elementos se entrelaçam para promover a conservação de recursos naturais, a redução de desperdícios e a construção de um futuro mais equilibrado e consciente.</p>
-              <p>A transformação da cultura de consumo em uma cultura sustentável é um processo gradual que também está impactando o campo do <i>design</i>. A partir da integração das ideias de sustentabilidade ambiental com o <i>design</i>, surgiu o conceito de <i>ecodesign</i>, que foi definido pela primeira vez por Victor Papaneck nos anos 1990. O <i>ecodesign</i> tem como propósito criar produtos que sejam ecologicamente corretos, ou seja, com baixo impacto ambiental, sem abrir mão da qualidade e funcionalidade (Coutinho, 2013). Essa abordagem foca em todo o ciclo de vida do produto e busca reduzir os impactos ambientais em todas as etapas de produção.</p>
-              <p>A partir desta introdução, você será guiado ao estudo do <i>redesign</i> e de seus desdobramentos, no qual verá o quanto é possível repensar e recriar produtos existentes buscando aprimorar a eficiência, funcionalidade e estética deles, e muitas vezes torná-lo mais sustentável. Que tal começar?</p>
-              
-              <h3><i>Redesign</i> e sua contribuição para a sustentabilidade</h3>
-              <p>A criação de uma sociedade sustentável é um processo que deve englobar diversos fatores e sistemas econômicos, de consumo e culturais. A sustentabilidade ambiental é uma questão que deve ser abordada por diversas frentes, sendo uma delas o <i>design</i> de interiores. Assim como em outros campos do pensamento, o <i>designer</i> de interiores é um profissional que também tem um papel importante para o desenvolvimento de uma cultura sustentável (Franco Pereira; Del Gaudio, 2021).</p>
-              <p>As práticas sustentáveis que um <i>designer</i> de interiores pode adotar em seus projetos são diversas e de abordagens variadas. Uma delas é a escolha dos materiais, revestimentos e mobiliários utilizados no projeto. É importante a busca por materiais e produtos que não comprometam negativamente o meio ambiente, que não sejam oriundos de fontes não renováveis e não sejam tóxicos e prejudiciais à saúde das pessoas e para o meio ambiente (Linhares, 2018).</p>
-              <p>O <i>redesign</i> vai ao encontro dessas práticas, já que envolve fazer melhorias ou modificações em um produto ou serviço já existente, considerando aspectos como redução de desperdício, economia de recursos naturais, aumento da durabilidade, facilidade de reciclagem e impacto ambiental reduzido.</p>
-              <p>O objetivo do <i>redesign</i> é criar uma nova versão do produto ou processo que seja mais eficiente, mais amigável ao meio ambiente e que atenda melhor às necessidades dos usuários ou consumidores. Em muitos casos, o <i>redesign</i> também pode resultar em uma redução de custos e um aumento na competitividade do produto no mercado.</p>
-              <p>Conheça a seguir algumas técnicas de <i>redesign</i>:</p>
-             <div class="no-print" aria-hidden="true">
-              <p>Clique ou toque para visualizar o conteúdo.</p>
-              <div class="painel">
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">Upcycle</button>
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">Retrofit</button>
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">Customização</button>
+
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+    <section class="paginas">
+
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+      <div class="pagina">
+
+        <div class="bloco01">
+          <div class="container">
+            <header class="no-print">
+              <!-- BTO IMPRIMIR -->
+              <div class="grupo-imprimir no-print">
+                <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+                  <span class="fa fa-print"></span> <span>Imprimir</span>
+                </button>
               </div>
+              <!-- /BTO IMPRIMIR -->
+            </header>
 
+            <img src="imgs/elemento_2.png" class="elemento_esq no-print hidden-sm hidden-xs" aria-hidden="true">
+
+            <div class="row">
+              <div class="col-sm-7 col-xs-12">
+                <h2><i>Redesign</i>: materiais, técnicas (<i>upcycle</i>, <i>retrofit</i> e customização), projetos e selos de garantias</h2>
+                <h3>Introdução</h3>
+                <p class="hidden-sm hidden-xs">Antes de iniciar este conhecimento, é importante que você conheça a pronúncia correta dos termos em inglês que serão trabalhados. Aprender a pronunciar adequadamente essas palavras é fundamental para uma comunicação eficaz e uma compreensão completa do assunto. Ouça as pronúncias nos áudios a seguir:</p>
+              </div>
+              <div class="col-sm-5 col-xs-12">
+                <img src="imgs/elemento_1.png" class="elemento_dir img-responsive no-print hidden-xs" aria-hidden="true">
+              </div>
+            </div>
+            <p class="hidden-lg hidden-md">Antes de iniciar este conhecimento, é importante que você conheça a pronúncia correta dos termos em inglês que serão trabalhados. Aprender a pronunciar adequadamente essas palavras é fundamental para uma comunicação eficaz e uma compreensão completa do assunto. Ouça as pronúncias nos áudios a seguir:</p>
+            
+            <div class="destaque_links">
+              <img src="imgs/audio.png" class="img-pessoa hidden-xs">
+              <i>Redesign:</i> <a href="https://pt.forvo.com/search/redesign/en_uk/" target="_blank">https://pt.forvo.com/search/redesign/en_uk/</a><br>
+              <i>Upcycle:</i> <a href="https://pt.forvo.com/search/upcycle/" target="_blank">https://pt.forvo.com/search/upcycle/</a><br>
+              <i>Retrofit:</i> <a href="https://pt.forvo.com/search/retrofit/en_usa/" target="_blank">https://pt.forvo.com/search/retrofit/en_usa/</a><br>
+              <i>Upcycling:</i> <a href="https://pt.forvo.com/search/upcycling/" target="_blank">https://pt.forvo.com/search/upcycling/</a>
+            </div>
+
+            <p>O conceito de <i>redesign</i>  tem ganhado destaque no campo do <i>design</i> sustentável, oferecendo uma abordagem inovadora para a criação de espaços funcionais, esteticamente agradáveis e ambientalmente responsáveis. Nesse texto, o <i>redesign</i> e suas diversas facetas serão explorados em detalhes, incluindo a seleção consciente de materiais e as técnicas de <i>upcycle</i>, <i>retrofit</i> e customização. Além disso, serão abordadas a aplicação do <i>redesign</i> em projetos reais e a importância dos selos de garantias para certificar a sustentabilidade de produtos. Você compreenderá como esses elementos se entrelaçam para promover a conservação de recursos naturais, a redução de desperdícios e a construção de um futuro mais equilibrado e consciente.</p>
+            <p>A transformação da cultura de consumo em uma cultura sustentável é um processo gradual que também está impactando o campo do <i>design</i>. A partir da integração das ideias de sustentabilidade ambiental com o <i>design</i>, surgiu o conceito de <i>ecodesign</i>, que foi definido pela primeira vez por Victor Papaneck nos anos 1990. O <i>ecodesign</i> tem como propósito criar produtos que sejam ecologicamente corretos, ou seja, com baixo impacto ambiental, sem abrir mão da qualidade e funcionalidade (Coutinho, 2013). Essa abordagem foca em todo o ciclo de vida do produto e busca reduzir os impactos ambientais em todas as etapas de produção.</p>
+            <p>A partir desta introdução, você será guiado ao estudo do <i>redesign</i> e de seus desdobramentos, no qual verá o quanto é possível repensar e recriar produtos existentes buscando aprimorar a eficiência, funcionalidade e estética deles, e muitas vezes torná-lo mais sustentável. Que tal começar?</p>
+          </div>
+        </div>
+        
+        <div class="bloco02">
+          <div class="container">
+            <h3><i>Redesign</i> e sua contribuição para a sustentabilidade</h3>
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <p>A criação de uma sociedade sustentável é um processo que deve englobar diversos fatores e sistemas econômicos, de consumo e culturais. A sustentabilidade ambiental é uma questão que deve ser abordada por diversas frentes, sendo uma delas o <i>design</i> de interiores. Assim como em outros campos do pensamento, o <i>designer</i> de interiores é um profissional que também tem um papel importante para o desenvolvimento de uma cultura sustentável (Franco Pereira; Del Gaudio, 2021).</p>
+                <p>As práticas sustentáveis que um <i>designer</i> de interiores pode adotar em seus projetos são diversas e de abordagens variadas. Uma delas é a escolha dos materiais, revestimentos e mobiliários utilizados no projeto. É importante a busca por materiais e produtos que não comprometam negativamente o meio ambiente, que não sejam oriundos de fontes não renováveis e não sejam tóxicos e prejudiciais à saúde das pessoas e para o meio ambiente (Linhares, 2018).</p>
+                <p class="visible-lg visible-md">O <i>redesign</i> vai ao encontro dessas práticas, já que envolve fazer melhorias ou modificações em um produto ou serviço já existente, considerando aspectos como redução de desperdício, economia de recursos naturais, aumento da durabilidade, facilidade de reciclagem e impacto ambiental reduzido.</p>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <img src="imgs/img_1.png" class="img-responsive center-block hidden-xs">
+              </div>
+            </div>
+            <p class="hidden-lg hidden-md">O <i>redesign</i> vai ao encontro dessas práticas, já que envolve fazer melhorias ou modificações em um produto ou serviço já existente, considerando aspectos como redução de desperdício, economia de recursos naturais, aumento da durabilidade, facilidade de reciclagem e impacto ambiental reduzido.</p>
+            <img src="imgs/img_2.png" class="img_2 no-print hidden-sm hidden-xs" aria-hidden="true">
+            <p>O objetivo do <i>redesign</i> é criar uma nova versão do produto ou processo que seja mais eficiente, mais amigável ao meio ambiente e que atenda melhor às necessidades dos usuários ou consumidores. Em muitos casos, o <i>redesign</i> também pode resultar em uma redução de custos e um aumento na competitividade do produto no mercado.</p>
+            <p>Conheça a seguir algumas técnicas de <i>redesign</i>:</p>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                  <button type="button" class="btn-redesign btn-upcycle" data-toggle="modal" data-target="#myModal1"></button>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                  <button type="button" class="btn-redesign btn-retrofit" data-toggle="modal" data-target="#myModal2"></button>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                  <button type="button" class="btn-redesign btn-customizacao" data-toggle="modal" data-target="#myModal3"></button>
+                </div>
+                
+                
+                
+              </div>
               <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-live="polite" aria-atomic="true" aria-hidden="false">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
@@ -108,9 +156,9 @@
                       <p>A ideia central do <i>upcycle</i> é dar uma nova vida e finalidade a itens que seriam considerados lixo, transformando-os em produtos de qualidade, muitas vezes com apelo artístico ou criativo. Esse processo de transformação pode envolver restauração, reformulação, combinação de diferentes elementos ou até mesmo a criação de peças únicas e personalizadas.</p>
                       <p>O <i>upcycle</i> tem ganhado popularidade como uma abordagem mais sustentável para lidar com o desperdício, uma vez que ajuda a reduzir o volume de resíduos que vão para aterros sanitários e contribui para a economia circular. Além disso, o upcycle incentiva a criatividade e a consciência ambiental, ao destacar o valor de materiais que seriam descartados e oferecer alternativas mais ecológicas para a produção de novos itens.</p>
                       <p>Confira nas imagens que novos usos e funções podem ser dados a objetos descartados, como garrafas de vidro que se transformam em luminárias, ou esquadrias que foram substituídas e podem ter novas funções, como se transformar em móveis.<br></p>
-                      <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs" alt="A figura mostra duas imagens. Na imagem “a” há um dormitório com cama sem estrado, iluminada com entrada lateral de luz. Sobre a cama existem almofadas e no chão há um tapete sob piso laminado. Perto do observador há um biombo feito de esquadrias de janelas antigas, feitas em madeira. Na figura “b” há garrafas de vidro de diferentes formatos e cores, transformadas em luminárias pendentes.">
+                      <img src="imgs/figura_1.jpg" class="center-block img-responsive hidden-sm hidden-xs" alt="A figura mostra duas imagens. Na imagem “a” há um dormitório com cama sem estrado, iluminada com entrada lateral de luz. Sobre a cama existem almofadas e no chão há um tapete sob piso laminado. Perto do observador há um biombo feito de esquadrias de janelas antigas, feitas em madeira. Na figura “b” há garrafas de vidro de diferentes formatos e cores, transformadas em luminárias pendentes.">
                       <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                      <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                      <a href="imgs/figura_1.jpg" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/figura_1.jpg" class="center-block img-responsive"></a>
                       <p class="legenda-imagem">
                         Exemplos de materiais renováveis <br>
                         Fonte: a) Moviflor (2022); b) Can Stock Photo (2023)
@@ -125,7 +173,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-live="polite" aria-atomic="true" aria-hidden="false">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
@@ -141,17 +188,17 @@
                       <p>No <i>retrofit</i> de interiores, podem ser feitas alterações na disposição dos móveis, na iluminação, na escolha de revestimentos, na incorporação de sistemas tecnológicos, entre outras mudanças, sempre buscando equilibrar o respeito ao patrimônio histórico e a integração de soluções modernas.</p>
                       <p>Essa abordagem valoriza a sustentabilidade ao reutilizar e renovar espaços existentes em vez de construir algo completamente novo, contribuindo para a redução do desperdício e da demanda por novos materiais. Além disso, o <i>retrofit</i> no <i>design</i> de interiores pode trazer um charme especial ao espaço, combinando elementos históricos com um toque contemporâneo, criando ambientes únicos e cheios de personalidade.</p>
                       <p>No <i>design</i> de interiores encontram-se vários <i>cases</i> nos quais ocorre a prática do <i>retrofit</i>. Você já deve ter visto ou ouvido falar da transformação de antigos armazéns em <i>lofts</i> modernos, não é? Isso é <i>retrofit</i>! Quando esses espaços são reformados, sendo a estrutura original de tijolos expostos e as vigas de aço mantidas enquanto os interiores são atualizados com acabamentos contemporâneos, móveis elegantes e iluminação moderna, isso é um caso clássico de readequação de um espaço antigo para um novo uso.</p>
-                      <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs" alt="Na imagem há um amplo espaço em que há apenas uma escada que segue para um mezanino, ambos em metal. O piso é de cimento e as paredes de tijolo. O pé direito é duplo e há uma grande entrada de luz pelo lado direito da imagem.">
+                      <img src="imgs/figura_2.jpg" class="center-block img-responsive hidden-sm hidden-xs" alt="Na imagem há um amplo espaço em que há apenas uma escada que segue para um mezanino, ambos em metal. O piso é de cimento e as paredes de tijolo. O pé direito é duplo e há uma grande entrada de luz pelo lado direito da imagem.">
                       <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                      <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                      <a href="imgs/figura_2.jpg" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/figura_2.jpg" class="center-block img-responsive"></a>
                       <p class="legenda-imagem">
                         Antigo armazém <br>
                         Fonte: Freepik (2023)
                       </p>
                       <p>Outro exemplo clássico é a reforma de uma casa histórica. Uma casa antiga com características arquitetônicas únicas pode ser reformada para preservar sua história e seu charme. Elementos como portas ornamentadas, pisos de madeira antigos e molduras podem ser restaurados, enquanto os espaços internos são reconfigurados para atender às necessidades dos moradores atuais.</p>
-                      <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs" alt="Na imagem há um amplo espaço em que há apenas uma escada que segue para um mezanino, ambos em metal. O piso é de cimento e as paredes de tijolo. O pé direito é duplo e há uma grande entrada de luz pelo lado direito da imagem.">
+                      <img src="imgs/figura_3.jpg" class="center-block img-responsive hidden-sm hidden-xs" alt="Na imagem há um amplo espaço em que há apenas uma escada que segue para um mezanino, ambos em metal. O piso é de cimento e as paredes de tijolo. O pé direito é duplo e há uma grande entrada de luz pelo lado direito da imagem.">
                       <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                      <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                      <a href="imgs/figura_3.jpg" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/figura_3.jpg" class="center-block img-responsive"></a>
                       <p class="legenda-imagem">
                         Casa antiga <br>
                         Fonte: Freepik (2023)
@@ -167,7 +214,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-live="polite" aria-atomic="true" aria-hidden="false">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
@@ -203,7 +249,7 @@
                             <div class="panel-heading" role="tab" id="headingTwo">
                               <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                 <i>Layout</i>  e disposição                               </a>
+                                <i>Layout</i>  e disposição                               </a>
                               </h4>
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -237,9 +283,9 @@
                             <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
                               <div class="panel-body">
                                 A customização também inclui a incorporação de objetos decorativos, arte e itens pessoais que representem a história, memórias e preferências do cliente, tornando o ambiente mais acolhedor e autêntico.
-                                <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs" alt="Na imagem há um antigo receptor de rádio de luxo. Sobre ele há um pequeno vaso de flores em metal, com flores delicadas na cor roxa. Atrás do móvel há um fundo escuro e o piso é de madeira, com tapete acinzentado próximo ao receptor.">
+                                <img src="imgs/figura_4.jpg" class="center-block img-responsive hidden-sm hidden-xs" alt="Na imagem há um antigo receptor de rádio de luxo. Sobre ele há um pequeno vaso de flores em metal, com flores delicadas na cor roxa. Atrás do móvel há um fundo escuro e o piso é de madeira, com tapete acinzentado próximo ao receptor.">
                                 <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-                                <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+                                <a href="imgs/figura_4.jpg" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/figura_4.jpg" class="center-block img-responsive"></a>
                                 <p class="legenda-imagem">
                                   Antigo receptor de rádio de luxo <br>
                                   Fonte: Freepik (2023)
@@ -259,13 +305,12 @@
                 </div>
               </div>
             </div>
-
             <div class="acessivel print">
               <p><i>Upcycle</i>, também conhecido como "<i>upcycling</i>", é um conceito relacionado à prática de transformar resíduos ou materiais descartados em novos produtos ou objetos de maior valor, sem que seja necessário reciclá-los ou processá-los intensivamente. Diferentemente da reciclagem, que envolve a quebra dos materiais em seus componentes básicos para criar novos produtos, o <i>upcycle</i> procura reutilizar esses materiais sem perder sua integridade original.</p>
               <p>A ideia central do <i>upcycle</i> é dar uma nova vida e finalidade a itens que seriam considerados lixo, transformando-os em produtos de qualidade, muitas vezes com apelo artístico ou criativo. Esse processo de transformação pode envolver restauração, reformulação, combinação de diferentes elementos ou até mesmo a criação de peças únicas e personalizadas.</p>
               <p>O <i>upcycle</i> tem ganhado popularidade como uma abordagem mais sustentável para lidar com o desperdício, uma vez que ajuda a reduzir o volume de resíduos que vão para aterros sanitários e contribui para a economia circular. Além disso, o upcycle incentiva a criatividade e a consciência ambiental, ao destacar o valor de materiais que seriam descartados e oferecer alternativas mais ecológicas para a produção de novos itens.</p>
               <p>Confira nas imagens que novos usos e funções podem ser dados a objetos descartados, como garrafas de vidro que se transformam em luminárias, ou esquadrias que foram substituídas e podem ter novas funções, como se transformar em móveis.<br></p>
-              <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+              <img src="imgs/figura_1.jpg" class="center-block img-responsive">
               <p class="legenda-imagem">
                 Exemplos de materiais renováveis <br>
                 Fonte: a) Moviflor (2022); b) Can Stock Photo (2023)
@@ -279,13 +324,13 @@
               <p>No <i>retrofit</i> de interiores, podem ser feitas alterações na disposição dos móveis, na iluminação, na escolha de revestimentos, na incorporação de sistemas tecnológicos, entre outras mudanças, sempre buscando equilibrar o respeito ao patrimônio histórico e a integração de soluções modernas.</p>
               <p>Essa abordagem valoriza a sustentabilidade ao reutilizar e renovar espaços existentes em vez de construir algo completamente novo, contribuindo para a redução do desperdício e da demanda por novos materiais. Além disso, o <i>retrofit</i> no <i>design</i> de interiores pode trazer um charme especial ao espaço, combinando elementos históricos com um toque contemporâneo, criando ambientes únicos e cheios de personalidade.</p>
               <p>No <i>design</i> de interiores encontram-se vários <i>cases</i> nos quais ocorre a prática do <i>retrofit</i>. Você já deve ter visto ou ouvido falar da transformação de antigos armazéns em <i>lofts</i> modernos, não é? Isso é <i>retrofit</i>! Quando esses espaços são reformados, sendo a estrutura original de tijolos expostos e as vigas de aço mantidas enquanto os interiores são atualizados com acabamentos contemporâneos, móveis elegantes e iluminação moderna, isso é um caso clássico de readequação de um espaço antigo para um novo uso.</p>
-              <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+              <img src="imgs/figura_2.jpg" class="center-block img-responsive">
               <p class="legenda-imagem">
                 Antigo armazém <br>
                 Fonte: Freepik (2023)
               </p>
               <p>Outro exemplo clássico é a reforma de uma casa histórica. Uma casa antiga com características arquitetônicas únicas pode ser reformada para preservar sua história e seu charme. Elementos como portas ornamentadas, pisos de madeira antigos e molduras podem ser restaurados, enquanto os espaços internos são reconfigurados para atender às necessidades dos moradores atuais.</p>
-              <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+              <img src="imgs/figura_3.jpg" class="center-block img-responsive">
               <p class="legenda-imagem">
                 Casa antiga <br>
                 Fonte: Freepik (2023)
@@ -304,7 +349,7 @@
               <p>Permite ao cliente selecionar os materiais e acabamentos que melhor se alinham ao seu estilo, como pisos, revestimentos, pinturas, papéis de parede, entre outros.</p>
               <h4>Decoração e objetos pessoais</h4>
               <p> A customização também inclui a incorporação de objetos decorativos, arte e itens pessoais que representem a história, memórias e preferências do cliente, tornando o ambiente mais acolhedor e autêntico.</p>
-              <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+              <img src="imgs/figura_4.jpg" class="center-block img-responsive">
               <p class="legenda-imagem">
                 Antigo receptor de rádio de luxo <br>
                 Fonte: Freepik (2023)
@@ -316,19 +361,17 @@
             <p>De acordo com Franco Pereira e Del Gaudio (2021 <i>apud</i> O design no contexto..., 1999), desde 1999, a partir da Declaração Internacional de Produção Mais Limpa, a comunidade mundial reconhece que medidas para proteger o meio ambiente global devem incluir a adoção de melhores práticas de produção e consumo sustentáveis.</p>
             <p>Franco Pereira e Del Gaudio (2021 <i>apud</i>  ABC of SCP..., 2010) afirmam que o conceito de produção e consumo sustentáveis (PCS), como representado na figura a seguir, é definido como o uso de serviços e produtos que respondam às necessidades básicas e tragam uma melhor qualidade de vida, minimizando o uso de recursos naturais e materiais tóxicos, bem como as emissões de resíduos e poluentes ao longo do ciclo de vida do produto ou serviço, de modo a não comprometer as necessidades das gerações futuras.</p>
 
-            <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs" alt="A imagem traz como elemento central um círculo no qual está escrito “Produção e consumo sustentável”. No entorno desse círculo existem os termos: “Gerenciamento de recursos sólidos”, “Manejo sustentável de recursos”, “Design para sustentabilidade”, “Produção mais limpa e eficiência de recursos”, “Transporte sustentável”, “Rotulagem ambiental e certificação”, “Compras públicas sustentáveis”, “Mercados sustentáveis” e “Estilos de vida sustentáveis”.">
+            <img src="imgs/figura_5.png" class="center-block img-responsive hidden-sm hidden-xs" alt="A imagem traz como elemento central um círculo no qual está escrito “Produção e consumo sustentável”. No entorno desse círculo existem os termos: “Gerenciamento de recursos sólidos”, “Manejo sustentável de recursos”, “Design para sustentabilidade”, “Produção mais limpa e eficiência de recursos”, “Transporte sustentável”, “Rotulagem ambiental e certificação”, “Compras públicas sustentáveis”, “Mercados sustentáveis” e “Estilos de vida sustentáveis”.">
             <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-            <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+            <a href="imgs/figura_5.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/figura_5.png" class="center-block img-responsive"></a>
             <p class="legenda-imagem">
               Produção e consumo sustentáveis Fonte: Trindade <br>
               Fonte: Trindade (s. d.)
             </p>
-            <p>
-              Mais recentemente, a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável, ocorrida em setembro de 2015 em Nova Iorque, definiu os 17 novos Objetivos de Desenvolvimento Sustentável (ODS) como parte da Agenda 2030 para o Desenvolvimento Sustentável (Franco Pereira; <i>Del Gaudio</i>, 2021, p. 18).
-            </p>
-            <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs" alt="No alto da imagem há o título “Objetivos de desenvolvimento sustentável”. Abaixo existem cards com pictogramas indicando “Erradicação da pobreza”, “Fome zero”, “Boa saúde e bem-estar”, “Educação de qualidade”, “Igualdade de gênero”, “Água limpa e saneamento”, “Energia acessível e limpa”, “Emprego digno e crescimento econômico”, “Indústria, inovação e infraestrutura”, “Redução das desigualdades”, “Cidades e comunidades sustentáveis”, “Consumo e produção responsáveis”, “Combate às alterações climáticas”, “Vida debaixo d´agua”, “Vida sobre a terra”, “Paz, justiça e instituições fortes” e “Parcerias em prol das metas”.">
+            <p>Mais recentemente, a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável, ocorrida em setembro de 2015 em Nova Iorque, definiu os 17 novos Objetivos de Desenvolvimento Sustentável (ODS) como parte da Agenda 2030 para o Desenvolvimento Sustentável (Franco Pereira; <i>Del Gaudio</i>, 2021, p. 18).</p>
+            <img src="imgs/Figura_6.png" class="center-block img-responsive hidden-sm hidden-xs" alt="No alto da imagem há o título “Objetivos de desenvolvimento sustentável”. Abaixo existem cards com pictogramas indicando “Erradicação da pobreza”, “Fome zero”, “Boa saúde e bem-estar”, “Educação de qualidade”, “Igualdade de gênero”, “Água limpa e saneamento”, “Energia acessível e limpa”, “Emprego digno e crescimento econômico”, “Indústria, inovação e infraestrutura”, “Redução das desigualdades”, “Cidades e comunidades sustentáveis”, “Consumo e produção responsáveis”, “Combate às alterações climáticas”, “Vida debaixo d´agua”, “Vida sobre a terra”, “Paz, justiça e instituições fortes” e “Parcerias em prol das metas”.">
             <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-            <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
+            <a href="imgs/Figura_6.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/Figura_6.png" class="center-block img-responsive"></a>
             <p class="legenda-imagem">
               17 objetivos de desenvolvimento sustentável <br>
               Fonte: Grupo de Trabalho da Sociedade Civil para a Agenda 2030 do Desenvolvimento Sustentável (s. d.)
@@ -336,12 +379,8 @@
             <p>Em 2011, o Brasil, por intermédio do Ministério do Meio Ambiente, lançou seu Plano de Ação para Produção e Consumo Sustentáveis (PPCS), que entre várias ações adota a premissa do varejo sustentável, tornando crucial passar-se a discutir a percepção do setor varejista a respeito da inserção de práticas de sustentabilidade nas suas operações e o seu papel na promoção do consumo sustentável por meio de ações condizentes com as premissas e os objetivos do PPCS.</p>
             <p>No contexto da produção e consumo sustentáveis, é relevante ressaltar que a rotulagem ambiental se tornou uma ferramenta importante. Ela permite certificar ações que beneficiam o meio ambiente durante a fabricação dos produtos, como o uso responsável de matérias-primas, substâncias não prejudiciais, acabamento e montagem sustentáveis, além de estratégias para o descarte adequado. Isso é especialmente aplicável e compreensível no âmbito das compras públicas sustentáveis.</p>
             <p>No Brasil, foi publicado o Decreto nº 9.178, de 23 de outubro de 2017, que altera o Decreto nº 7.746, de 5 de junho de 2012, para estabelecer critérios, práticas e diretrizes voltados à “promoção do desenvolvimento nacional sustentável nas contratações realizadas pela administração pública federal direta, autárquica e fundacional e pelas empresas estatais dependentes” (Brasil, 2017).</p>
-
-
             <div class="caixa-destaque-livre">
-              <p>
-                No artigo 4º do Decreto nº 7.746/2012, portanto, são definidos como critérios e práticas sustentáveis:
-              </p>
+              <p>No artigo 4º do Decreto nº 7.746/2012, portanto, são definidos como critérios e práticas sustentáveis:</p>
               <div class="citacao">
                 <p>I – baixo impacto sobre recursos naturais como flora, fauna, ar, solo e água; </p>
                 <p>II – preferência para materiais, tecnologias e matérias-primas de origem local; </p>
@@ -352,18 +391,53 @@
                 <p>VIII – utilização de produtos florestais madeireiros e não madeireiros originários de manejo florestal sustentável ou de reflorestamento. </p>
               </div>
             </div>
-
             <p>É cada vez mais importante que os consumidores entendam e utilizem rótulos ambientais. No entanto, muitas pessoas ainda desconhecem os critérios e as regras usados nesses rótulos para avaliar a sustentabilidade dos produtos. <br> As certificações sustentáveis, também chamadas de “selos de sustentabilidade”, comprovam que uma empresa adota processos sustentáveis tanto no desenvolvimento de novos produtos quanto em sua infraestrutura como um todo.</p>
-            
-
-            <img src="imgs/imagem.png" class="center-block img-responsive hidden-sm hidden-xs" alt="Infográfico sobre as principais categorias contempladas pelos selos de uma empresa sustentável">
-            <p class="no-print visible-sm visible-xs" aria-hidden="true">Toque na imagem para ampliá-la.</p>
-            <a href="imgs/imagem.png" target="_blank" class="no-print visible-sm visible-xs" aria-hidden="true"><img src="imgs/imagem.png" class="center-block img-responsive"></a>
-            <p class="legenda-imagem">
-              Infográfico
-            </p>
-
-            <div class="acessivel no-print">
+            <div class="visible-lg visible-md visible-sm hidden-xs no-print painel-info" aria-hidden="true">
+              <img src="imgs/ico_1.png" class="ico_1">
+              <img src="imgs/ico_2.png" class="ico_2">
+              <img src="imgs/ico_3.png" class="ico_3">
+              <img src="imgs/ico_4.png" class="ico_4">
+              <img src="imgs/ico_5.png" class="ico_5">
+              <img src="imgs/ico_6.png" class="ico_6">
+              <img src="imgs/ico_7.png" class="ico_7">
+              <img src="imgs/ico_8.png" class="ico_8">
+              <img src="imgs/ico_9.png" class="ico_9">
+            </div>
+            <div class="hidden-lg hidden-md hidden-sm visible-xs no-print painel-info-xs" aria-hidden="true">
+              <img src="imgs/centro.png" class="img-responsive center-block"><br>
+              <div class="row">
+                <div class="col-xs-6">
+                  <img src="imgs/ico_1.png" class="img-responsive center-block">
+                </div>
+                <div class="col-xs-6">
+                  <img src="imgs/ico_2.png" class="img-responsive center-block">
+                </div>
+                <div class="col-xs-6">
+                  <img src="imgs/ico_3.png" class="img-responsive center-block">
+                </div>
+                <div class="col-xs-6">
+                  <img src="imgs/ico_4.png" class="img-responsive center-block">
+                </div>
+                <div class="col-xs-6">
+                  <img src="imgs/ico_5.png" class="img-responsive center-block">
+                </div>
+                <div class="col-xs-6">
+                  <img src="imgs/ico_6.png" class="img-responsive center-block">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-6">
+                  <img src="imgs/ico_7.png" class="img-responsive center-block">
+                </div>
+                <div class="col-xs-6">
+                  <img src="imgs/ico_8.png" class="img-responsive center-block">
+                </div>
+                <div class="col-xs-12">
+                  <img src="imgs/ico_9.png" class="img-responsive center-block">
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
               <h4>As principais categorias contempladas pelos selos de uma empresa sustentável são:</h4>
               <ul>
                 <li>Eficiência energética</li>
@@ -377,27 +451,22 @@
                 <li>Setor têxtil</li>
               </ul>
             </div>
-
-            <p>
-              No Brasil, existem diversas certificações e selos de garantia sustentáveis aplicados a produtos com o objetivo de atestar práticas responsáveis com relação ao meio ambiente, à saúde, à responsabilidade social e a outras áreas relevantes. Algumas das principais certificações e selos sustentáveis utilizados no país são:
-            </p>
-
+            <p>No Brasil, existem diversas certificações e selos de garantia sustentáveis aplicados a produtos com o objetivo de atestar práticas responsáveis com relação ao meio ambiente, à saúde, à responsabilidade social e a outras áreas relevantes. Algumas das principais certificações e selos sustentáveis utilizados no país são:</p>
             <div class="no-print" aria-hidden="true">
               <p>Clique ou toque para visualizar o conteúdo.</p>
-              <div class="painel">
-                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>ABNT NBR ISO 14001:</strong> certificação baseada na norma internacional ISO 14001, que atesta que a empresa tem um Sistema de Gestão Ambiental (SGA) eficaz e comprometido com a redução de impactos ambientais." data-placement="top" data-original-title="ABNT NBR ISO 14001" aria-describedby="popover278400">ABNT NBR ISO 14001</button>
-                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo FSC (Forest Stewardship Council):</strong> certificação internacionalmente reconhecida para produtos de origem florestal indicando que a matéria-prima utilizada foi extraída de maneira responsável, considerando critérios ambientais e sociais. 
-                Com relação à certificação florestal, o Brasil tem um programa específico para isso. O <strong>Programa Brasileiro de Certificação em Cadeia de Custódia (PBCC)</strong> é certificação voltada para produtos florestais, como papel, móveis e embalagens, que garante o uso sustentável de recursos florestais" data-placement="top" data-original-title="Selo FSC (Forest Stewardship Council)" aria-describedby="popover278400">Selo FSC</button>
-                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo ecológico ABNT</strong> selo brasileiro que atesta a qualidade ambiental de produtos, considerando seu ciclo de vida desde a extração de matéria-prima até o descarte final." data-placement="top" data-original-title="Selo ecológico ABNT" aria-describedby="popover278400">Selo ecológico ABNT</button>
-                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Procel (Programa Nacional de Conservação de Energia Elétrica):</strong> utilizado em produtos que têm alta eficiência energética, incentivando o consumo consciente de energia elétrica." data-placement="top" data-original-title="Selo Procel" aria-describedby="popover278400">Selo Procel</button>
-                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Ibama:</strong> aplicado a produtos que têm origem sustentável e que atendem aos requisitos ambientais estabelecidos pelo Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama)." data-placement="top" data-original-title="Selo Ibama" aria-describedby="popover278400">Selo Ibama</button>
-                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Orgânico Brasil:</strong> certificação para produtos agrícolas e alimentos orgânicos, garantindo que foram produzidos de forma sustentável, sem a utilização de agrotóxicos ou fertilizantes químicos." data-placement="top" data-original-title="Selo Orgânico Brasil" aria-describedby="popover278400">Selo Orgânico Brasil</button>
-                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Fair Trade (comércio justo):</strong> aplicado a produtos que atendem a critérios de comércio justo, garantindo boas condições de trabalho e remuneração adequada aos produtores." data-placement="top" data-original-title="Selo Fair Trade" aria-describedby="popover278400">Selo Fair Trade</button>
-                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Abrinq:</strong> concedido a empresas que promovem ações de responsabilidade social voltadas para a criança e o adolescente." data-placement="top" data-original-title="Selo Abrinq" aria-describedby="popover278400">Selo Abrinq</button>
-                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Green Label Plus:</strong> certificado de qualidade e sustentabilidade emitido pelo Instituto de Carpetes e Tapetes (Carpet and Rug Institute – CRI), uma organização americana sem fins lucrativos que representa a indústria de carpetes e tapetes nos Estados Unidos. O objetivo do selo Green Label Plus é ajudar os consumidores a identificarem produtos de carpetes e tapetes que atendam a altos padrões de qualidade do ar interno e que sejam considerados de baixa emissão de compostos orgânicos voláteis (COVs)." data-placement="top" data-original-title="Selo Green Label Plus" aria-describedby="popover278400">Selo Green Label Plus</button>
+              <div class="painel-popover">
+                <button type="button" class="btn-popover btn-popover01" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>ABNT NBR ISO 14001:</strong> certificação baseada na norma internacional ISO 14001, que atesta que a empresa tem um Sistema de Gestão Ambiental (SGA) eficaz e comprometido com a redução de impactos ambientais." data-placement="top" data-original-title="ABNT NBR ISO 14001" aria-describedby="popover278400"></button>
+                <button type="button" class="btn-popover btn-popover02" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo FSC (Forest Stewardship Council):</strong> certificação internacionalmente reconhecida para produtos de origem florestal indicando que a matéria-prima utilizada foi extraída de maneira responsável, considerando critérios ambientais e sociais. 
+                Com relação à certificação florestal, o Brasil tem um programa específico para isso. O <strong>Programa Brasileiro de Certificação em Cadeia de Custódia (PBCC)</strong> é certificação voltada para produtos florestais, como papel, móveis e embalagens, que garante o uso sustentável de recursos florestais" data-placement="top" data-original-title="Selo FSC (Forest Stewardship Council)" aria-describedby="popover278400"></button>
+                <button type="button" class="btn-popover btn-popover03" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo ecológico ABNT</strong> selo brasileiro que atesta a qualidade ambiental de produtos, considerando seu ciclo de vida desde a extração de matéria-prima até o descarte final." data-placement="top" data-original-title="Selo ecológico ABNT" aria-describedby="popover278400"></button>
+                <button type="button" class="btn-popover btn-popover04" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Procel (Programa Nacional de Conservação de Energia Elétrica):</strong> utilizado em produtos que têm alta eficiência energética, incentivando o consumo consciente de energia elétrica." data-placement="top" data-original-title="Selo Procel" aria-describedby="popover278400"></button>
+                <button type="button" class="btn-popover btn-popover05" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Ibama:</strong> aplicado a produtos que têm origem sustentável e que atendem aos requisitos ambientais estabelecidos pelo Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama)." data-placement="top" data-original-title="Selo Ibama" aria-describedby="popover278400"></button>
+                <button type="button" class="btn-popover btn-popover06" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Orgânico Brasil:</strong> certificação para produtos agrícolas e alimentos orgânicos, garantindo que foram produzidos de forma sustentável, sem a utilização de agrotóxicos ou fertilizantes químicos." data-placement="top" data-original-title="Selo Orgânico Brasil" aria-describedby="popover278400"></button>
+                <button type="button" class="btn-popover btn-popover07" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Fair Trade (comércio justo):</strong> aplicado a produtos que atendem a critérios de comércio justo, garantindo boas condições de trabalho e remuneração adequada aos produtores." data-placement="top" data-original-title="Selo Fair Trade" aria-describedby="popover278400"></button>
+                <button type="button" class="btn-popover btn-popover08" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Abrinq:</strong> concedido a empresas que promovem ações de responsabilidade social voltadas para a criança e o adolescente." data-placement="top" data-original-title="Selo Abrinq" aria-describedby="popover278400"></button>
+                <button type="button" class="btn-popover btn-popover09" data-toggle="popover" data-trigger="focus" title="" data-html="true" data-content="<strong>Selo Green Label Plus:</strong> certificado de qualidade e sustentabilidade emitido pelo Instituto de Carpetes e Tapetes (Carpet and Rug Institute – CRI), uma organização americana sem fins lucrativos que representa a indústria de carpetes e tapetes nos Estados Unidos. O objetivo do selo Green Label Plus é ajudar os consumidores a identificarem produtos de carpetes e tapetes que atendam a altos padrões de qualidade do ar interno e que sejam considerados de baixa emissão de compostos orgânicos voláteis (COVs)." data-placement="top" data-original-title="Selo Green Label Plus" aria-describedby="popover278400"></button>
               </div>
             </div>
-
             <div class="acessivel print">
               <p><strong>ABNT NBR ISO 14001:</strong> certificação baseada na norma internacional ISO 14001, que atesta que a empresa tem um Sistema de Gestão Ambiental (SGA) eficaz e comprometido com a redução de impactos ambientais.</p>
               <p><strong>Selo FSC (Forest Stewardship Council):</strong> certificação internacionalmente reconhecida para produtos de origem florestal indicando que a matéria-prima utilizada foi extraída de maneira responsável, considerando critérios ambientais e sociais. Com relação à certificação florestal, o Brasil tem um programa específico para isso. O <strong>Programa Brasileiro de Certificação em Cadeia de Custódia (PBCC)</strong> é certificação voltada para produtos florestais, como papel, móveis e embalagens, que garante o uso sustentável de recursos florestais.</p>
@@ -409,41 +478,43 @@
               <p><strong>Selo Abrinq:</strong> concedido a empresas que promovem ações de responsabilidade social voltadas para a criança e o adolescente.</p>
               <p><strong>Selo Green Label Plus:</strong> certificado de qualidade e sustentabilidade emitido pelo Instituto de Carpetes e Tapetes (Carpet and Rug Institute – CRI), uma organização americana sem fins lucrativos que representa a indústria de carpetes e tapetes nos Estados Unidos. O objetivo do selo Green Label Plus é ajudar os consumidores a identificarem produtos de carpetes e tapetes que atendam a altos padrões de qualidade do ar interno e que sejam considerados de baixa emissão de compostos orgânicos voláteis (COVs).</p>
             </div>
-
             <p>Esses são apenas alguns exemplos de certificações e selos sustentáveis utilizados no Brasil. É importante destacar que a presença desses selos e certificações nos produtos ajuda os consumidores a fazerem escolhas mais conscientes e sustentáveis. Contudo, é recomendado verificar a legitimidade das certificações, procurando informações detalhadas sobre cada selo e os critérios que ele abrange.</p>
 
             <h3>Encerramento</h3>
-
             <p>Ao longo deste texto, foi explorada a importância do <i>redesign</i> como uma abordagem inovadora para o <i>design</i> de interiores sustentáveis. Por meio da seleção consciente de materiais, das técnicas de <i>upcycle</i>, <i>retrofit</i> e customização e da obtenção de certificações sustentáveis, os profissionais do <i>design</i> podem tornar-se agentes de mudança na promoção de espaços ecologicamente equilibrados e esteticamente agradáveis. Ao integrar o <i>redesign</i> em seus projetos, esses profissionais estão capacitados a contribuir para a conservação de recursos naturais, a redução de desperdícios e a construção de um futuro mais equilibrado e consciente, promovendo uma mudança positiva na indústria do <i>design</i> e no mundo.</p>
-
-
           </div>
-        </section>
-<!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
-        <footer class="text-center no-print">
+        </div>
+        
+      </div>
+  </div>
+  </section>
+
+  <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+  <footer class="text-center no-print">
+    <!--
           <ul class="pagination">
 
           </ul>
-        </footer>
+          -->
+  </footer>
+
+  </div>
+
+  </div>
 
 
-      </div>
 
-    </div>
-
-
-
-    <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
     <footer>
     </footer>
-	-->
-<!-- carrega todas as imagens dos icones nesta div
- caso queira adicionar mais imagens de novos icones do css,
- ou qualquer imagem que deva ser contabilizada durante a fase
- de loading, referenciar aqui.
- -->
-<div class="ico-div-loader">
-	<img src="../template/images/atencao.png">
+    -->
+  <!-- carrega todas as imagens dos icones nesta div
+    caso queira adicionar mais imagens de novos icones do css,
+    ou qualquer imagem que deva ser contabilizada durante a fase
+    de loading, referenciar aqui.
+    -->
+  <div class="ico-div-loader">
+    <img src="../template/images/atencao.png">
     <img src="../template/images/bg-content.jpg">
     <img src="../template/images/bg-topo.jpg">
     <img src="../template/images/black-zoom-in-256.png">
@@ -481,68 +552,130 @@
     <img src="../template/images/zoom_ie.cur">
     <img src="../template/images/zoom_ie.png">
     <!-- adicionar as imagens customizadas aqui abaixo -->
-</div>
+  </div>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="../template/js/jquery.min.js"></script>
-<script src="../template/js/bootstrap.min.js"></script>
-<script src="../template/js/jquery.magnific-popup.min.js"></script>
-<script src="../template/js/print.js"></script>
-<script src="../template/js/template.config.js"></script>
-<script src="../template/js/images.loader.js"></script>
-<noscript>
-  <style media="screen">
-    .over-loader { display: none;}
-    .alertaJS {
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../template/js/jquery.min.js"></script>
+  <script src="../template/js/bootstrap.min.js"></script>
+  <script src="../template/js/jquery.magnific-popup.min.js"></script>
+  <script src="../template/js/print.js"></script>
+  <script src="../template/js/template.config.js"></script>
+  <script src="../template/js/images.loader.js"></script>
+  <script src="../template/js/interativos.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
 
-    }
-  </style>
-</noscript>
+  <script>
+    $(".exercicio1 button.alt-e").click(function () {
+      $('.exercicio1 .feedback-negativo').css('display', 'block');
+      $('.exercicio1 .feedback-positivo').css('display', 'none');
+    });
+    $(".exercicio1 button.alt-c").click(function () {
+      $('.exercicio1 .feedback-negativo').css('display', 'none');
+      $('.exercicio1 .feedback-positivo').css('display', 'block');
+    });
+
+    $(".exercicio2 button.alt-e").click(function () {
+      $('.exercicio2 .feedback-negativo').css('display', 'block');
+      $('.exercicio2 .feedback-positivo').css('display', 'none');
+    });
+    $(".exercicio2 button.alt-c").click(function () {
+      $('.exercicio2 .feedback-negativo').css('display', 'none');
+      $('.exercicio2 .feedback-positivo').css('display', 'block');
+    });
+
+    $(".exercicio3 button.alt-e").click(function () {
+      $('.exercicio3 .feedback-negativo').css('display', 'block');
+      $('.exercicio3 .feedback-positivo').css('display', 'none');
+    });
+    $(".exercicio3 button.alt-c").click(function () {
+      $('.exercicio3 .feedback-negativo').css('display', 'none');
+      $('.exercicio3 .feedback-positivo').css('display', 'block');
+    });
+
+
+    //inicializa zoom na imagem
+    $('.zoom-imagem').magnificPopup({
+    type: 'image',
+      mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+    zoom: {
+      enabled: true, // By default it's false, so don't forget to enable it
+
+      duration: 300, // duration of the effect, in milliseconds
+      easing: 'ease-in-out', // CSS transition easing function
+
+      // The "opener" function should return the element from which popup will be zoomed in
+      // and to which popup will be scaled down
+      // By defailt it looks for an image tag:
+      opener: function(openerElement) {
+        // openerElement is the element on which popup was initialized, in this case its <a> tag
+        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
+      }
+      },
+      image: {
+        markup: '<div class="mfp-figure">'+
+            '<div class="mfp-close"></div>'+
+            '<div class="mfp-img"></div>'+ // Floated left
+            '<div class="mfp-bottom-bar">'+'<figcaption>'+'<div class="mfp-title" style="text-align:center"></div>'+
+              '<div class="mfp-counter"></div>'+'</figcaption>'+
+            '</div>'+
+            '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+
+        cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+
+        tError: '<a href="%url%">A imagem</a> não pode ser carregada.' // Error message
+      }
+    });
+
+    //inicializa popover
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+    //inicializa tooltip
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
+
+  </script>
+
+  <!-- Versao atual do handtalk -->
+  <script>
+    var scriptElem = document.createElement("script");
+    scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+      scriptElem.charset = "UTF-8",
+      scriptElem.onload = function () {
+        window.ht = new HT({
+          token: "bf5b7efb148a829a126a0e0c9fd533bf",
+          align: "top",
+          videoEnabled: true,
+          ytEmbedReplace: true,
+          mobileConfig: {
+            align: "right",
+            actionsAlign: "top",
+            customButtonStyle: {
+              borderRadius: "6px",
+              size: "38px",
+              horizontalMargin: "13px",
+              bottomMargin: "140px",
+              rightMargin: "40px"
+            }
+          }
+        });
+        $('.ht-skip').attr("aria-hidden", "true")
+      },
+      document.body.appendChild(scriptElem);
+
+  </script>
 </body>
+
 </html>
-<script>
-	//inicializa zoom na imagem
-	$('.zoom-imagem').magnificPopup({
-	 type: 'image',
-  	 mainClass: 'mfp-with-zoom', // this class is for CSS animation below
- 	 zoom: {
-		enabled: true, // By default it's false, so don't forget to enable it
-
-		duration: 300, // duration of the effect, in milliseconds
-		easing: 'ease-in-out', // CSS transition easing function
-
-		// The "opener" function should return the element from which popup will be zoomed in
-		// and to which popup will be scaled down
-		// By defailt it looks for an image tag:
-		opener: function(openerElement) {
-		  // openerElement is the element on which popup was initialized, in this case its <a> tag
-		  // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-		  return openerElement.is('img') ? openerElement : openerElement.find('img');
-		}
-	  },
-	   image: {
-		  markup: '<div class="mfp-figure">'+
-					'<div class="mfp-close"></div>'+
-					'<div class="mfp-img"></div>'+ // Floated left
-					'<div class="mfp-bottom-bar">'+'<figcaption>'+'<div class="mfp-title" style="text-align:center"></div>'+
-					  '<div class="mfp-counter"></div>'+'</figcaption>'+
-					'</div>'+
-				  '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
-
-		  cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
-
-		  tError: '<a href="%url%">A imagem</a> não pode ser carregada.' // Error message
-	   }
-	});
-
-	//inicializa popover
-	$(function () {
-	  $('[data-toggle="popover"]').popover()
-	})
-	//inicializa tooltip
-	$(function () {
-	  $('[data-toggle="tooltip"]').tooltip()
-	})
-
-</script>
