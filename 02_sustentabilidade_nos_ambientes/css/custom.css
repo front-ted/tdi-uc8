@@ -128,6 +128,30 @@ button {
   background: url("../imgs/pc_btn_4_hover.png");
 }
 
+.lista_numerada {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #4f7f7f;
+}
+
+.lista_numerada img {
+  margin: -25px;
+}
+
+.bloco.escuro .modal-texto .lista_numerada p {
+  color: #fff;
+  margin-left: 30px;
+}
+
+.bloco.escuro .panel-title {
+  color: #e74c3c;
+}
+
+.bloco.escuro .modal-title {
+  color: #e74c3c;
+}
+
 .bt-impactos {
   position: absolute;
   background: url("../imgs/pc_btn_5.png");
