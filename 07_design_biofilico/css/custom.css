@@ -2,7 +2,8 @@
   font-family: 'Playfair';
   src: url('../Fonte/PlayfairDisplay-Regular.ttf');
 }
-
+body{background: #fff;}
+p{font-family: roboto;}
 h4,
 h3,
 h2 {
@@ -21,7 +22,8 @@ h2 {
 .panel-group .panel-heading {
   border: 2px solid #4f7f7f;
 }
-
+.panel-body{font-family: roboto;}
+.pagina .container{padding: 50px;}
 header {
   margin-top: 81px;
 }
@@ -40,30 +42,30 @@ header {
 }
 
 .imagem1 {
-  background: url("../imgs/img_1.png");
+  background: url("../imgs/img_1.png") no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   width: 868px;
 }
 
 .imagem2 {
-  background: url("../imgs/img_2.png");
-  background-size: cover;
-  background-position: center;
+  background: url("../imgs/img_2.png") no-repeat;
+  background-size: contain;
+  background-position: top center;
   width: 868px;
 }
 
 .imagem3 {
-  background: url("../imgs/img_3.png");
-  background-size: cover;
-  background-position: center;
+  background: url("../imgs/img_3.png") no-repeat;
+  background-size: contain;
+  background-position: top center;
   width: 868px;
 }
 
 .imagem4 {
-  background: url("../imgs/img_4.png");
-  background-size: cover;
-  background-position: center;
+  background: url("../imgs/img_4.png") no-repeat;
+  background-size: contain;
+  background-position: top center;
   width: 868px;
 }
 
