@@ -1,1 +1,117 @@
 header{margin-top: 100px;}
+body{
+    background: url('../imgs/background_vermelho.png') repeat;
+    background-attachment: fixed;
+}
+p, li, td{font-family: roboto;}
+.bloco{padding: 60px 0;}
+.bloco.vermelho .container > *, .bloco.azul .container > *,
+.bloco.vermelho h3{
+    color: #fff;
+}
+.bloco.vermelho.bloco1{
+    background: url('../imgs/img_inicio.png') no-repeat left top;
+    background-size: contain;
+}
+.bloco.branco{
+    background: url('../imgs/background_branco.png') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bloco.azul{
+    background: url('../imgs/img_4.png'), url('../imgs/img_3.png'), url('../imgs/img_2.png'), url('../imgs/img_1.png'), url('../imgs/background_petroleo.png');
+    background-position: right 20px bottom 50px, left 20px bottom 600px, right 20px center, top 100px left 20px, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+}
+.bloco.branco h3{color: #000;}
+.painel1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+.painel1 button{
+    width: 238px;
+    height: 294px;
+    border: none;
+    transition: all .4s;
+    outline: none;
+    margin-bottom: 30px;
+}
+.painel1 button:hover{
+    transform: scale(1.1);
+}
+.bt-reduzir{background: url('../imgs/popover_1.png') no-repeat;}
+.bt-reutilizar{background: url('../imgs/popover_2.png') no-repeat;}
+.bt-reciclar{background: url('../imgs/popover_3.png') no-repeat;}
+.painel2{
+    width: 825px;
+    height: 825px;
+    position: relative;
+    background: url('../imgs/painel_clicavel.png') no-repeat;
+    margin: 50px auto;
+}
+.painel2 button{
+    height: 119px;
+    width: 119px;
+    position: absolute;
+    border: none;
+    transition: all .4s;
+    background-size: 100%;
+}
+.bt-criacao{
+    background: url('../imgs/btn1_criacao.png') no-repeat;
+    top: 100px;
+    left: 355px;
+}
+.bt-producao{
+    background: url('../imgs/btn2_producao.png') no-repeat;
+    top: 233px;
+    right: 135px;
+}
+.bt-manutencao{
+    background: url('../imgs/btn3_manutencao.png') no-repeat;
+    right: 135px;
+    bottom: 233px;
+}
+.bt-reutilizacao{
+    background: url('../imgs/btn4_reutilizacao.png') no-repeat;
+    bottom: 100px;
+    left: 355px;
+}
+.bt-recuperacao{
+    background: url('../imgs/btn5_recuperacao.png') no-repeat;
+    left: 135px;
+    bottom: 233px;
+}
+.bt-reducao{
+    background: url('../imgs/btn6_reducao.png') no-repeat;
+    top: 233px;
+    left: 135px;
+}
+.bt-criacao:hover{background: url('../imgs/btn1_criacao_hover.png') no-repeat; background-size: 100%;}
+.bt-producao:hover{background: url('../imgs/btn2_producao_hover.png') no-repeat; background-size: 100%;}
+.bt-manutencao:hover{background: url('../imgs/btn3_manutencao_hover.png') no-repeat; background-size: 100%;}
+.bt-reutilizacao:hover{background: url('../imgs/btn4_reutilizacao_hover.png') no-repeat; background-size: 100%;}
+.bt-recuperacao:hover{background: url('../imgs/btn5_recuperacao_hover.png') no-repeat; background-size: 100%;}
+.bt-reducao:hover{background: url('../imgs/btn6_reducao_hover.png') no-repeat; background-size: 100%;}
+
+@media screen and (max-width: 1380px){
+    .bloco.azul{
+        background: url('../imgs/background_petroleo.png');
+        background-position: center;
+        background-repeat: repeat;
+    }
+}
+@media screen and (max-width: 780px){
+    .painel2{
+        margin: -50px -60px;
+        transform: scale(0.8);
+    }
+}
+@media screen and (max-width: 580px){
+    .painel2{
+        margin: -180px -253px;
+        transform: scale(0.5);
+    }
+}
