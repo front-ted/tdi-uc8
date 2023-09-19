@@ -1,5 +1,29 @@
+@font-face {
+  font-family: 'Playfair';
+  src: url('../Fonte/PlayfairDisplay-Regular.ttf');
+}
+
+h4,
+h3,
+h2 {
+  color: #4f7f7f;
+  font-family: 'Playfair';
+}
+
+.panel-title > a {
+  color: #4f7f7f;
+}
+
+.panel-heading {
+  background-color: aliceblue !important;
+}
+
+.panel-group .panel-heading {
+  border: 2px solid #4f7f7f;
+}
+
 header {
-  margin-top: 100px;
+  margin-top: 81px;
 }
 
 .citacao {
@@ -8,6 +32,45 @@ header {
 
 .citacao p {
   text-align: justify;
+}
+
+.flex {
+  display: flex;
+  border-bottom: ;
+}
+
+.imagem1 {
+  background: url("../imgs/img_1.png");
+  background-size: cover;
+  background-position: center;
+  width: 868px;
+}
+
+.imagem2 {
+  background: url("../imgs/img_2.png");
+  background-size: cover;
+  background-position: center;
+  width: 868px;
+}
+
+.imagem3 {
+  background: url("../imgs/img_3.png");
+  background-size: cover;
+  background-position: center;
+  width: 868px;
+}
+
+.imagem4 {
+  background: url("../imgs/img_4.png");
+  background-size: cover;
+  background-position: center;
+  width: 868px;
+}
+
+.divisao {
+  margin: 0px;
+  height: 5px;
+  background-color: #4f7f7f;
 }
 
 @media (max-width: 480px) {
@@ -20,4 +83,33 @@ header {
   .citacao {
     padding-left: 30%;
   }
+
+
+  @media (max-width: 1000px) {
+    .imagem1 {
+      background: unset;
+      background-size: unset;
+      background-position: unset;
+      width: unset;
+    }
+    .imagem2 {
+      background: unset;
+      background-size: unset;
+      background-position: unset;
+      width: unset;
+    }
+    .imagem3 {
+      background: unset;
+      background-size: unset;
+      background-position: unset;
+      width: unset;
+    }
+    .imagem4 {
+      background: unset;
+      background-size: unset;
+      background-position: unset;
+      width: unset;
+    }
+                
+    
 }
