@@ -1,3 +1,75 @@
+*{font-family: robotoregular;}
+h2{
+    font-family: robotobold;
+    color: #507f7f;
+    font-size: 35px;
+    line-height: 45px;
+}
+.bloco1 h3{color: #000;}
 header{margin-top: 100px;}
-h4{margin-bottom: 20px;}
+h3{font-family: robotobold;}
+h4{
+    margin-bottom: 20px;
+    font-family: robotobold;
+}
 table.senac{width: 100%;}
+.bloco1{
+    background: url('../imgs/background.png') no-repeat;
+    background-attachment: fixed;
+}
+.bloco1 .container{
+    background: #fff;
+    padding: 0 60px;
+    max-width: 1200px;
+}
+.destaque{
+    background: #a43a31;
+    color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.destaque img{
+    position: absolute;
+    left: -60px;
+    top: -10px;
+}
+.download{
+    background: url('../imgs/btn_download_pdf.png') no-repeat;
+    width: 195px;
+    height: 185px;
+    display: block;
+    margin: 50px auto;
+    transition: all .4s;
+}
+.download:hover{background: url('../imgs/btn_download_pdf_hover.png') no-repeat;}
+.bloco{
+    padding: 50px 100px;
+    padding-left: 300px;
+}
+.arboreas h4, .floriferas h4, .herbaceas h4, .forracao h4, .tendencias h4{
+    color: #fff;
+    font-family: robotoregular;
+    font-size: 24px;
+}
+.arbustos h4, .frutiferas h4, .horticolas h4, .gramados h4, .encerramento h4{
+    color: #000;
+    font-family: robotoregular;
+    font-size: 24px;
+}
+.arboreas{
+    background: url('../imgs/planta_1.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.png') repeat;
+}
+.arbustos{background: url('../imgs/planta_2.png') no-repeat left 20px top 40px, url('../imgs/background_branco.png') repeat center / cover;}
+.floriferas{background: url('../imgs/planta_3.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.png') repeat;}
+.frutiferas{background: url('../imgs/planta_4.png') no-repeat left 20px top 40px, url('../imgs/background_branco.png') repeat center / cover;}
+.herbaceas{background: url('../imgs/planta_5.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.png') repeat;}
+.horticolas{background: url('../imgs/planta_6.png') no-repeat left 20px top 40px, url('../imgs/background_branco.png') repeat center / cover;}
+.forracao{background: url('../imgs/planta_7.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.png') repeat;}
+.gramados{background: url('../imgs/planta_8.png') no-repeat left 10px top 40px, url('../imgs/background_branco.png') repeat center / cover;}
+
+.tendencias{background: url('../imgs/background_petroleo.png') repeat;}
+.tendencias p{color: #fff;}
+.encerramento{background: url('../imgs/background_branco.png') repeat center / cover;}
