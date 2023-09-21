@@ -302,12 +302,18 @@ button {
     left: unset;
     bottom: unset;
   }
+  .bt-longevidade:hover {
+    background: url("../imgs/pc_btn_1_mobile.png");
+  }
 
   .bt-biofilia {
     background: url("../imgs/pc_btn_2_mobile.png");
     position: relative;
     top: unset;
     right: unset;
+  }
+  .bt-biofilia:hover {
+    background: url("../imgs/pc_btn_2_mobile.png");
   }
 
   .bt-conforto {
@@ -316,12 +322,18 @@ button {
     right: unset;
     top: unset;
   }
+  .bt-conforto:hover {
+    background: url("../imgs/pc_btn_3_mobile.png");
+  }
 
   .bt-eficiencia {
     background: url("../imgs/pc_btn_4_mobile.png");
     position: relative;
     top: unset;
     right: unset;
+  }
+  .bt-eficiencia:hover {
+    background: url("../imgs/pc_btn_4_mobile.png");
   }
 
   .bt-impactos {
@@ -330,6 +342,9 @@ button {
     top: unset;
     left: unset;
   }
+  .bt-impactos:hover {
+    background: url("../imgs/pc_btn_5_mobile.png");
+  }
 
   .bt-ergonomia {
     background: url("../imgs/pc_btn_6_mobile.png");
@@ -337,11 +352,17 @@ button {
     bottom: unset;
     left: unset;
   }
+  .bt-ergonomia:hover {
+    background: url("../imgs/pc_btn_6_mobile.png");
+  }
 
   .bt-acessibilidade {
     background: url("../imgs/pc_btn_7_mobile.png");
     position: unset;
     right: unset;
     bottom: unset;
+  }
+  .bt-acessibilidade:hover {
+    background: url("../imgs/pc_btn_7_mobile.png");
   }
 }
