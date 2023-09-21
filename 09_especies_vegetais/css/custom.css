@@ -48,6 +48,7 @@ table.senac{width: 100%;}
 .bloco{
     padding: 50px 100px;
     padding-left: 300px;
+    overflow: hidden;
 }
 .arboreas h4, .floriferas h4, .herbaceas h4, .forracao h4, .tendencias h4{
     color: #fff;
@@ -73,3 +74,37 @@ table.senac{width: 100%;}
 .tendencias{background: url('../imgs/background_petroleo.png') repeat;}
 .tendencias p{color: #fff;}
 .encerramento{background: url('../imgs/background_branco.png') repeat center / cover;}
+
+.legenda{
+    margin-bottom: 40px;
+    display: block;
+}
+table.senac tr td{
+    max-width: 300px;
+    text-align: center;
+}
+table.senac tr td img{margin-top: 20px;}
+
+@media screen and (max-width: 780px) {
+    .bloco1 .container{
+        padding: 0 30px;
+    }
+    .bloco{
+        padding-top: 300px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .arboreas {background: url('../imgs/planta_1.png') no-repeat center top 40px, url('../imgs/background_petroleo.png') repeat;}
+    .arbustos{background: url('../imgs/planta_2.png') no-repeat center top 40px, url('../imgs/background_branco.png') repeat center / cover;}
+    .floriferas{background: url('../imgs/planta_3.png') no-repeat center top 40px, url('../imgs/background_petroleo.png') repeat;}
+    .frutiferas{background: url('../imgs/planta_4.png') no-repeat center top 40px, url('../imgs/background_branco.png') repeat center / cover;}
+    .herbaceas{background: url('../imgs/planta_5.png') no-repeat center top 40px, url('../imgs/background_petroleo.png') repeat;}
+    .horticolas{background: url('../imgs/planta_6.png') no-repeat center top 40px, url('../imgs/background_branco.png') repeat center / cover;}
+    .forracao{background: url('../imgs/planta_7.png') no-repeat center top 40px, url('../imgs/background_petroleo.png') repeat;}
+    .gramados{
+        background: url('../imgs/planta_8.png') no-repeat center top 40px, url('../imgs/background_branco.png') repeat center / cover;
+        padding-top: 195px;
+    }
+    .tendencias, .encerramento{padding-top: 60px;}
+    table.senac tr td:first-child{min-width: 200px;}
+}
