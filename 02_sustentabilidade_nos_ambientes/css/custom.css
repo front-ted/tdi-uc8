@@ -297,42 +297,49 @@ button {
   }
 
   .bt-longevidade {
+    background: url("../imgs/pc_btn_1_mobile.png");
     position: unset;
     left: unset;
     bottom: unset;
   }
 
   .bt-biofilia {
+    background: url("../imgs/pc_btn_2_mobile.png");
     position: relative;
     top: unset;
     right: unset;
   }
 
   .bt-conforto {
+    background: url("../imgs/pc_btn_3_mobile.png");
     position: relative;
     right: unset;
     top: unset;
   }
 
   .bt-eficiencia {
+    background: url("../imgs/pc_btn_4_mobile.png");
     position: relative;
     top: unset;
     right: unset;
   }
 
   .bt-impactos {
+    background: url("../imgs/pc_btn_5_mobile.png");
     position: relative;
     top: unset;
     left: unset;
   }
 
   .bt-ergonomia {
+    background: url("../imgs/pc_btn_6_mobile.png");
     position: relative;
     bottom: unset;
     left: unset;
   }
 
   .bt-acessibilidade {
+    background: url("../imgs/pc_btn_7_mobile.png");
     position: unset;
     right: unset;
     bottom: unset;
