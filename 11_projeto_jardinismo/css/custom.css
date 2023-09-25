@@ -37,7 +37,12 @@ html{scroll-behavior: smooth;}
   opacity: 0.96;
 }
 .container header{margin-top: 100px;}
-
+.bloco-branco{
+  background: url('../objetos/bg_esq.png') no-repeat left top, url('../objetos/bg_dir.png') no-repeat right top;
+  background-attachment: fixed, fixed;
+  background-size: 10%, 10%;
+}
+.w-5{max-width: 50%;}
 /*---------- BLOCO VERDE ----------*/
 .bloco_verde{
   background: url('../objetos/bg_inicio.png') no-repeat center top;
@@ -290,7 +295,7 @@ h5 {
   -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
 }
-.table-responsive{padding: 50px 0;}
+/* .table-responsive{padding: 50px 0;} */
 table.setas th, table.setas td{
   position: relative;
   text-align: center;
