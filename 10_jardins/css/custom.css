@@ -63,6 +63,9 @@ h5 {
   font-family: sourcesans-bold;
   color: #a73a31;
 }
+.w-5{
+  max-width: 50%;
+}
 .citacao p {
   font-size: 15px;
   margin: 0;
