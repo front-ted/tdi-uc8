@@ -1,10 +1,11 @@
 header {
   margin-top: 80px;
 }
+body{background: #fff;}
 .ambiente {
   display: flex;
 }
-
+.ambiente .container{padding: 0 40px;}
 .margem {
   margin-top: 10px;
 }
@@ -16,7 +17,7 @@ header {
   width: 800px;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 1080px) {
   .imagem {
     background: unset;
     background-size: unset;
