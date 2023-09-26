@@ -246,7 +246,7 @@ p {
   background-color: #64817e;
   z-index: 4;
   width: 100%;
-  padding: 100px 0px;
+  padding: 150px 0px;
   border-radius: 550px 0px 550px 0px;
   margin: 50px 0px;
 }
@@ -323,7 +323,7 @@ p {
   position: absolute;
   left: 0;
   z-index: 0;
-  width: 230px;
+  width: 180px;
 }
 
 .video-youtube {
