@@ -395,7 +395,7 @@ p {
     height: 180px;
     border-radius: 10px;
   }
-
+}
 
 @media screen and (max-width: 480px) {
   .video-youtube {
@@ -403,8 +403,4 @@ p {
     height: 180px;
     border-radius: 10px;
   }
-
-  
 }
-
-
