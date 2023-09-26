@@ -37,7 +37,7 @@
   padding-left: 11.4px;
   padding-right: 11.4px;
 }
-
+.pull-right{max-width: 13%;}
 .bto-imprimir .bto-lettering {
   top: -2px;
   position: relative;

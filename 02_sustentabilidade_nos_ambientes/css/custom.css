@@ -41,8 +41,12 @@ header {
   height: 480px;
   width: 953px;
 }
-.painel-tripe button, .painel.selos button{transition: all .4s;}
-.painel-tripe button:hover, .painel.selos button:hover{
+.painel-tripe button,
+.painel.selos button {
+  transition: all 0.4s;
+}
+.painel-tripe button:hover,
+.painel.selos button:hover {
   transform: scale(1.1);
 }
 button {
