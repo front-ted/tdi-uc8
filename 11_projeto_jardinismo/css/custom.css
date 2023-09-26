@@ -386,6 +386,7 @@ ul.marcador-verde p{
 
 
 @media screen and (max-width: 820px){
+  .div-fig09 img{height: auto;}
   .topo img{
     max-width: 100%;
     margin: unset;
