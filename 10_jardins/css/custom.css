@@ -73,6 +73,7 @@ h5 {
 }
 .w-5 {
   max-width: 50%;
+  margin: auto;
 }
 .citacao p {
   font-size: 15px;
