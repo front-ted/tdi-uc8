@@ -129,3 +129,10 @@ table.senac tr td img{margin-top: 20px;}
     .tendencias, .encerramento{padding-top: 60px;}
     table.senac tr td:first-child{min-width: 200px;}
 }
+
+@media screen and (max-width: 480px) {
+    .destaque {padding: 38px;}
+    .destaque img{left: -38px;}
+
+
+}
