@@ -55,6 +55,9 @@ table.senac{width: 100%;}
     font-family: robotoregular;
     font-size: 24px;
 }
+.arboreas p, .floriferas p, .herbaceas p, .forracao p, .tendencias p{
+color: #fff; 
+}
 .arbustos h4, .frutiferas h4, .horticolas h4, .gramados h4, .encerramento h4{
     color: #000;
     font-family: robotoregular;
