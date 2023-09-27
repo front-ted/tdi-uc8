@@ -1,335 +1,1070 @@
 <!DOCTYPE html>
-<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
-  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<html
+  lang="pt-br"
+  xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Referências</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Referências</title>
+    <!-- Bootstrap -->
+    <link href="../template/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../template/css/tecnicos_senac.css" rel="stylesheet" />
+    <link href="../template/css/cores.css" rel="stylesheet" />
+    <link href="../template/css/modal-100.css" rel="stylesheet" />
+    <link href="../template/css/devibeans.min.css" rel="stylesheet" />
+    <!--Extras - novas classes para facilitar-->
+    <link rel="stylesheet" href="../template/css/extras.css" />
+    <link href="../template/css/sncload.css" rel="stylesheet" />
+    <link href="../template/css/magnific-popup.css" rel="stylesheet" />
+    <!-- referencia ao arquivo css com estilos especificos da pagina -->
+    <link href="css/custom.css" type="text/css" rel="stylesheet" />
+    <!-- css necessario para o print -->
+    <link
+      href="../template/css/fa/css/font-awesome.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link href="../template/css/print.css" type="text/css" rel="stylesheet" />
+    <link
+      href="../template/fonts/roboto.css"
+      type="text/css"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap -->
-  <link href="../template/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../template/css/tecnicos_senac.css" rel="stylesheet">
-  <link href="../template/css/cores.css" rel="stylesheet">
-  <link href="../template/css/modal-100.css" rel="stylesheet">
-  <link href="../template/css/devibeans.min.css" rel="stylesheet">
-  <!--Extras - novas classes para facilitar-->
-  <link rel="stylesheet" href="../template/css/extras.css">
-  <link href="../template/css/sncload.css" rel="stylesheet">
-  <link href="../template/css/magnific-popup.css" rel="stylesheet">
-  <!-- referencia ao arquivo css com estilos especificos da pagina -->
-  <link href="css/custom.css" type="text/css" rel="stylesheet">
-  <!-- css necessario para o print -->
-  <link href="../template/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
-  <link href="../template/css/print.css" type="text/css" rel="stylesheet">
-  <link href="../template/fonts/roboto.css" type="text/css" rel="stylesheet">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
+    <!--[if gte mso 9
+      ]><xml>
+        <mso:CustomDocumentProperties>
+          <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor
+            msdt:dt="string"
+            >Paulo Ricardo Soveral
+            Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor
+          >
+          <mso:Order msdt:dt="string">46914400.0000000</mso:Order>
+          <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author
+            msdt:dt="string"
+            >Paulo Ricardo Soveral
+            Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author
+          >
+          <mso:ContentTypeId msdt:dt="string"
+            >0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId
+          >
+        </mso:CustomDocumentProperties>
+      </xml><!
+    [endif]-->
+  </head>
 
-  <!--[if gte mso 9]><xml>
-<mso:CustomDocumentProperties>
-<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Paulo Ricardo Soveral Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
-<mso:Order msdt:dt="string">46914400.0000000</mso:Order>
-<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Paulo Ricardo Soveral Junior</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
-<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
-</mso:CustomDocumentProperties>
-</xml><![endif]-->
-</head>
+  <body
+    onLoad="Javascript:document.getElementById('sncloader').style.display='none';"
+  >
+    <!-- MARCA D´ÁGUA -->
+    <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo" />
+    <!-- /MARCA D´ÁGUA -->
 
-<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
-  <!-- MARCA D´ÁGUA -->
-  <img src="../template/images/logo_senac_colorido.png" id="marcadaguaLogo">
-  <!-- /MARCA D´ÁGUA -->
-
-  <div id='sncloader' class='over-loader'>
-    <div class="over-cell">
-      <div id="sncload"></div>
-    </div>
-  </div>
-  <header id="topo" class="senac no-print">
-    <div class="header-tecnicos container">
-      <h1 id="nome-curso">Design de interiores</h1>
-      <div id="logo-senac"><img src="../template/images/logo-senac.png" alt="logo do senac"></div>
-    </div>
-    <div id="sombra"></div>
-  </header>
-  <div id="booklet" class="container fundo-tecnicos">
-    <header class="no-print">
-      <!-- BTO IMPRIMIR -->
-      <div class="grupo-imprimir no-print">
-        <button type="button" data-pdf="true" class="bto-imprimir" name="button">
-          <span class="fa fa-print"></span> <span>Imprimir</span>
-        </button>
+    <div id="sncloader" class="over-loader">
+      <div class="over-cell">
+        <div id="sncload"></div>
       </div>
-      <!-- /BTO IMPRIMIR -->
+    </div>
+    <header id="topo" class="senac no-print">
+      <div class="header-tecnicos container">
+        <h1 id="nome-curso">Design de interiores</h1>
+        <div id="logo-senac">
+          <img src="../template/images/logo-senac.png" alt="logo do senac" />
+        </div>
+      </div>
+      <div id="sombra"></div>
     </header>
-    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
-    <section class="paginas">
+    <div id="booklet" class="container fundo-tecnicos">
+      <header class="no-print">
+        <!-- BTO IMPRIMIR -->
+        <div class="grupo-imprimir no-print">
+          <button
+            type="button"
+            data-pdf="true"
+            class="bto-imprimir"
+            name="button"
+          >
+            <span class="fa fa-print"></span> <span>Imprimir</span>
+          </button>
+        </div>
+        <!-- /BTO IMPRIMIR -->
+      </header>
+      <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+      <section class="paginas">
+        <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+        <div class="pagina">
+          <h2>Referências</h2>
+          <h3><i>Design</i> passivo</h3>
+          <p>
+            BRANDÃO, Eric. <b>Acústica de salas</b>. Blucher, 2016.
+            <i>E-book</i>. ISBN 9788521210078. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9788521210078/.
+            Acesso em: 5 jun. 2023.
+          </p>
+          <p>
+            BROWN, G. Z.; DEKAY, Mark. <b>Sol, vento e luz</b>. Grupo A, 2004.
+            <i>E-book</i>. ISBN 9788577800902. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9788577800902/.
+            Acesso em: 5 jun. 2023.
+          </p>
+          <p>
+            GALINATTI, Anna C. M.; GIAMBASTIANI, Gabriel L.
+            <b>Projeto de arquitetura e urbanismo III</b>. Grupo A, 2019.
+            <i>E-book</i>. ISBN 9788595029071. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9788595029071/.
+            Acesso em: 5 jun. 2023.
+          </p>
+          <p>
+            GALINATTI, Anna C. M.; SOUZA, Dulce A.; BARBOSA, Laura J L.;
+            <i>et al</i>. <b>Teoria da arquitetura e da paisagem</b>. Grupo A,
+            2022. <i>E-book</i>. ISBN 9786556901381. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9786556901381/.
+            Acesso em: 5 jun. 2023.
+          </p>
+          <p>
+            KEELER, Marian; VAIDYA, Prasad.
+            <b>Fundamentos de projeto de edificações sustentáveis</b>. Grupo A.
+            <i>E-book</i>. ISBN 9788582604717. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9788582604717/.
+            Acesso em: 5 jun. 2023.
+          </p>
+          <p>
+            KRUGER, Abe; SEVILLE, Carl. <b>Construção verde</b>: princípios e
+            práticas em construção residencial. Cengage Learning Brasil, 2016.
+            <i>E-book</i>. ISBN 9788522120994. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9788522120994/.
+            Acesso em: 5 jun. 2023.
+          </p>
 
-      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
-      <div class="pagina">
-        <h2>Referências</h2>
-        <h3><i>Design</i> passivo</h3>
-        <p>BRANDÃO, Eric. <b>Acústica de salas</b>. Blucher, 2016. <i>E-book</i>. ISBN 9788521210078. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788521210078/. Acesso em: 5 jun. 2023. </p>
-        <p>BROWN, G. Z.; DEKAY, Mark. <b>Sol, vento e luz</b>. Grupo A, 2004. <i>E-book</i>. ISBN 9788577800902. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788577800902/. Acesso em: 5 jun. 2023. </p>
-        <p>GALINATTI, Anna C. M.; GIAMBASTIANI, Gabriel L. <b>Projeto de arquitetura e urbanismo III</b>. Grupo A, 2019. <i>E-book</i>. ISBN 9788595029071. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595029071/. Acesso em: 5 jun. 2023. </p>
-        <p>GALINATTI, Anna C. M.; SOUZA, Dulce A.; BARBOSA, Laura J L.; <i>et al</i>. <b>Teoria da arquitetura e da paisagem</b>. Grupo A, 2022. <i>E-book</i>. ISBN 9786556901381. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786556901381/. Acesso em: 5 jun. 2023. </p>
-        <p>KEELER, Marian; VAIDYA, Prasad. <b>Fundamentos de projeto de edificações sustentáveis</b>. Grupo A. <i>E-book</i>. ISBN 9788582604717. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788582604717/. Acesso em: 5 jun. 2023. </p>
-        <p>KRUGER, Abe; SEVILLE, Carl. <b>Construção verde</b>: princípios e práticas em construção residencial. Cengage Learning Brasil, 2016. <i>E-book</i>. ISBN 9788522120994. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788522120994/. Acesso em: 5 jun. 2023.</p>
+          <h3>
+            Sustentabilidade nos ambientes construídos: tripé da
+            sustentabilidade; estratégias de sustentabilidade aplicada
+            (longevidade e flexibilidade, biofilia, conforto ambiental,
+            eficiência energética, redução de impactos ambientais, ergonomia e
+            acessibilidade); selos e políticas ambientais vigentes
+          </h3>
+          <p>
+            ACOUSTICAL Sourfaces. <i>In</i>: SOUZA, Eduardo. O que levar em
+            conta para melhorar o conforto acústico? <b>ArchDaily</b>, 21 mai.
+            2021. Disponível em:
+            https://www.archdaily.com.br/br/923739/o-que-levar-em-conta-para-melhorar-o-conforto-acustico/5d64838e284dd1e4d20004ea-o-que-levar-em-conta-para-melhorar-o-conforto-acustico-imagem.
+            Acesso em: 28 jul. 2023.
+          </p>
+          <p>
+            AMERICAN SOCIETY OF HEATING, REFRIGERATING AND AIR-CONDITIONING
+            ENGINEERS – ASHRAE. [S. d.]. Disponível em: https://www.ashrae.org/.
+            Acesso em: 29 ago. 2023.
+          </p>
+          <p>
+            ASHRAE STANDARD 55.
+            <b>Thermal environmental conditions for human occupancy</b>.
+            Atlanta, Georgia: American Society of Heating Refrigerating and
+            Air-Conditioning Engineers, 2017.
+          </p>
+          <p>
+            BAUCE, Cristiano. <i>In</i>: GHISLENI, Camilla. Da planta livre ao
+            <i>home office</i>: a evolução dos escritórios de arquitetura ao
+            longo do tempo. <b>ArchDaily</b>, 3 mar. 2023. Disponível em:
+            https://www.archdaily.com.br/br/995176/da-planta-livre-ao-home-office-a-evolucao-dos-escritorios-de-arquitetura-ao-longo-do-tempo/63c74255760dd27dee129db1-da-planta-livre-ao-home-office-a-evolucao-dos-escritorios-de-arquitetura-ao-longo-do-tempo-imagem?next_project=no.
+            Acesso em: 15 jul. 2023.
+          </p>
+          <p>
+            BONI, Filipe. Interiores sustentáveis: um guia prático para
+            <i>designers</i> e arquitetos. <b>UGreen</b>, [s. d.]. Disponível
+            em:
+            https://www.ugreen.com.br/wp-content/uploads/2018/05/Interiores-Sustenta%CC%81veis-www.ugreen.com_.br-Ed.00.pdf.
+            Acesso em: 13 jul. 2023.
+          </p>
+          <p>
+            BRASIL. <b>Lei nº 11.445, de 5 de janeiro de 2007</b>. Estabelece as
+            diretrizes nacionais para o saneamento básico; cria o Comitê
+            Interministerial de Saneamento Básico; altera as Leis nºs 6.766, de
+            19 de dezembro de 1979, 8.666, de 21 de junho de 1993, e 8.987, de
+            13 de fevereiro de 1995; e revoga a Lei nº 6.528, de 11 de maio de
+            1978. Diário Oficial da União, Brasília, DF, 8 jan. 2007.
+          </p>
+          <p>
+            BRASIL. <b>Lei nº 12.305, de 2 de agosto de 2010</b>. Institui a
+            Política Nacional de Resíduos Sólidos; altera a Lei nº 9.605, de 12
+            de fevereiro de 1998; e dá outras providências. Diário Oficial da
+            União, Brasília/DF, 3 ago. 2010.
+          </p>
+          <p>
+            BRASIL. <b>Lei nº 12.727, de 17 de outubro de 2012</b>. Altera a Lei
+            nº 12.651, de 25 de maio de 2012, que dispõe sobre a proteção da
+            vegetação nativa. Diário Oficial da União, Brasília/DF, 25 mai.
+            2012.
+          </p>
+          <p>
+            BRASIL. <b>Lei nº 6.938, de 31 de agosto de 1981</b>. Dispõe sobre a
+            Política Nacional do Meio Ambiente, seus fins e mecanismos de
+            formulação e aplicação, e dá outras providências. Diário Oficial da
+            União, Brasília/DF, 2 set. 1981.
+          </p>
+          <p>
+            BRASIL. <b>Lei nº 9.433, de 8 de janeiro de 1997</b>. Institui a
+            Política Nacional de Recursos Hídricos, cria o Sistema Nacional de
+            Gerenciamento de Recursos Hídricos, regulamenta o inciso XIX do art.
+            21 da Constituição Federal e altera o art. 1º da Lei nº 8.001, de 13
+            de março de 1990, que modificou a Lei nº 7.990, de 28 de dezembro de
+            1989. Diário Oficial da União, Brasília/DF, 9 jan.1997.
+          </p>
+          <p>
+            CAMPOS, José. <i>In</i>: MOREIRA, Susanna. Casa em Afife / Colajj.
+            <b>ArchDaily</b>, 2021. Disponível em:
+            https://www.archdaily.com.br/br/999716/casa-em-afife-colajj. Acesso
+            em: 29 ago. 2023.
+          </p>
+          <p>
+            CERTIFICAÇÕES ambientais: conheça as principais certificações
+            nacionais e internacionais.
+            <b>Centro de Tecnologia de Edificações</b>, 16 fev. 2022. Disponível
+            em:
+            https://cte.com.br/blog/sustentabilidade/certificacoes-ambientais/.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            ELKINGTON, John. <b>Sustentabilidade</b>: canibais com garfo e faca.
+            São Paulo: M. Books, 2012.
+          </p>
+          <p>
+            FRANÇA, Joana. <i>In</i>: COMPLEXO na praia / Estúdio MRGB + ARQBR
+            Arquitetura e Urbanismo + BLOCO Arquitetos. <b>ArchDaily</b>, 2022.
+            Disponível em:
+            https://www.archdaily.com.br/br/1000830/complexo-na-praia-estudio-mrgb-plus-arqbr-arquitetura-e-urbanismo-plus-bloco-arquitetos/645cdb470dd62e520c3a93c0-complexo-na-praia-estudio-mrgb-plus-arqbr-arquitetura-e-urbanismo-plus-bloco-arquitetos-foto?next_project=no.
+            Acesso em: 28 jul. 2023.
+          </p>
+          <p>
+            FRANÇA, Joana. <i>In</i>: DELAQUA, Victor. Cobogós e muxarabis: 45
+            exemplos de elementos vazados. <b>ArchDaily</b>, 7 set. 2021.
+            Disponível em:
+            https://www.archdaily.com.br/br/939558/cobogos-e-muxarabis-30-exemplos-de-elementos-vazados/611e93aeb83a3a0164c8aadc-cobogos-e-muxarabis-30-exemplos-de-elementos-vazados-imagem?next_project=no.
+            Acesso em: 28 jul. 2023.
+          </p>
+          <p>
+            KELLERT, S.; CALABRESE, E. <b>The practice of biophilic design</b>.
+            2015. Disponível em: www.biophilic-design.com. Acesso em: 15 jul.
+            2023.
+          </p>
+          <p>
+            LINDMAN, Ake Eson. <i>In</i>: MOREIRA, Susanna. Interiores
+            atemporais em 10 clássicos do século XX. <b>ArchDaily</b>, 18 mar.
+            2020. Disponível em:
+            https://www.archdaily.com.br/br/935772/interiores-atemporais-em-10-classicos-do-seculo-xx/5e71302fb35765c43e0002ce-interiores-atemporais-em-10-classicos-do-seculo-xx-imagem.
+            Acesso em: 28 jul. 2023.
+          </p>
+          <p>
+            LUQUE, Onnis. <i>In</i>: COULLERI, Agustina. Edificio chiapas 168 /
+            Vertebral. <b>ArchDaily</b>, 2021. Disponível em:
+            https://www.archdaily.mx/mx/965830/edificio-chiapas-168-vertebral/6100829fa604170165dbbe21-edificio-chiapas-168-vertebral-foto?next_project=no.
+            Acesso em: 15 jul. 2023.
+          </p>
+          <p>
+            MANA and Friends. <i>In</i>: CLASSROOM makeover for the blind / Arq.
+            Creative Crews. <b>ArchDaily</b>, 2018. Disponível em:
+            https://www.archdaily.com/918942/classroom-makeover-for-the-blind-creative-crews/5d00cdd6284dd19142000600-classroom-makeover-for-the-blind-creative-crews-photo.
+            Acesso em: 28 jul. 2023.
+          </p>
+          <p>
+            MARTINO, Giovana. O que é desenho universal?. <b>ArchDaily</b>, 31
+            dez. 2022. Disponível em:
+            https://www.archdaily.com.br/br/992875/o-que-e-desenho-universal.
+            Acesso em: 21 jul. 2023.
+          </p>
+          <p>
+            WONGWAN, Ketsiree. <i>In</i>: GHISLENI, Camilla. O que é iluminação
+            centrada no ser humano? <b>ArchDaily</b>, 26 abr. 2023. Disponível
+            em:
+            https://www.archdaily.com.br/br/998722/o-que-e-iluminacao-centrada-no-ser-humano/6424bf26212e6901715e4189-o-que-e-iluminacao-centrada-no-ser-humano-imagem?next_project=no.
+            Acesso em: 28 jul. 2023.
+          </p>
 
-        <h3>Sustentabilidade nos ambientes construídos: tripé da sustentabilidade; estratégias de sustentabilidade aplicada (longevidade e flexibilidade, biofilia, conforto ambiental, eficiência energética, redução de impactos ambientais, ergonomia e acessibilidade); selos e políticas ambientais vigentes</h3>
-        <p>ACOUSTICAL Sourfaces. <i>In</i>: SOUZA, Eduardo. O que levar em conta para melhorar o conforto acústico? <b>ArchDaily</b>, 21 mai. 2021. Disponível em: https://www.archdaily.com.br/br/923739/o-que-levar-em-conta-para-melhorar-o-conforto-acustico/5d64838e284dd1e4d20004ea-o-que-levar-em-conta-para-melhorar-o-conforto-acustico-imagem. Acesso em: 28 jul. 2023. </p>
-        <p>AMERICAN SOCIETY OF HEATING, REFRIGERATING AND AIR-CONDITIONING ENGINEERS – ASHRAE. [S. d.]. Disponível em: https://www.ashrae.org/. Acesso em: 29 ago. 2023. </p>
-        <p>ASHRAE STANDARD 55. <b>Thermal environmental conditions for human occupancy</b>. Atlanta, Georgia: American Society of Heating Refrigerating and Air-Conditioning Engineers, 2017. </p>
-        <p>BAUCE, Cristiano. <i>In</i>: GHISLENI, Camilla. Da planta livre ao <i>home office</i>: a evolução dos escritórios de arquitetura ao longo do tempo. <b>ArchDaily</b>, 3 mar. 2023. Disponível em: https://www.archdaily.com.br/br/995176/da-planta-livre-ao-home-office-a-evolucao-dos-escritorios-de-arquitetura-ao-longo-do-tempo/63c74255760dd27dee129db1-da-planta-livre-ao-home-office-a-evolucao-dos-escritorios-de-arquitetura-ao-longo-do-tempo-imagem?next_project=no. Acesso em: 15 jul. 2023. </p>
-        <p>BONI, Filipe. Interiores sustentáveis: um guia prático para <i>designers</i> e arquitetos. <b>UGreen</b>, [s. d.]. Disponível em: https://www.ugreen.com.br/wp-content/uploads/2018/05/Interiores-Sustenta%CC%81veis-www.ugreen.com_.br-Ed.00.pdf. Acesso em: 13 jul. 2023. </p>
-        <p>BRASIL. <b>Lei nº 11.445, de 5 de janeiro de 2007</b>. Estabelece as diretrizes nacionais para o saneamento básico; cria o Comitê Interministerial de Saneamento Básico; altera as Leis nºs 6.766, de 19 de dezembro de 1979, 8.666, de 21 de junho de 1993, e 8.987, de 13 de fevereiro de 1995; e revoga a Lei nº 6.528, de 11 de maio de 1978. Diário Oficial da União, Brasília, DF, 8 jan. 2007. </p>
-        <p>BRASIL. <b>Lei nº 12.305, de 2 de agosto de 2010</b>. Institui a Política Nacional de Resíduos Sólidos; altera a Lei nº 9.605, de 12 de fevereiro de 1998; e dá outras providências. Diário Oficial da União, Brasília/DF, 3 ago. 2010. </p>
-        <p>BRASIL. <b>Lei nº 12.727, de 17 de outubro de 2012</b>. Altera a Lei nº 12.651, de 25 de maio de 2012, que dispõe sobre a proteção da vegetação nativa. Diário Oficial da União, Brasília/DF, 25 mai. 2012. </p>
-        <p>BRASIL. <b>Lei nº 6.938, de 31 de agosto de 1981</b>. Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências. Diário Oficial da União, Brasília/DF, 2 set. 1981. </p>
-        <p>BRASIL. <b>Lei nº 9.433, de 8 de janeiro de 1997</b>. Institui a Política Nacional de Recursos Hídricos, cria o Sistema Nacional de Gerenciamento de Recursos Hídricos, regulamenta o inciso XIX do art. 21 da Constituição Federal e altera o art. 1º da Lei nº 8.001, de 13 de março de 1990, que modificou a Lei nº 7.990, de 28 de dezembro de 1989. Diário Oficial da União, Brasília/DF, 9 jan.1997. </p>
-        <p>CAMPOS, José. <i>In</i>: MOREIRA, Susanna. Casa em Afife / Colajj. <b>ArchDaily</b>, 2021. Disponível em: https://www.archdaily.com.br/br/999716/casa-em-afife-colajj. Acesso em: 29 ago. 2023. </p>
-        <p>CERTIFICAÇÕES ambientais: conheça as principais certificações nacionais e internacionais. <b>Centro de Tecnologia de Edificações</b>, 16 fev. 2022. Disponível em: https://cte.com.br/blog/sustentabilidade/certificacoes-ambientais/. Acesso em: 23 jul. 2023. </p>
-        <p>ELKINGTON, John. <b>Sustentabilidade</b>: canibais com garfo e faca. São Paulo: M. Books, 2012. </p>
-        <p>FRANÇA, Joana. <i>In</i>: COMPLEXO na praia / Estúdio MRGB + ARQBR Arquitetura e Urbanismo + BLOCO Arquitetos. <b>ArchDaily</b>, 2022. Disponível em: https://www.archdaily.com.br/br/1000830/complexo-na-praia-estudio-mrgb-plus-arqbr-arquitetura-e-urbanismo-plus-bloco-arquitetos/645cdb470dd62e520c3a93c0-complexo-na-praia-estudio-mrgb-plus-arqbr-arquitetura-e-urbanismo-plus-bloco-arquitetos-foto?next_project=no. Acesso em: 28 jul. 2023. </p>
-        <p>FRANÇA, Joana. <i>In</i>: DELAQUA, Victor. Cobogós e muxarabis: 45 exemplos de elementos vazados. <b>ArchDaily</b>, 7 set. 2021. Disponível em: https://www.archdaily.com.br/br/939558/cobogos-e-muxarabis-30-exemplos-de-elementos-vazados/611e93aeb83a3a0164c8aadc-cobogos-e-muxarabis-30-exemplos-de-elementos-vazados-imagem?next_project=no. Acesso em: 28 jul. 2023. </p>
-        <p>KELLERT, S.; CALABRESE, E. <b>The practice of biophilic design</b>. 2015. Disponível em: www.biophilic-design.com. Acesso em: 15 jul. 2023. </p>
-        <p>LINDMAN, Ake Eson. <i>In</i>: MOREIRA, Susanna. Interiores atemporais em 10 clássicos do século XX. <b>ArchDaily</b>, 18 mar. 2020. Disponível em: https://www.archdaily.com.br/br/935772/interiores-atemporais-em-10-classicos-do-seculo-xx/5e71302fb35765c43e0002ce-interiores-atemporais-em-10-classicos-do-seculo-xx-imagem. Acesso em: 28 jul. 2023. </p>
-        <p>LUQUE, Onnis. <i>In</i>: COULLERI, Agustina. Edificio chiapas 168 / Vertebral. <b>ArchDaily</b>, 2021. Disponível em: https://www.archdaily.mx/mx/965830/edificio-chiapas-168-vertebral/6100829fa604170165dbbe21-edificio-chiapas-168-vertebral-foto?next_project=no. Acesso em: 15 jul. 2023. </p>
-        <p>MANA and Friends. <i>In</i>: CLASSROOM makeover for the blind / Arq. Creative Crews. <b>ArchDaily</b>, 2018. Disponível em: https://www.archdaily.com/918942/classroom-makeover-for-the-blind-creative-crews/5d00cdd6284dd19142000600-classroom-makeover-for-the-blind-creative-crews-photo. Acesso em: 28 jul. 2023. </p>
-        <p>MARTINO, Giovana. O que é desenho universal?. <b>ArchDaily</b>, 31 dez. 2022. Disponível em: https://www.archdaily.com.br/br/992875/o-que-e-desenho-universal. Acesso em: 21 jul. 2023. </p>
-        <p>WONGWAN, Ketsiree. <i>In</i>: GHISLENI, Camilla. O que é iluminação centrada no ser humano? <b>ArchDaily</b>, 26 abr. 2023. Disponível em: https://www.archdaily.com.br/br/998722/o-que-e-iluminacao-centrada-no-ser-humano/6424bf26212e6901715e4189-o-que-e-iluminacao-centrada-no-ser-humano-imagem?next_project=no. Acesso em: 28 jul. 2023.</p>
+          <h3>Indústria: mudança de modelo mental e soluções tecnológicas</h3>
+          <p>
+            QUINTINO, Luis F.; SILVEIRA, Aline Morais da; AGUIAR, Fernanda Rocha
+            de. <i>et al</i>. <b>Indústria 4.0</b>. Grupo A, 2019.
+            <i>E-book</i>. ISBN 9788595028531. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9788595028531/.
+            Acesso em: 28 jul. 2023.
+          </p>
 
-        <h3>Indústria: mudança de modelo mental e soluções tecnológicas</h3>
-        <p>QUINTINO, Luis F.; SILVEIRA, Aline Morais da; AGUIAR, Fernanda Rocha de. <i>et al</i>. <b>Indústria 4.0</b>. Grupo A, 2019. <i>E-book</i>. ISBN 9788595028531. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595028531/. Acesso em: 28 jul. 2023. </p>
+          <h3>
+            Modelos de consumo: economia circular (conceitos da criação à
+            redução, reutilização, recuperação e reciclagem de materiais e
+            energias) economias compartilhada e solidária
+          </h3>
+          <p>
+            AREKRANS, J.; RITZÉN, S.; LAURENTI, R.
+            <b>The role of radical innovation in circular strategy deployment</b
+            >. Business Strategy and the Environment, Estocolmo: Wiley Online
+            Library, 5 may 2022, pp. 1-21. Disponível em:
+            https://doi.org/10.1002/bse.3108. Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            EISENREICH, A; FÜLLER, J.; STUCHTEY, M.
+            <b>Open Circular Innovation</b>: How Companies Can Develop Circular
+            Innovations in Collaboration with Stakeholders. Sustainability,
+            Basel: MDPI, 13, n. 23, 2021, p. 13456. Disponível em:
+            https://doi.org/10.3390/su132313456. Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            KIRCHHERR, J., REIKE, D., HEKKERT, M.
+            <b>Conceptualizing the circular economy</b>: An analysis of 114
+            definitions”. Resources, Conservation and Recycling. 127, 2017, pp.
+            221–232. Disponível em:
+            https://doi.org/10.1016/j.resconrec.2017.09.005. Acesso em: 23 jul.
+            2023.
+          </p>
+          <p>
+            SUNDARARAJAN, A. <b>Economia compartilhada</b>: o fim do emprego e a
+            ascensão do capitalismo de multidão. São Paulo: Senac São Paulo,
+            2019.
+          </p>
+          <p>
+            WEETMAN, C. <b>Economia circular</b>: conceitos e estratégias para
+            fazer negócios de forma mais inteligente, sustentável e lucrativa.
+            Franca/SP: Autêntica Business, 2011.
+          </p>
 
-        <h3>Modelos de consumo: economia circular (conceitos da criação à redução, reutilização, recuperação e reciclagem de materiais e energias) economias compartilhada e solidária</h3>
-        <p>AREKRANS, J.; RITZÉN, S.; LAURENTI, R. <b>The role of radical innovation in circular strategy deployment</b>. Business Strategy and the Environment, Estocolmo: Wiley Online Library, 5 may 2022, pp. 1-21. Disponível em: https://doi.org/10.1002/bse.3108. Acesso em: 23 jul. 2023. </p>
-        <p>EISENREICH, A; FÜLLER, J.; STUCHTEY, M. <b>Open Circular Innovation</b>: How Companies Can Develop Circular Innovations in Collaboration with Stakeholders. Sustainability, Basel: MDPI, 13, n. 23, 2021, p. 13456. Disponível em: https://doi.org/10.3390/su132313456. Acesso em: 23 jul. 2023. </p>
-        <p>KIRCHHERR, J., REIKE, D., HEKKERT, M. <b>Conceptualizing the circular economy</b>: An analysis of 114 definitions”. Resources, Conservation and Recycling. 127, 2017, pp. 221–232. Disponível em: https://doi.org/10.1016/j.resconrec.2017.09.005. Acesso em: 23 jul. 2023. </p>
-        <p>SUNDARARAJAN, A. <b>Economia compartilhada</b>: o fim do emprego e a ascensão do capitalismo de multidão. São Paulo: Senac São Paulo, 2019. </p>
-        <p>WEETMAN, C. <b>Economia circular</b>: conceitos e estratégias para fazer negócios de forma mais inteligente, sustentável e lucrativa. Franca/SP: Autêntica Business, 2011.</p>
+          <h3>
+            <i>Redesign</i>: materiais, técnicas (<i>upcycle</i>,
+            <i>retrofit</i> e customização), projetos e selos de garantias
+          </h3>
+          <p>
+            BRASIL. <b>Decreto nº 7.746, de 5 de junho de 2012</b>. Regulamenta
+            o art. 3º da Lei nº 8.666, de 21 de junho de 1993, para estabelecer
+            critérios e práticas para a promoção do desenvolvimento nacional
+            sustentável nas contratações [...]. Disponível em:
+            https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7746.htm.
+            Acesso em: 6 set. 2023.
+          </p>
+          <p>
+            BRASIL. <b>Decreto nº 9.178, de 23 de outubro de 2017</b>. Altera o
+            Decreto nº 7.746, de 5 de junho de 2012, que regulamenta o art. 3º
+            da Lei nº 8.666, de 21 de junho de 1993, para estabelecer critérios,
+            práticas e diretrizes para a promoção do desenvolvimento nacional
+            sustentável nas contratações [...]. Disponível em:
+            https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9178.htm.
+            Acesso em: 6 set. 2023.
+          </p>
+          <p>
+            BRASIL. Ministério do Meio Ambiente. Plano Nacional.
+            <b>Plano de Ação para Produção e Consumo Sustentáveis</b> – PPCS.
+            Disponível em:
+            https://antigo.mma.gov.br/responsabilidade-socioambiental/producao-e-consumo-sustentavel/plano-nacional.html.
+            Acesso em: 5 set. 2023.
+          </p>
+          <p>
+            CARPETES que atendem às exigências Green Building.
+            <b>RCervellini</b>, 27 abr. 2016. Disponível em:
+            https://www.rcpisos.com.br/blog/carpetes-que-atendem-as-exigencias-green-building/.
+            Acesso em: 26. jul. 2023.
+          </p>
+          <p>
+            CARVALHO, A. M. de; MANO, Cássia Morais. <b>Ecodesign</b>. Rev. téc.
+            Cristiano da Cunha Pereira. Porto Alegre: Sagah, 2019.
+          </p>
+          <p>
+            COUTINHO, E. Conceito sustentável na decoração de interiores.
+            <b>Revista On-line IPOG Especialize</b>, v. 1, n. 5, jul., 2013.
+            Disponível em:
+            https://www.ipog.edu.br/revista-especialize-online/edicao--n5-2013/conceito-sustentavel-na-decoracao-de-interiores/.
+            Acesso em: 25 jul. 2023.
+          </p>
+          <p>
+            DESCUBRA como dividir ambientes com móveis e peças decorativas.
+            <b>Moviflor</b>, 20 jul. 2022. Disponível em:
+            https://www.moviflor.pt/pt/descubra-como-dividir-ambientes-com-moveis-e-pecas-decorativas_250.html?idb=117.
+            Acesso em: 6 set. 2023.
+          </p>
+          <p>
+            FRANCO PEREIRA, A.; DEL GAUDIO, C. (Orgs.).
+            <b>Ecovisões projetuais</b>: pesquisas em <i>design</i> e
+            sustentabilidade no Brasil. São Paulo: Blucher, v. 2, 2021. 266 p.
+          </p>
+          <p>
+            LINHARES, T. Práticas de <i>design</i> de interiores sustentáveis
+            aliadas a edificações verdes. <i>In</i>: SEMINÁRIO DE PESQUISA, PÓS
+            GRADUAÇÃO E INOVAÇÃO, 2., 2018, <b>Anais</b> [...]. Belo Horizonte:
+            UFMG, 15 mar. 2018. Disponível em:
+            https://www.even3.com.br/anais/papcsseminario/76859-praticas-de-design-de-interiores-sustentaveis-aliadas-a-edi-ficacoes-verdes/.
+            Acesso em: 25 jul. 2023.
+          </p>
+          <p>
+            O QUE são selos de sustentabilidade? Quais os principais?
+            <b>Esfera <i>Blog</i></b
+            >, 14 out. 2022. Disponível em:
+            https://blog.esferaenergia.com.br/sustentabilidade/selos-de-sustentabilidade.
+            Acesso em: 25 jul. 2023.
+          </p>
+          <p>
+            ODS. Grupo de Trabalho da Sociedade Civil para a Agenda 2030 do
+            Desenvolvimento Sustentável. [S. d.]. Disponível em:
+            https://gtagenda2030.org.br/ods/. Acesso em: 8 ago. 2023.
+          </p>
+          <p>
+            TRINDADE, Paula. <b>Produção e consumo sustentável</b>. Laboratório
+            Nacional de Energia e Geologia. Environmental Technical Assistance
+            and Information Exchange Facility. Portugal, [s. d.]. Disponível em:
+            https://circabc.europa.eu/sd/a/108c9cbf-e9dc-4f31-99c4-e9610e488b47/Brazil-FIESP%252c%20Presentation%20-%20Produ%25c3%25a7%25c3%25a3o%20e%20Consumo%20Sustent%25c3%25a1veis.pdf.
+            Acesso em: 5 set. 2023.
+          </p>
+          <p>
+            UNITED NATIONS ENVIRONMENT PROGRAMME. <b>ABC of SCP</b>: clarifying
+            concepts on sustainable consumption and production: towards a
+            10-Year Framework of Programmes on Sustainable Consumption and
+            Production. UNEP: Paris, 2010.
+          </p>
+          <p>
+            UNITED NATIONS ENVIRONMENT PROGRAMME. International Declaration on
+            Cleaner Production.
+            <b>O <i>design</i> no contexto da produção e consumo sustentáveis</b
+            >. UNEP: Paris, 1999.
+          </p>
 
-        <h3><i>Redesign</i>: materiais, técnicas (<i>upcycle</i>, <i>retrofit</i> e customização), projetos e selos de garantias</h3>
-        <p>BRASIL. <b>Decreto nº 7.746, de 5 de junho de 2012</b>. Regulamenta o art. 3º da Lei nº 8.666, de 21 de junho de 1993, para estabelecer critérios e práticas para a promoção do desenvolvimento nacional sustentável nas contratações [...]. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7746.htm. Acesso em: 6 set. 2023. </p>
-        <p>BRASIL. <b>Decreto nº 9.178, de 23 de outubro de 2017</b>. Altera o Decreto nº 7.746, de 5 de junho de 2012, que regulamenta o art. 3º da Lei nº 8.666, de 21 de junho de 1993, para estabelecer critérios, práticas e diretrizes para a promoção do desenvolvimento nacional sustentável nas contratações [...]. Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9178.htm. Acesso em: 6 set. 2023. </p>
-        <p>BRASIL. Ministério do Meio Ambiente. Plano Nacional. <b>Plano de Ação para Produção e Consumo Sustentáveis</b> – PPCS. Disponível em: https://antigo.mma.gov.br/responsabilidade-socioambiental/producao-e-consumo-sustentavel/plano-nacional.html. Acesso em: 5 set. 2023. </p>
-        <p>CARPETES que atendem às exigências Green Building. <b>RCervellini</b>, 27 abr. 2016. Disponível em: https://www.rcpisos.com.br/blog/carpetes-que-atendem-as-exigencias-green-building/. Acesso em: 26. jul. 2023. </p>
-        <p>CARVALHO, A. M. de; MANO, Cássia Morais. <b>Ecodesign</b>. Rev. téc. Cristiano da Cunha Pereira. Porto Alegre: Sagah, 2019. </p>
-        <p>COUTINHO, E. Conceito sustentável na decoração de interiores. <b>Revista On-line IPOG Especialize</b>, v. 1, n. 5, jul., 2013. Disponível em: https://www.ipog.edu.br/revista-especialize-online/edicao--n5-2013/conceito-sustentavel-na-decoracao-de-interiores/. Acesso em: 25 jul. 2023. </p>
-        <p>DESCUBRA como dividir ambientes com móveis e peças decorativas. <b>Moviflor</b>, 20 jul. 2022. Disponível em: https://www.moviflor.pt/pt/descubra-como-dividir-ambientes-com-moveis-e-pecas-decorativas_250.html?idb=117. Acesso em: 6 set. 2023. </p>
-        <p>FRANCO PEREIRA, A.; DEL GAUDIO, C. (Orgs.). <b>Ecovisões projetuais</b>: pesquisas em <i>design</i> e sustentabilidade no Brasil. São Paulo: Blucher, v. 2, 2021. 266 p. </p>
-        <p>LINHARES, T. Práticas de <i>design</i> de interiores sustentáveis aliadas a edificações verdes. <i>In</i>: SEMINÁRIO DE PESQUISA, PÓS GRADUAÇÃO E INOVAÇÃO, 2., 2018, <b>Anais</b> [...]. Belo Horizonte: UFMG, 15 mar. 2018. Disponível em: https://www.even3.com.br/anais/papcsseminario/76859-praticas-de-design-de-interiores-sustentaveis-aliadas-a-edi-ficacoes-verdes/. Acesso em: 25 jul. 2023. </p>
-        <p>O QUE são selos de sustentabilidade? Quais os principais? <b>Esfera <i>Blog</i></b>, 14 out. 2022. Disponível em: https://blog.esferaenergia.com.br/sustentabilidade/selos-de-sustentabilidade. Acesso em: 25 jul. 2023. </p>
-        <p>ODS. Grupo de Trabalho da Sociedade Civil para a Agenda 2030 do Desenvolvimento Sustentável. [S. d.]. Disponível em: https://gtagenda2030.org.br/ods/. Acesso em: 8 ago. 2023. </p>
-        <p>TRINDADE, Paula. <b>Produção e consumo sustentável</b>. Laboratório Nacional de Energia e Geologia. Environmental Technical Assistance and Information Exchange Facility. Portugal, [s. d.]. Disponível em: https://circabc.europa.eu/sd/a/108c9cbf-e9dc-4f31-99c4-e9610e488b47/Brazil-FIESP%252c%20Presentation%20-%20Produ%25c3%25a7%25c3%25a3o%20e%20Consumo%20Sustent%25c3%25a1veis.pdf. Acesso em: 5 set. 2023. </p>
-        <p>UNITED NATIONS ENVIRONMENT PROGRAMME. <b>ABC of SCP</b>: clarifying concepts on sustainable consumption and production: towards a 10-Year Framework of Programmes on Sustainable Consumption and Production. UNEP: Paris, 2010. </p>
-        <p>UNITED NATIONS ENVIRONMENT PROGRAMME. International Declaration on Cleaner Production. <b>O <i>design</i> no contexto da produção e consumo sustentáveis</b>. UNEP: Paris, 1999. </p>
+          <h3><i>Design</i> biofílico: princípios e aplicações</h3>
+          <p>
+            ARANGO, Alejandro. <i>In</i>: MARTINO, Giovana. Corrimão e
+            guarda-corpo: como integrar elementos metálicos ao projeto.
+            <b>ArchDaily</b>, 24 ago. 2021. Disponível em:
+            https://www.archdaily.com.br/br/966334/corrimao-e-guarda-corpo-como-integrar-elementos-metalicos-ao-projeto/610ca83c4a2bf402ae7073d8-corrimao-e-guarda-corpo-como-integrar-elementos-metalicos-ao-projeto-foto.
+            Acesso em: 4 set. 2023.
+          </p>
+          <p>
+            ARAUJO, Felipe. <i>In</i>: MOREIRA, Susanna. Casas brasileiras: 11
+            residências com muxarabis. <b>ArchDaily</b>, 21 jan. 2020.
+            Disponível em:
+            https://www.archdaily.com.br/br/932008/casas-brasileiras-11-residencias-com-muxarabis/5e1fbdee3312fd3e200001a4-casas-brasileiras-11-residencias-com-muxarabis-imagem.
+            Acesso em: 24 jul. 2023.
+          </p>
+          <p>
+            BAMBERGHI, Filippo. In: Apartamento RS / Studio Arthur Casas.
+            <b>ArchDaily</b>, 2019. Disponível em:
+            https://www.archdaily.com.br/br/922855/apartamento-rs-studio-arthur-casas/5d5175d0284dd1bc4500024d-apartamento-rs-studio-arthur-casas-foto.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            BELIO, César. <i>In</i>: ARELLANO, Mónica. Como integrar a água ao
+            projeto de uma casa? Tanques, piscinas e tratamento de água pluvial.
+            <b>ArchDaily</b>, 9 jul. 2023. Disponível em:
+            https://www.archdaily.com.br/br/1002736/como-integrar-a-agua-ao-projeto-de-uma-casa-tanques-piscinas-e-tratamento-de-agua-pluvial/6484e0dc787072152fd6d8ae-how-to-integrate-water-into-the-design-of-a-house-ponds-pools-and-rainwater-treatment-photo.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            BENNETTS, Peter. <i>In</i>: SOUZA, Eduardo. Côncavo e convexo:
+            revestindo interiores com madeiras curvadas. <b>ArchDaily</b>, 17
+            jul. 2021. Disponível em:
+            https://www.archdaily.com.br/br/963212/concavo-e-convexo-revestindo-interiores-com-madeiras-curvadas/60c26cede1fe0f0165577617-concavo-e-convexo-revestindo-interiores-com-madeiras-curvadas-foto.
+            Acesso em: 25 jul. 2023.
+          </p>
+          <p>
+            BRAZ, Danny. Neuroarquitetura e biofilia: a influência dos espaços
+            físicos e da natureza no bem-estar mental. <b>Regatec</b>, 29 abr.
+            2019. Disponível em:
+            https://www.regatec.com.br/condominios/neuroarquitetura-e-biofilia-a-influencia-dos-espacos-fisicos-e-da-natureza-no-bem-estar-mental/.
+            Acesso em: 21 dez. 2022.
+          </p>
+          <p>
+            CASACUBERTA, Raimon S. <i>In</i>: CAO, Lilly. Os tijolos de vidro
+            estão voltando, novamente, à arquitetura. <b>ArchDaily</b>, 21 jun.
+            2020. Disponível em:
+            https://www.archdaily.com.br/br/941893/os-tijolos-de-vidro-estao-voltando-novamente-a-arquitetura/5ee69bacb35765200900001f-glamorous-glass-bricks-are-booming-nil-again-photo.
+            Acesso em: 25 jul. 2023.
+          </p>
+          <p>
+            COOKFOX. <i>In</i>: SOUSA, Marcia. Fachada biofílica abriga
+            pássaros, abelhas e plantas. <b>CicloVivo</b>, 23 set. 2022.
+            Disponível em:
+            https://ciclovivo.com.br/arq-urb/arquitetura/fachada-biofilica-abriga-passaros-abelhas-e-plantas/.
+            Acesso em: 24 jul. 2023.
+          </p>
+          <p>
+            ESCRITÓRIO FinUp / hyperSity. <b>ArchDaily</b>, 2017. Disponível em:
+            https://www.archdaily.com.br/br/948602/escritorio-finup-hypersity/5bf2b71708a5e5603500048b-finup-office-design-hypersity-image?next_project=no.
+            Acesso em: 4 set. 2023.
+          </p>
+          <p>
+            FERTONANI, Marcos. <i>In</i>: ATELIÊ Isabela pagnan / Arq. APB
+            Oficina de Projetos. <b>ArchDaily</b>, 2021. Disponível em:
+            https://www.archdaily.com.br/br/1001592/atelie-isabela-pagnan-apb-oficina-de-projetos/6470f26242f1086ada10d614-atelie-isabela-pagnan-apb-oficina-de-projetos-foto.
+            Acesso em: 15 jul. 2023.
+          </p>
+          <p>
+            JIN, Weiqi. <i>In</i>: GHISLENI, Camilla. Retorno às origens:
+            interiores que exploram fogo, água, terra e ar. <b>ArchDaily</b>, 19
+            abr. 2021. Disponível em:
+            https://www.archdaily.com.br/br/959118/retorno-as-origens-interiores-que-exploram-fogo-agua-terra-e-ar/605bd489f91c81715b000230-retorno-as-origens-interiores-que-exploram-fogo-agua-terra-e-ar-imagem.
+            Acesso em: 24 jul. 2023.
+          </p>
+          <p>
+            KELLERT, S.; CALABRESE, E. <b>The practice of biophilic design</b>.
+            2015. Disponível em: www.biophilic-design.com. Acesso em: 6 set.
+            2023.
+          </p>
+          <p>
+            KON, Nelson. <i>In</i>: CENTRO de inovação e revitalização Natura /
+            LoebCapote Arquitetura e Urbanismo. <b>ArchDaily</b>, 2020.
+            Disponível em:
+            https://www.archdaily.com.br/br/972164/centro-de-inovacao-e-revitalizacao-natura-loebcapote-arquitetura-e-urbanismo/619695c09a957a41d49ee608-centro-de-inovacao-e-revitalizacao-natura-loebcapote-arquitetura-e-urbanismo-foto.
+            Acesso em: 25 jul. 2023.
+          </p>
+          <p>
+            MACHADO, Denilson. <i>In</i>: CASA em Rifaina / Cacau Ribeiro
+            Interiores. <b>ArchDaily</b>, 2021. Disponível em:
+            https://www.archdaily.com.br/br/972926/casa-em-rifaina-cacau-ribeiro-interiores/61a9311de4df610169c86f81-casa-em-rifaina-cacau-ribeiro-interiores-foto.
+            Acesso em: 24 jul. 2023.
+          </p>
+          <p>
+            MACHADO, Denilson. <i>In</i>: SIBIPIRUNAS House / Studio Otto Felix.
+            <b>ArchDaily</b>, 2019. Disponível em:
+            https://www.archdaily.com/919251/sibipirunas-house-studio-otto-felix/5d05cf0d284dd17f300000fa-sibipirunas-house-studio-otto-felix-photo.
+            Acesso em: 24 jul. 2023.
+          </p>
+          <p>
+            MULLER, Evelyn. <i>In</i>: APARTAMENTO EM/DT Estúdio.
+            <b>ArchDaily</b>, 2019. Disponível em:
+            https://www.archdaily.com.br/br/926691/apartamento-em-dt-estudio?ad_medium=gallery.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            OKI, Hiroyuki. <i>In</i>: GHISLENI, Camilla. Jardins e a reconexão
+            com a natureza: 11 projetos que diluem os limites entre interior e
+            exterior. <b>ArchDaily</b>, 13 fev. 2021. Disponível em:
+            https://www.archdaily.com.br/br/956883/jardins-e-a-reconexao-com-a-natureza-11-projetos-que-diluem-os-limites-entre-interior-e-exterior/602527c2f91c81b8c70002eb-jardins-e-a-reconexao-com-a-natureza-11-projetos-que-diluem-os-limites-entre-interior-e-exterior-imagem.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            ORELLANA-ALVEAR, Boris <i>et al</i>. Fundamentos de la biofilia y
+            neuroarquitectura aplicada a la concepción de la iluminación en
+            espacios físicos. <b>Maskana</b>, Cuenca, v. 8, p. 111-120, 29 nov.
+            2017.
+          </p>
+          <p>
+            PAIVA, Andréa de. Entendendo a biofilia. <b>Neuorau</b>, 15 mar.
+            2018. Disponível em:
+            https://www.neuroau.com/post/entendendo-a-biofilia. Acesso em: 13
+            jan. 2020.
+          </p>
+          <p>
+            RYAN, Catherine O. <i>et al</i>. <b>Biophilic design patterns</b>:
+            emerging nature-based parameters for health and well-being in the
+            built environment. Archnet-ijar, Boston, v. 8, n. 2, p. 62-76, jul.
+            2014.
+          </p>
+          <p>
+            SALINGAROS, Nikos A. Biophilia and healing environments: healthy
+            principles for designing the built world.
+            <b>Terrapin Bright Green</b>, New York, 2015. Disponível em:
+            https://www.terrapinbrightgreen.com/wp-content/uploads/2015/10/Biophilia-Healing-Environments-Salingaros-p.pdf.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            SEBASTIAN, Justin. <i>In</i>: CASA Celidônia / 7th Hue Architecture
+            Studio. <b>ArchDaily</b>, 2021. Disponível em:
+            https://www.archdaily.com.br/br/1002385/casa-celidonia-7th-hue-architecture-studio/648772507870723fb3adcef0-celandine-house-7th-hue-architecture-studio-photo.
+            Acesso em: 24 jul. 2023.
+          </p>
+          <p>
+            WILSON, Edward. <b>Biophilia</b>. 12. ed. Londres: Harvard
+            University Press, 1984. 168 p.
+          </p>
+          <p>
+            ZILLIACUS, Ariana. A complexa simplicidade da arquitetura iraniana.
+            <b>ArchDaily</b>, 6 mar. 2017. Disponível em:
+            https://www.archdaily.com.br/br/806435/a-complexa-simplicidade-da-arquitetura-iraniana/589cc4b3e58ecea9f9000011-the-simplicity-of-iranian-architectures-complex-geometry-photo.
+            Acesso em: 24 jul. 2023.
+          </p>
 
-        <h3><i>Design</i> biofílico: princípios e aplicações</h3>
-        <p>ARANGO, Alejandro. <i>In</i>: MARTINO, Giovana. Corrimão e guarda-corpo: como integrar elementos metálicos ao projeto. <b>ArchDaily</b>, 24 ago. 2021. Disponível em: https://www.archdaily.com.br/br/966334/corrimao-e-guarda-corpo-como-integrar-elementos-metalicos-ao-projeto/610ca83c4a2bf402ae7073d8-corrimao-e-guarda-corpo-como-integrar-elementos-metalicos-ao-projeto-foto. Acesso em: 4 set. 2023. </p>
-        <p>ARAUJO, Felipe. <i>In</i>: MOREIRA, Susanna. Casas brasileiras: 11 residências com muxarabis. <b>ArchDaily</b>, 21 jan. 2020. Disponível em: https://www.archdaily.com.br/br/932008/casas-brasileiras-11-residencias-com-muxarabis/5e1fbdee3312fd3e200001a4-casas-brasileiras-11-residencias-com-muxarabis-imagem. Acesso em: 24 jul. 2023. </p>
-        <p>BAMBERGHI, Filippo. In: Apartamento RS / Studio Arthur Casas. <b>ArchDaily</b>, 2019. Disponível em: https://www.archdaily.com.br/br/922855/apartamento-rs-studio-arthur-casas/5d5175d0284dd1bc4500024d-apartamento-rs-studio-arthur-casas-foto. Acesso em: 23 jul. 2023. </p>
-        <p>BELIO, César. <i>In</i>: ARELLANO, Mónica. Como integrar a água ao projeto de uma casa? Tanques, piscinas e tratamento de água pluvial. <b>ArchDaily</b>, 9 jul. 2023. Disponível em: https://www.archdaily.com.br/br/1002736/como-integrar-a-agua-ao-projeto-de-uma-casa-tanques-piscinas-e-tratamento-de-agua-pluvial/6484e0dc787072152fd6d8ae-how-to-integrate-water-into-the-design-of-a-house-ponds-pools-and-rainwater-treatment-photo. Acesso em: 23 jul. 2023. </p>
-        <p>BENNETTS, Peter. <i>In</i>: SOUZA, Eduardo. Côncavo e convexo: revestindo interiores com madeiras curvadas. <b>ArchDaily</b>, 17 jul. 2021. Disponível em: https://www.archdaily.com.br/br/963212/concavo-e-convexo-revestindo-interiores-com-madeiras-curvadas/60c26cede1fe0f0165577617-concavo-e-convexo-revestindo-interiores-com-madeiras-curvadas-foto. Acesso em: 25 jul. 2023. </p>
-        <p>BRAZ, Danny. Neuroarquitetura e biofilia: a influência dos espaços físicos e da natureza no bem-estar mental. <b>Regatec</b>, 29 abr. 2019. Disponível em: https://www.regatec.com.br/condominios/neuroarquitetura-e-biofilia-a-influencia-dos-espacos-fisicos-e-da-natureza-no-bem-estar-mental/. Acesso em: 21 dez. 2022. </p>
-        <p>CASACUBERTA, Raimon S. <i>In</i>: CAO, Lilly. Os tijolos de vidro estão voltando, novamente, à arquitetura. <b>ArchDaily</b>, 21 jun. 2020. Disponível em: https://www.archdaily.com.br/br/941893/os-tijolos-de-vidro-estao-voltando-novamente-a-arquitetura/5ee69bacb35765200900001f-glamorous-glass-bricks-are-booming-nil-again-photo. Acesso em: 25 jul. 2023. </p>
-        <p>COOKFOX. <i>In</i>: SOUSA, Marcia. Fachada biofílica abriga pássaros, abelhas e plantas. <b>CicloVivo</b>, 23 set. 2022. Disponível em: https://ciclovivo.com.br/arq-urb/arquitetura/fachada-biofilica-abriga-passaros-abelhas-e-plantas/. Acesso em: 24 jul. 2023. </p>
-        <p>ESCRITÓRIO FinUp / hyperSity. <b>ArchDaily</b>, 2017. Disponível em: https://www.archdaily.com.br/br/948602/escritorio-finup-hypersity/5bf2b71708a5e5603500048b-finup-office-design-hypersity-image?next_project=no. Acesso em: 4 set. 2023. </p>
-        <p>FERTONANI, Marcos. <i>In</i>: ATELIÊ Isabela pagnan / Arq. APB Oficina de Projetos. <b>ArchDaily</b>, 2021. Disponível em: https://www.archdaily.com.br/br/1001592/atelie-isabela-pagnan-apb-oficina-de-projetos/6470f26242f1086ada10d614-atelie-isabela-pagnan-apb-oficina-de-projetos-foto. Acesso em: 15 jul. 2023. </p>
-        <p>JIN, Weiqi. <i>In</i>: GHISLENI, Camilla. Retorno às origens: interiores que exploram fogo, água, terra e ar. <b>ArchDaily</b>, 19 abr. 2021. Disponível em: https://www.archdaily.com.br/br/959118/retorno-as-origens-interiores-que-exploram-fogo-agua-terra-e-ar/605bd489f91c81715b000230-retorno-as-origens-interiores-que-exploram-fogo-agua-terra-e-ar-imagem. Acesso em: 24 jul. 2023. </p>
-        <p>KELLERT, S.; CALABRESE, E. <b>The practice of biophilic design</b>. 2015. Disponível em: www.biophilic-design.com. Acesso em: 6 set. 2023. </p>
-        <p>KON, Nelson. <i>In</i>: CENTRO de inovação e revitalização Natura / LoebCapote Arquitetura e Urbanismo. <b>ArchDaily</b>, 2020. Disponível em: https://www.archdaily.com.br/br/972164/centro-de-inovacao-e-revitalizacao-natura-loebcapote-arquitetura-e-urbanismo/619695c09a957a41d49ee608-centro-de-inovacao-e-revitalizacao-natura-loebcapote-arquitetura-e-urbanismo-foto. Acesso em: 25 jul. 2023. </p>
-        <p>MACHADO, Denilson. <i>In</i>: CASA em Rifaina / Cacau Ribeiro Interiores. <b>ArchDaily</b>, 2021. Disponível em: https://www.archdaily.com.br/br/972926/casa-em-rifaina-cacau-ribeiro-interiores/61a9311de4df610169c86f81-casa-em-rifaina-cacau-ribeiro-interiores-foto. Acesso em: 24 jul. 2023. </p>
-        <p>MACHADO, Denilson. <i>In</i>: SIBIPIRUNAS House / Studio Otto Felix. <b>ArchDaily</b>, 2019. Disponível em: https://www.archdaily.com/919251/sibipirunas-house-studio-otto-felix/5d05cf0d284dd17f300000fa-sibipirunas-house-studio-otto-felix-photo. Acesso em: 24 jul. 2023. </p>
-        <p>MULLER, Evelyn. <i>In</i>: APARTAMENTO EM/DT Estúdio. <b>ArchDaily</b>, 2019. Disponível em: https://www.archdaily.com.br/br/926691/apartamento-em-dt-estudio?ad_medium=gallery. Acesso em: 23 jul. 2023. </p>
-        <p>OKI, Hiroyuki. <i>In</i>: GHISLENI, Camilla. Jardins e a reconexão com a natureza: 11 projetos que diluem os limites entre interior e exterior. <b>ArchDaily</b>, 13 fev. 2021. Disponível em: https://www.archdaily.com.br/br/956883/jardins-e-a-reconexao-com-a-natureza-11-projetos-que-diluem-os-limites-entre-interior-e-exterior/602527c2f91c81b8c70002eb-jardins-e-a-reconexao-com-a-natureza-11-projetos-que-diluem-os-limites-entre-interior-e-exterior-imagem. Acesso em: 23 jul. 2023. </p>
-        <p>ORELLANA-ALVEAR, Boris <i>et al</i>. Fundamentos de la biofilia y neuroarquitectura aplicada a la concepción de la iluminación en espacios físicos. <b>Maskana</b>, Cuenca, v. 8, p. 111-120, 29 nov. 2017. </p>
-        <p>PAIVA, Andréa de. Entendendo a biofilia. <b>Neuorau</b>, 15 mar. 2018. Disponível em: https://www.neuroau.com/post/entendendo-a-biofilia. Acesso em: 13 jan. 2020. </p>
-        <p>RYAN, Catherine O. <i>et al</i>. <b>Biophilic design patterns</b>: emerging nature-based parameters for health and well-being in the built environment. Archnet-ijar, Boston, v. 8, n. 2, p. 62-76, jul. 2014. </p>
-        <p>SALINGAROS, Nikos A. Biophilia and healing environments: healthy principles for designing the built world. <b>Terrapin Bright Green</b>, New York, 2015. Disponível em: https://www.terrapinbrightgreen.com/wp-content/uploads/2015/10/Biophilia-Healing-Environments-Salingaros-p.pdf. Acesso em: 23 jul. 2023. </p>
-        <p>SEBASTIAN, Justin. <i>In</i>: CASA Celidônia / 7th Hue Architecture Studio. <b>ArchDaily</b>, 2021. Disponível em: https://www.archdaily.com.br/br/1002385/casa-celidonia-7th-hue-architecture-studio/648772507870723fb3adcef0-celandine-house-7th-hue-architecture-studio-photo. Acesso em: 24 jul. 2023. </p>
-        <p>WILSON, Edward. <b>Biophilia</b>. 12. ed. Londres: Harvard University Press, 1984. 168 p. </p>
-        <p>ZILLIACUS, Ariana. A complexa simplicidade da arquitetura iraniana. <b>ArchDaily</b>, 6 mar. 2017. Disponível em: https://www.archdaily.com.br/br/806435/a-complexa-simplicidade-da-arquitetura-iraniana/589cc4b3e58ecea9f9000011-the-simplicity-of-iranian-architectures-complex-geometry-photo. Acesso em: 24 jul. 2023.</p>
+          <h3><i>Urban jungle</i>: contexto e conceito</h3>
+          <p>
+            BARGOS, D. C., MATIAS, L. F. Áreas verdes urbanas: um estudo de
+            revisão e proposta conceitual. <b>RESBAU</b>, Piracicaba/SP, 2011.
+          </p>
+          <p>
+            BECKER, D.; SOLÉ, D.; TING, E.; EISENSTEIN, E.; MARTINS FILHO, J.;
+            FLEURY, L.; SILVA, L. R.; BARROS, M. I. A.; GHELMAN, R.; WEFFORT, V.
+            R. S.
+            <b
+              >Benefícios da natureza no desenvolvimento de crianças e
+              adolescentes</b
+            >. Manual de Orientação. São Paulo: Instituto Alana e Sociedade
+            Brasileira de Pediatria, 2019. Disponível em:
+            https://www.sbp.com.br/fileadmin/user_upload/manual_orientacao_sbp_cen_.pdf.
+            Acesso em: 30 jul. 2023.
+          </p>
+          <p>
+            FERREIRA, Adjalme Dias.
+            <b>Efeitos positivos gerados pelos parques urbanos</b>: o caso do
+            Passeio Público da Cidade do Rio de Janeiro. 2005. n. 111.
+            Dissertação (Mestrado em Ciência Ambiental) – PGCA da Universidade
+            Federal Fluminense, Rio de Janeiro, 2005. Disponível em:
+            https://app.uff.br/riuff/bitstream/handle/1/17160/ADFerreira.pdf?sequence=1.
+            Acesso em: 30 jul. 2023.
+          </p>
+          <p>
+            LORENZI, H. <b>Plantas para jardim no Brasil</b>: herbáceas,
+            arbustivas e trepadeiras. 2. ed. Nova Odessa/SP: Instituto Plantarm
+            de Estudos da Flora Ltda., 2015. 1120 p.
+          </p>
+          <p>
+            LORENZI, H.; MELLO FILHO, L. E. de.
+            <b>As plantas tropicais de R. Burle Marx</b> – The tropical plants
+            of R. Burle Marx. Nova Odessa/SP: Instituto Plantarum de Estudos da
+            Flora Ltda., 2001. 488 p.
+          </p>
+          <p>
+            ROMAHN, V.
+            <b>Grande enciclopédia natureza de plantas para o jardim</b>:
+            trepadeiras, cactos, suculentas, ervas e temperos. São Paulo:
+            Europa, v. 4, 2019. 631 p.
+          </p>
+          <p>
+            SOUZA, V. C.; LORENZI, H. <b>Botânica sistemática</b>: guia
+            ilustrado para identificação das famílias de fanerógamas nativas e
+            exóticas no Brasil. Baseado em APG IV. 4. ed. Nova Odessa/SP:
+            Instituto Plantarum de Estudos da Flora Ltda., 2019. 768 p.
+          </p>
 
-        <h3><i>Urban jungle</i>: contexto e conceito</h3>
-        <p>BARGOS, D. C., MATIAS, L. F. Áreas verdes urbanas: um estudo de revisão e proposta conceitual. <b>RESBAU</b>, Piracicaba/SP, 2011. </p>
-        <p>BECKER, D.; SOLÉ, D.; TING, E.; EISENSTEIN, E.; MARTINS FILHO, J.; FLEURY, L.; SILVA, L. R.; BARROS, M. I. A.; GHELMAN, R.; WEFFORT, V. R. S. <b>Benefícios da natureza no desenvolvimento de crianças e adolescentes</b>. Manual de Orientação. São Paulo: Instituto Alana e Sociedade Brasileira de Pediatria, 2019. Disponível em: https://www.sbp.com.br/fileadmin/user_upload/manual_orientacao_sbp_cen_.pdf. Acesso em: 30 jul. 2023. </p>
-        <p>FERREIRA, Adjalme Dias. <b>Efeitos positivos gerados pelos parques urbanos</b>: o caso do Passeio  Público da Cidade do Rio de Janeiro. 2005. n. 111. Dissertação (Mestrado em Ciência Ambiental) – PGCA da Universidade Federal Fluminense, Rio de Janeiro, 2005. Disponível em: https://app.uff.br/riuff/bitstream/handle/1/17160/ADFerreira.pdf?sequence=1. Acesso em: 30 jul. 2023. </p>
-        <p>LORENZI, H. <b>Plantas para jardim no Brasil</b>: herbáceas, arbustivas e trepadeiras. 2. ed. Nova Odessa/SP: Instituto Plantarm de Estudos da Flora Ltda., 2015. 1120 p. </p>
-        <p>LORENZI, H.; MELLO FILHO, L. E. de. <b>As plantas tropicais de R. Burle Marx</b> – The tropical plants of R. Burle Marx. Nova Odessa/SP: Instituto Plantarum de Estudos da Flora Ltda., 2001. 488 p. </p>
-        <p>ROMAHN, V. <b>Grande enciclopédia natureza de plantas para o jardim</b>: trepadeiras, cactos, suculentas, ervas e temperos. São Paulo: Europa, v. 4, 2019. 631 p. </p>
-        <p>SOUZA, V. C.; LORENZI, H. <b>Botânica sistemática</b>: guia ilustrado para identificação das famílias de fanerógamas nativas e exóticas no Brasil. Baseado em APG IV. 4. ed. Nova Odessa/SP: Instituto Plantarum de Estudos da Flora Ltda., 2019. 768 p.</p>
+          <h3>
+            Espécies vegetais: grupos (árvores, arbustos, floríferas,
+            frutíferas, herbáceas, hortícolas, forração, gramados e tóxicas),
+            tipos, cuidados, regionalidade, luminosidade (pleno sol, meia-sombra
+            e sombra) e tendências
+          </h3>
+          <p>
+            FIGUEIREDO, Ana Carolina C.
+            <b>Projetos de paisagismo e jardinagem</b>. Saraiva, 2021.
+            <i>E-book</i>. ISBN 9786589881117. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9786589881117/.
+            Acesso em: 26 jul. 2023.
+          </p>
+          <p>
+            LORENZI, H. <b>Plantas para jardim no Brasil</b>: herbáceas,
+            arbustivas e trepadeiras. 2. ed. Nova Odessa/SP: Instituto Plantarum
+            de Estudos da Flora Ltda., 2015. 1120 p.
+          </p>
+          <p>
+            OLIVO, Paula, B.; MANO, Cássia M. <b>Composição paisagística I</b>.
+            Grupo A, 2019. <i>E-book</i>. ISBN 9788595028951. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9788595028951/.
+            Acesso em: 26 jul. 2023.
+          </p>
+          <p>
+            RUSIN, Carine; OLIVEIRA, Lucas Martins de; SCOPEL, Vanessa G.
+            <i>et al</i>. <b>Floricultura e paisagismo</b>. Grupo A, 2021.
+            <i>E-book</i>. ISBN 9786556902630. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9786556902630/.
+            Acesso em: 26 jul. 2023.
+          </p>
+          <p>
+            SALVIATÍ, E. J. Tipos vegetais aplicados ao paisagismo.
+            <b>Paisagem e Ambiente</b>, [S. l.], n. 5, p. 9-45, 1993. Disponível
+            em: https://www.revistas.usp.br/paam/article/view/133781. Acesso em:
+            26 jul. 2023.
+          </p>
+          <p>
+            STÉDILE, Janaina A.; GALINATTI, Anna C. M.; GRABASCK, Jaqueline R.;
+            <i>et al</i>. <b>Composição de jardins</b>. Grupo A, 2020.
+            <i>E-book</i>. ISBN 9786581492502. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9786581492502/.
+            Acesso em: 26 jul. 2023.
+          </p>
+          <p>
+            VIANA, Viviane J.; RIBEIRO, Giselle Smocking Rosa B.
+            <b>Cultivo de plantas ornamentais</b>. Saraiva, 2014. <i>E-book</i>.
+            ISBN 9788536520605. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9788536520605/.
+            Acesso em: 26 jul. 2023.
+          </p>
 
-        <h3>Espécies vegetais: grupos (árvores, arbustos, floríferas, frutíferas, herbáceas, hortícolas, forração, gramados e tóxicas), tipos, cuidados, regionalidade, luminosidade (pleno sol, meia-sombra e sombra) e tendências</h3>
-        <p>FIGUEIREDO, Ana Carolina C. <b>Projetos de paisagismo e jardinagem</b>. Saraiva, 2021. <i>E-book</i>. ISBN 9786589881117. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786589881117/. Acesso em: 26 jul. 2023. </p>
-        <p>LORENZI, H. <b>Plantas para jardim no Brasil</b>: herbáceas, arbustivas e trepadeiras. 2. ed. Nova Odessa/SP: Instituto Plantarum de Estudos da Flora Ltda., 2015. 1120 p. </p>
-        <p>OLIVO, Paula, B.; MANO, Cássia M. <b>Composição paisagística I</b>. Grupo A, 2019. <i>E-book</i>. ISBN 9788595028951. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595028951/. Acesso em: 26 jul. 2023. </p>
-        <p>RUSIN, Carine; OLIVEIRA, Lucas Martins de; SCOPEL, Vanessa G. <i>et al</i>. <b>Floricultura e paisagismo</b>. Grupo A, 2021. <i>E-book</i>. ISBN 9786556902630. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786556902630/. Acesso em: 26 jul. 2023. </p>
-        <p>SALVIATÍ, E. J. Tipos vegetais aplicados ao paisagismo. <b>Paisagem e Ambiente</b>, [S. l.], n. 5, p. 9-45, 1993. Disponível em: https://www.revistas.usp.br/paam/article/view/133781. Acesso em: 26 jul. 2023. </p>
-        <p>STÉDILE, Janaina A.; GALINATTI, Anna C. M.; GRABASCK, Jaqueline R.; <i>et al</i>. <b>Composição de jardins</b>. Grupo A, 2020. <i>E-book</i>. ISBN 9786581492502. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786581492502/. Acesso em: 26 jul. 2023. </p>
-        <p>VIANA, Viviane J.; RIBEIRO, Giselle Smocking Rosa B. <b>Cultivo de plantas ornamentais</b>. Saraiva, 2014. <i>E-book</i>. ISBN 9788536520605. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788536520605/. Acesso em: 26 jul. 2023.</p>
+          <h3>Jardins</h3>
+          <p>
+            5 TIPOS de jardins para você escolher.
+            <b>Physis Gestão Ambiental</b>, c2023. Disponível em:
+            https://physisgestaoambiental.com.br/5-tipos-de-jardins-para-voce-escolher/.
+            Acesso em: 15 ago. 2023.
+          </p>
+          <p>
+            50 IDEIAS de jardinagem muito criativas. Tendencee, c2023.
+            Disponível em:
+            http://tendencee.com.br/2021/05/50-ideias-de-jardinagem-muito-criativas/.
+            Acesso em: 25 jul. 2023.
+          </p>
+          <p>
+            ANNA. Jardim simples: como fazer e 60 inspirações com fotos.
+            <b>Ideias Decor</b>, 27 abr. 2023. Disponível em:
+            https://www.ideiasdecor.com/jardim-simples/. Acesso em: 15 ago.
+            2023.
+          </p>
+          <p>
+            BARRETO, Bianca. Painel verde feito com grade de janela e fibra de
+            coco – Jardim vertical de Rhipsalis ou Cacto Macarrão.
+            <b><i>Blog</i> Madame Criativa</b>, 17 set. 2013. Disponível em:
+            http://www.madamecriativa.com.br/blog/painel-verde-feito-com-grade-de-janela-e-fibra-de-coco-jardim-vertical-de-rhipsalis-ou-cacto-macarro.
+            Acesso em: 14 ago. 2023.
+          </p>
+          <p>
+            BLOCO jardim vertical. <b>Três Marias Acabamentos</b>, [s. d.].
+            Disponível em:
+            https://www.tresmariasacabamentos.com.br/produto/59/jardim_vertical.html.
+            Acesso em: 14 ago. 2023.
+          </p>
+          <p>
+            BUI, Minq. <i>In</i>: Villa City / Story Architecture.
+            <b>ArchDaily</b>, 2021. Disponível em:
+            https://www.archdaily.com/957413/villa-city-story-architecture?ad_medium=gallery.
+            Acesso em: 14ago. 2023.
+          </p>
+          <p>
+            CARDOSO, Sílvia. 31 Jardins para a entrada que vão impressionar.
+            <b>Homify</b>, 4 dez. 2017. Disponível em:
+            https://www.homify.pt/livros_de_ideias/4466304/31-jardins-para-a-entrada-que-o-vao-impressionar.
+            Acesso: 14 ago. 2023.
+          </p>
+          <p>
+            CASTELLO, Edu. <i>In</i>: ALCANTARA, Alex. Como fazer um canteiro de
+            horta no quintal? Inspire-se em 9 projetos! <b>Casa e Jardim</b>, 8
+            abr. 2021. Disponível em:
+            https://revistacasaejardim.globo.com/Casa-e-Jardim/Paisagismo/noticia/2021/04/como-fazer-um-canteiro-de-horta-no-quintal-inspire-se-em-9-projetos.html.
+            Acesso em: 14 ago. 2023.
+          </p>
+          <p>
+            CAXIAS do Sul (RS) instala ponto de ônibus com teto verde que produz
+            energia solar. <b>Razões para Acreditar</b>, 10 abr. 2017.
+            Disponível em:
+            https://razoesparaacreditar.com/caixas-do-sul-ponto-de-onibus-teto-verde-que-energia-solar/.
+            Acesso em: 14 ago. 2023.
+          </p>
+          <p>
+            FERNANDES, Amanda. Jardim tropical: como fazer, como cuidar,
+            conceito e 60+ fotos para se Inspirar. <b>Arkpad</b>, 6 ago. 2021.
+            Disponível em: https://arkpad.com.br/jardim-tropical/. Acesso em: 25
+            jul. 2023.
+          </p>
+          <p>
+            FIGUEIREDO, Ana Carolina C.
+            <b>Projetos de paisagismo e jardinagem</b>. Saraiva, 2021.
+            <i>E-book</i>. ISBN 9786589881117. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9786589881117/.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            FORMENTIN, Silvano. A magia dos jardins italianos.
+            <b><i>Blog</i> do Silvano</b>, 3 jun. 2021. Disponível em:
+            https://www.blogdosilvano.com.br/post/a-magia-dos-jardins-italianos.
+            Acesso em: 25 jul. 2023.
+          </p>
+          <p>
+            GALINATTI, Anna C. M.; GRABASCK, Jaqueline R.; SCOPEL, Vanessa G.
+            <b>Projeto de paisagismo I</b>. Grupo A, 2019. <i>E-book</i>. ISBN
+            9788533500051. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9788533500051/.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            GALINATTI, Anna C. M.; SOUZA, Dulce A.; BARBOSA, Laura J. L.
+            <i>et al</i>. <b>Teoria da arquitetura e da paisagem</b>. Grupo A,
+            2022. <i>E-book</i>. ISBN 9786556901381. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9786556901381/.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            INSON, Nathalia. Vaso suspenso: +53 Modelos para você criar um
+            jardim particular. <b><i>Blog</i> Viva Decora</b>, 23 dez. 2020
+            Disponível em: https://www.vivadecora.com.br/revista/vaso-suspenso/.
+            Acesso em: 14 ago. 2023.
+          </p>
+          <p>
+            JARDIM vertical, saiba como criar e alegrar as paredes da sua casa.
+            <b>Terral</b>, 25 ago. 2015. Disponível em:
+            http://terral.agr.br/plus/modulos/noticias/ler.php?cdnoticia=19.
+            Acesso em: 14 ago. 2023.
+          </p>
+          <p>
+            JARDIM vertical. <b>Eco Green</b>, c2016.Disponível em:
+            https://www.ecogreen.com.br/produtos/jardim-vertical#group-19.
+            Acesso em: 14 ago. 2023.
+          </p>
+          <p>
+            JARDIM: conheça todos os estilos. <b>Casa Vogue</b>, 20 abr. 2018.
+            Disponível em:
+            https://casavogue.globo.com/arquitetura/paisagismo/noticia/2018/04/jardim-conheca-todos-os-estilos.ghtml.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            JARDINS do Palácio de Versalhes. <b>Versailles Palace Tickets</b>,
+            c2023. Disponível em:
+            https://www.versailles-palace-tickets.com/pt/versailles-gardens/.
+          </p>
+          <p>
+            LIMA JR., João. 12 Ideias de suportes para plantas.
+            <b><i>Blog Design</i> Innova</b>, 11 abr. 2016. Disponível em:
+            https://designinnova.blogspot.com/2016/04/12-ideias-de-suportes-para-plantas.html.
+            Acesso. 14 ago. 2023.
+          </p>
+          <p>
+            LIMA, Felipe. <i>In</i>: JARDIM vertical: como escolher a estrutura,
+            posicionamento e irrigação. <b>Casa Abril</b>, 27 mar. 2023.
+            Disponível em:
+            https://casa.abril.com.br/jardins-e-hortas/jardim-vertical-como-escolher-estrutura-posicionamento-irrigacao.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            MIER, Alvaro. <i>In</i>: MATERIAIS naturais envolvem o Jardín de
+            Piedra na Casacor Bolívia 2021. <b>Casacor</b>, 25 maio 2021.
+            Disponível em:
+            https://casacor.abril.com.br/ambientes/jardin-de-piedra-casacor-bolivia-2021/.
+            Acesso em: 15 ago. 2023.
+          </p>
+          <p>
+            NAZARETH, André. <i>In</i>: DRUMOND, Fernanda. A casa viva: 5
+            jardins da Casacor 2018 celebram a natureza. <b>Casacor</b>, 10 out.
+            2018. Disponível em:
+            https://casacor.abril.com.br/paisagismo/a-casa-viva-5-jardins-da-casacor-2018-celebram-a-natureza/.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            OKI, Hirouyki. <i>In</i>: BALDWIN, Eric. Biofilia: trazendo a
+            natureza para dentro de casa. <b>ArchDaily</b>, 17 mar. 2020.
+            Disponível em:
+            https://www.archdaily.com.br/br/935460/biofilia-trazendo-a-natureza-para-dentro-de-casa.
+            Acesso em: 15 ago. 2023.
+          </p>
+          <p>
+            OLIVEIRA, Andressa. Dicas profissionais e ideias para ter um jardim
+            de inverno em casa. <b>Tua Casa</b>, 22 fev. 2023. Disponível em:
+            https://www.tuacasa.com.br/jardim-de-inverno/. Acesso em: 23 jul.
+            2023.
+          </p>
+          <p>
+            PARENTE, Fran. <i>In</i>: ÁREA externa perfeita para receber.
+            <b>Casa de Valentina</b>, 2 dez. 2022. Disponível em:
+            https://www.casadevalentina.com.br/projeto/area-externa-perfeita-para-receber/.
+            Acesso em: 14 ago. 2023.
+          </p>
+          <p>
+            RUSIN, Carine; OLIVEIRA, Lucas Martins de; SCOPEL, Vanessa G.
+            <i>et al</i>. <b>Floricultura e paisagismo</b>. Porto Alegre: Sagah,
+            Grupo A, 2021. <i>E-book</i>. ISBN 9786556902630. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9786556902630/.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            SOUZA, Kyn. Cachepot: 35 modelos e vasos para decorar com charme a
+            sua casa. <b>Casa.com.br</b>, 22 nov. 2022. Disponível em:
+            https://casa.abril.com.br/jardins-e-hortas/cachepot-vasos-como-decorar.
+            Acesso em: 14 ago. 2023.
+          </p>
+          <p>
+            STÉDILE, Janaina A.; GALINATTI, Anna C. M.; GRABASCK, Jaqueline R.
+            <i>et al</i>. <b>Composição de jardins</b>. Porto Alegre: Sagah,
+            Grupo A, 2020. <i>E-book</i>. ISBN 9786581492502. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9786581492502/.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            TAGLIANI, Simone. Sabia que existem diferentes estilos de jardins?
+            Conheça as características de cada um deles.
+            <b><i>Blog</i> da Arquitetura</b>, 8 mar. 2018. Disponível em:
+            https://blogdaarquitetura.com/sabia-que-existem-diferentes-estilos-de-jardins-conheca-as-caracteristicas-de-cada-um-deles/.
+            Acesso em: 23 jul. 2023.
+          </p>
+          <p>
+            TIPOS de palmeiras: conheça 10 espécies mais utilizadas em jardins.
+            <b>Decor Fácil</b>, 27 abr. 2023. Disponível em:
+            https://www.decorfacil.com/tipos-de-palmeiras/. Acesso em: 14 ago.
+            2023.
+          </p>
+          <p>
+            TOSI, Bruna. Vaso de parede: +56 ideias lindas para decorar sua
+            casa. <b><i>Blog</i> Viva Decora</b>, 12 jun. 2020. Disponível em:
+            https://www.vivadecora.com.br/revista/vaso-de-parede/. Acesso em: 14
+            ago. 2023.
+          </p>
+          <p>
+            TRINDADE, Sidnei. Jardim sensorial – Apurando os cinco sentidos.
+            <b>Jardinagem e Paisagismo</b>, 2021. Disponível em:
+            https://jardinagemepaisagismo.com/jardim-sensorial-apurando-os-cinco-sentidos/.
+            Acesso em: 31 ago. 2023.
+          </p>
+          <p>
+            VIEIRA, Dai. Como decorar a varanda da sua casa e deixá-la
+            aconchegante. <b>Crescendo aos Poucos</b>, 29 ago. 2019. Disponível
+            em:
+            https://crescendoaospoucos.com/2019/08/29/como-decorar-a-varanda-da-sua-casa-e-deixa-la-aconchegante/.
+            Acesso em: 14 ago. 2023.
+          </p>
+          <p>
+            WEISS, Celia. <i>In</i>: ZAGO, Mayara; DURANTE, Stéphanie. Como
+            funciona um jardim vertical? <b>Casa e Jardim</b>, 27 dez. 2018.
+            Disponível em:
+            https://revistacasaejardim.globo.com/Casa-e-Jardim/Paisagismo/noticia/2018/12/como-funciona-um-jardim-vertical.html.
+            Acesso em: 14 ago. 2023.
+          </p>
 
-        <h3>Jardins</h3>
-        <p>5 TIPOS de jardins para você escolher. <b>Physis Gestão Ambiental</b>, c2023. Disponível em: https://physisgestaoambiental.com.br/5-tipos-de-jardins-para-voce-escolher/. Acesso em: 15 ago. 2023. </p>
-        <p>50 IDEIAS de jardinagem muito criativas. Tendencee, c2023. Disponível em: http://tendencee.com.br/2021/05/50-ideias-de-jardinagem-muito-criativas/. Acesso em: 25 jul. 2023. </p>
-        <p>ANNA. Jardim simples: como fazer e 60 inspirações com fotos. <b>Ideias Decor</b>, 27 abr. 2023. Disponível em: https://www.ideiasdecor.com/jardim-simples/. Acesso em: 15 ago. 2023. </p>
-        <p>BARRETO, Bianca. Painel verde feito com grade de janela e fibra de coco – Jardim vertical de Rhipsalis ou Cacto Macarrão. <b><i>Blog</i> Madame Criativa</b>, 17 set. 2013. Disponível em: http://www.madamecriativa.com.br/blog/painel-verde-feito-com-grade-de-janela-e-fibra-de-coco-jardim-vertical-de-rhipsalis-ou-cacto-macarro. Acesso em: 14 ago. 2023. </p>
-        <p>BLOCO jardim vertical. <b>Três Marias Acabamentos</b>, [s. d.]. Disponível em: https://www.tresmariasacabamentos.com.br/produto/59/jardim_vertical.html. Acesso em: 14 ago. 2023. </p>
-        <p>BUI, Minq. <i>In</i>: Villa City / Story Architecture. <b>ArchDaily</b>, 2021. Disponível em: https://www.archdaily.com/957413/villa-city-story-architecture?ad_medium=gallery. Acesso em: 14ago. 2023. </p>
-        <p>CARDOSO, Sílvia. 31 Jardins para a entrada que vão impressionar. <b>Homify</b>, 4 dez. 2017. Disponível em: https://www.homify.pt/livros_de_ideias/4466304/31-jardins-para-a-entrada-que-o-vao-impressionar. Acesso: 14 ago. 2023. </p>
-        <p>CASTELLO, Edu. <i>In</i>: ALCANTARA, Alex. Como fazer um canteiro de horta no quintal? Inspire-se em 9 projetos! <b>Casa e Jardim</b>, 8 abr. 2021. Disponível em: https://revistacasaejardim.globo.com/Casa-e-Jardim/Paisagismo/noticia/2021/04/como-fazer-um-canteiro-de-horta-no-quintal-inspire-se-em-9-projetos.html. Acesso em: 14 ago. 2023. </p>
-        <p>CAXIAS do Sul (RS) instala ponto de ônibus com teto verde que produz energia solar. <b>Razões para Acreditar</b>, 10 abr. 2017. Disponível em: https://razoesparaacreditar.com/caixas-do-sul-ponto-de-onibus-teto-verde-que-energia-solar/. Acesso em: 14 ago. 2023. </p>
-        <p>FERNANDES, Amanda. Jardim tropical: como fazer, como cuidar, conceito e 60+ fotos para se Inspirar. <b>Arkpad</b>, 6 ago. 2021. Disponível em: https://arkpad.com.br/jardim-tropical/. Acesso em: 25 jul. 2023. </p>
-        <p>FIGUEIREDO, Ana Carolina C. <b>Projetos de paisagismo e jardinagem</b>. Saraiva, 2021. <i>E-book</i>. ISBN 9786589881117. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786589881117/. Acesso em: 23 jul. 2023. </p>
-        <p>FORMENTIN, Silvano. A magia dos jardins italianos. <b><i>Blog</i> do Silvano</b>, 3 jun. 2021. Disponível em: https://www.blogdosilvano.com.br/post/a-magia-dos-jardins-italianos. Acesso em: 25 jul. 2023. </p>
-        <p>GALINATTI, Anna C. M.; GRABASCK, Jaqueline R.; SCOPEL, Vanessa G. <b>Projeto de paisagismo I</b>. Grupo A, 2019. <i>E-book</i>. ISBN 9788533500051. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788533500051/. Acesso em: 23 jul. 2023. </p>
-        <p>GALINATTI, Anna C. M.; SOUZA, Dulce A.; BARBOSA, Laura J. L. <i>et al</i>. <b>Teoria da arquitetura e da paisagem</b>. Grupo A, 2022. <i>E-book</i>. ISBN 9786556901381. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786556901381/. Acesso em: 23 jul. 2023. </p>
-        <p>INSON, Nathalia. Vaso suspenso: +53 Modelos para você criar um jardim particular. <b><i>Blog</i> Viva Decora</b>, 23 dez. 2020 Disponível em: https://www.vivadecora.com.br/revista/vaso-suspenso/. Acesso em: 14 ago. 2023. </p>
-        <p>JARDIM vertical, saiba como criar e alegrar as paredes da sua casa. <b>Terral</b>, 25 ago. 2015. Disponível em: http://terral.agr.br/plus/modulos/noticias/ler.php?cdnoticia=19. Acesso em: 14 ago. 2023. </p>
-        <p>JARDIM vertical. <b>Eco Green</b>, c2016.Disponível em: https://www.ecogreen.com.br/produtos/jardim-vertical#group-19. Acesso em: 14 ago. 2023. </p>
-        <p>JARDIM: conheça todos os estilos. <b>Casa Vogue</b>, 20 abr. 2018. Disponível em: https://casavogue.globo.com/arquitetura/paisagismo/noticia/2018/04/jardim-conheca-todos-os-estilos.ghtml. Acesso em: 23 jul. 2023. </p>
-        <p>JARDINS do Palácio de Versalhes. <b>Versailles Palace Tickets</b>, c2023. Disponível em: https://www.versailles-palace-tickets.com/pt/versailles-gardens/. </p>
-        <p>LIMA JR., João. 12 Ideias de suportes para plantas. <b><i>Blog Design</i> Innova</b>, 11 abr. 2016. Disponível em: https://designinnova.blogspot.com/2016/04/12-ideias-de-suportes-para-plantas.html. Acesso. 14 ago. 2023. </p>
-        <p>LIMA, Felipe. <i>In</i>: JARDIM vertical: como escolher a estrutura, posicionamento e irrigação. <b>Casa Abril</b>, 27 mar. 2023. Disponível em: https://casa.abril.com.br/jardins-e-hortas/jardim-vertical-como-escolher-estrutura-posicionamento-irrigacao. Acesso em: 23 jul. 2023. </p>
-        <p>MIER, Alvaro. <i>In</i>: MATERIAIS naturais envolvem o Jardín de Piedra na Casacor Bolívia 2021. <b>Casacor</b>, 25 maio 2021. Disponível em: https://casacor.abril.com.br/ambientes/jardin-de-piedra-casacor-bolivia-2021/. Acesso em: 15 ago. 2023. </p>
-        <p>NAZARETH, André. <i>In</i>: DRUMOND, Fernanda. A casa viva: 5 jardins da Casacor 2018 celebram a natureza. <b>Casacor</b>, 10 out. 2018. Disponível em: https://casacor.abril.com.br/paisagismo/a-casa-viva-5-jardins-da-casacor-2018-celebram-a-natureza/. Acesso em: 23 jul. 2023. </p>
-        <p>OKI, Hirouyki. <i>In</i>: BALDWIN, Eric. Biofilia: trazendo a natureza para dentro de casa. <b>ArchDaily</b>, 17 mar. 2020. Disponível em: https://www.archdaily.com.br/br/935460/biofilia-trazendo-a-natureza-para-dentro-de-casa. Acesso em: 15 ago. 2023. </p>
-        <p>OLIVEIRA, Andressa. Dicas profissionais e ideias para ter um jardim de inverno em casa. <b>Tua Casa</b>, 22 fev. 2023. Disponível em: https://www.tuacasa.com.br/jardim-de-inverno/. Acesso em: 23 jul. 2023. </p>
-        <p>PARENTE, Fran. <i>In</i>: ÁREA externa perfeita para receber. <b>Casa de Valentina</b>, 2 dez. 2022. Disponível em: https://www.casadevalentina.com.br/projeto/area-externa-perfeita-para-receber/. Acesso em: 14 ago. 2023. </p>
-        <p>RUSIN, Carine; OLIVEIRA, Lucas Martins de; SCOPEL, Vanessa G. <i>et al</i>. <b>Floricultura e paisagismo</b>. Porto Alegre: Sagah, Grupo A, 2021. <i>E-book</i>. ISBN 9786556902630. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786556902630/. Acesso em: 23 jul. 2023. </p>
-        <p>SOUZA, Kyn. Cachepot: 35 modelos e vasos para decorar com charme a sua casa. <b>Casa.com.br</b>, 22 nov. 2022. Disponível em: https://casa.abril.com.br/jardins-e-hortas/cachepot-vasos-como-decorar. Acesso em: 14 ago. 2023. </p>
-        <p>STÉDILE, Janaina A.; GALINATTI, Anna C. M.; GRABASCK, Jaqueline R. <i>et al</i>. <b>Composição de jardins</b>. Porto Alegre: Sagah, Grupo A, 2020. <i>E-book</i>. ISBN 9786581492502. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786581492502/. Acesso em: 23 jul. 2023. </p>
-        <p>TAGLIANI, Simone. Sabia que existem diferentes estilos de jardins? Conheça as características de cada um deles. <b><i>Blog</i> da Arquitetura</b>, 8 mar. 2018. Disponível em: https://blogdaarquitetura.com/sabia-que-existem-diferentes-estilos-de-jardins-conheca-as-caracteristicas-de-cada-um-deles/. Acesso em: 23 jul. 2023. </p>
-        <p>TIPOS de palmeiras: conheça 10 espécies mais utilizadas em jardins. <b>Decor Fácil</b>, 27 abr. 2023. Disponível em: https://www.decorfacil.com/tipos-de-palmeiras/. Acesso em: 14 ago. 2023. </p>
-        <p>TOSI, Bruna. Vaso de parede: +56 ideias lindas para decorar sua casa. <b><i>Blog</i> Viva Decora</b>, 12 jun. 2020. Disponível em: https://www.vivadecora.com.br/revista/vaso-de-parede/. Acesso em: 14 ago. 2023. </p>
-        <p>TRINDADE, Sidnei. Jardim sensorial – Apurando os cinco sentidos. <b>Jardinagem e Paisagismo</b>, 2021. Disponível em: https://jardinagemepaisagismo.com/jardim-sensorial-apurando-os-cinco-sentidos/. Acesso em: 31 ago. 2023. </p>
-        <p>VIEIRA, Dai. Como decorar a varanda da sua casa e deixá-la aconchegante. <b>Crescendo aos Poucos</b>, 29 ago. 2019. Disponível em: https://crescendoaospoucos.com/2019/08/29/como-decorar-a-varanda-da-sua-casa-e-deixa-la-aconchegante/. Acesso em: 14 ago. 2023. </p>
-        <p>WEISS, Celia. <i>In</i>: ZAGO, Mayara; DURANTE, Stéphanie. Como funciona um jardim vertical? <b>Casa e Jardim</b>, 27 dez. 2018. Disponível em: https://revistacasaejardim.globo.com/Casa-e-Jardim/Paisagismo/noticia/2018/12/como-funciona-um-jardim-vertical.html. Acesso em: 14 ago. 2023.</p>
-
-        <h3>Projeto de jardinismo: etapas, <i>briefing</i>, levantamento de dados, plano de massa, estudo preliminar, anteprojeto, projeto executivo de plantio e memorial descritivo</h3>
-        <p>ABBUD, B. <b>Criando paisagens</b>: guia de trabalho em arquitetura paisagística. São Paulo: Senac, 2010. </p>
-        <p>BAUER, Cornelia von Ammon. Projetos. <b>Ação</b>, c2012. Disponível em: http://www.acaodecor.com.br/projetos/. Acesso em: 21 set. 2023.</p>
-        <p>CZERWINSKI, Pawel. Pintura do campo de cultivo. <b>Unsplash</b>, 6 set. 2018. Disponível em: https://unsplash.com/pt-br/fotografias/_JveVaFqsfQ. Acesso em: 27 jun. 2023. </p>
-        <p>FARR, Douglas. <b>Urbanismo sustentável</b>: desenho urbano com a natureza. Grupo A, 2013. </p>
-        <p>FICUS. <b>Inspira Flora</b>, c 2023. Disponível em: https://inspiraflora.com.br/search?type=product&q=fícus. Acesso em 24 julho 2023. </p>
-        <p>FIGUEIREDO, Ana Carolina C. <b>Projetos de paisagismo e jardinagem</b>. Saraiva, 2021. <i>E-book</i>. ISBN 9786589881117. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9786589881117/. Acesso em: 26 jul. 2023. </p>
-        <p>NIEMEYER, Carlos Augusto da Costa. <b>Paisagismo no planejamento arquitetônico</b>. 3. ed. Uberlândia: Edufu, 2019. </p>
-        <p>OLIVO, Paula, B.; MANO, Cássia M. <b>Composição paisagística I</b>. Grupo A, 2019. Disponível em: https://integrada.minhabiblioteca.com.br/#/books/9788595028951/. Acesso em: 24 jul. 2016. </p>
-        <p>SAAB, Loo. Croqui de um projeto realizado por mim em parceria com o Atelier Plural. <b>Pinterest</b>, [s. d.]. Disponível em: https://br.pinterest.com/pin/68891069274969376/. Acesso em: 4 set. 2023. </p>
-      </div>
-    </section>
-    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
-    <footer class="text-center no-print">
-      <!--
+          <h3>
+            Projeto de jardinismo: etapas, <i>briefing</i>, levantamento de
+            dados, plano de massa, estudo preliminar, anteprojeto, projeto
+            executivo de plantio e memorial descritivo
+          </h3>
+          <p>
+            ABBUD, B. <b>Criando paisagens</b>: guia de trabalho em arquitetura
+            paisagística. São Paulo: Senac, 2010.
+          </p>
+          <p>
+            BAUER, Cornelia von Ammon. Projetos. <b>Ação</b>, c2012. Disponível
+            em: http://www.acaodecor.com.br/projetos/. Acesso em: 21 set. 2023.
+          </p>
+          <p>
+            CZERWINSKI, Pawel. Pintura do campo de cultivo. <b>Unsplash</b>, 6
+            set. 2018. Disponível em:
+            https://unsplash.com/pt-br/fotografias/_JveVaFqsfQ. Acesso em: 27
+            jun. 2023.
+          </p>
+          <p>
+            FARR, Douglas. <b>Urbanismo sustentável</b>: desenho urbano com a
+            natureza. Grupo A, 2013.
+          </p>
+          <p>
+            FICUS. <b>Inspira Flora</b>, c 2023. Disponível em:
+            https://inspiraflora.com.br/search?type=product&q=fícus. Acesso em
+            24 julho 2023.
+          </p>
+          <p>
+            FIGUEIREDO, Ana Carolina C.
+            <b>Projetos de paisagismo e jardinagem</b>. Saraiva, 2021.
+            <i>E-book</i>. ISBN 9786589881117. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9786589881117/.
+            Acesso em: 26 jul. 2023.
+          </p>
+          <p>
+            NIEMEYER, Carlos Augusto da Costa.
+            <b>Paisagismo no planejamento arquitetônico</b>. 3. ed. Uberlândia:
+            Edufu, 2019.
+          </p>
+          <p>
+            OLIVO, Paula, B.; MANO, Cássia M. <b>Composição paisagística I</b>.
+            Grupo A, 2019. Disponível em:
+            https://integrada.minhabiblioteca.com.br/#/books/9788595028951/.
+            Acesso em: 24 jul. 2016.
+          </p>
+          <p>
+            SAAB, Loo. Croqui de um projeto realizado por mim em parceria com o
+            Atelier Plural. <b>Pinterest</b>, [s. d.]. Disponível em:
+            https://br.pinterest.com/pin/68891069274969376/. Acesso em: 4 set.
+            2023.
+          </p>
+        </div>
+      </section>
+      <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+      <footer class="text-center no-print">
+        <!--
           <ul class="pagination">
 
           </ul>
           -->
-    </footer>
+      </footer>
+    </div>
 
-  </div>
+    <!-- Modais -->
 
+    <!-- Modais 100% -->
 
-  <!-- Modais -->
-
-
-  <!-- Modais 100% -->
-
-
-  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
     <footer>
     </footer>
 	-->
-  <!-- carrega todas as imagens dos icones nesta div
+    <!-- carrega todas as imagens dos icones nesta div
  caso queira adicionar mais imagens de novos icones do css,
  ou qualquer imagem que deva ser contabilizada durante a fase
  de loading, referenciar aqui.
  -->
-  <div class="ico-div-loader">
-    <img src="../template/images/atencao.png">
-    <img src="../template/images/bg-content.jpg">
-    <img src="../template/images/bg-topo.jpg">
-    <img src="../template/images/black-zoom-in-256.png">
-    <img src="../template/images/concluindo.png">
-    <img src="../template/images/curtir.png">
-    <img src="../template/images/desafio.png">
-    <img src="../template/images/dica.png">
-    <img src="../template/images/doc.png">
-    <img src="../template/images/fundamental.png">
-    <img src="../template/images/icon-03.png">
-    <img src="../template/images/importante.png">
-    <img src="../template/images/lightbulb.png">
-    <img src="../template/images/link.png">
-    <img src="../template/images/link_pdf_hover.png">
-    <img src="../template/images/link_pdf_normal.png">
-    <img src="../template/images/logo-senac.png">
-    <img src="../template/images/mark-icon.png">
-    <img src="../template/images/mark-icon02.png">
-    <img src="../template/images/midia.png">
-    <img src="../template/images/monitor.png">
-    <img src="../template/images/nao_curtir.png">
-    <img src="../template/images/pergunta.png">
-    <img src="../template/images/pesquisa.png">
-    <img src="../template/images/play.png">
-    <img src="../template/images/radio_flat.png">
-    <img src="../template/images/refletir.png">
-    <img src="../template/images/saiba_mais.png">
-    <img src="../template/images/senac_loader.png">
-    <img src="../template/images/tanamidia.png">
-    <img src="../template/images/transcricao.png">
-    <img src="../template/images/transcricao_small.png">
-    <img src="../template/images/tv.png">
-    <img src="../template/images/tv_bottom.png">
-    <img src="../template/images/zoom.png">
-    <img src="../template/images/zoom_ie.cur">
-    <img src="../template/images/zoom_ie.png">
-    <!-- adicionar as imagens customizadas aqui abaixo -->
-  </div>
+    <div class="ico-div-loader">
+      <img src="../template/images/atencao.png" />
+      <img src="../template/images/bg-content.jpg" />
+      <img src="../template/images/bg-topo.jpg" />
+      <img src="../template/images/black-zoom-in-256.png" />
+      <img src="../template/images/concluindo.png" />
+      <img src="../template/images/curtir.png" />
+      <img src="../template/images/desafio.png" />
+      <img src="../template/images/dica.png" />
+      <img src="../template/images/doc.png" />
+      <img src="../template/images/fundamental.png" />
+      <img src="../template/images/icon-03.png" />
+      <img src="../template/images/importante.png" />
+      <img src="../template/images/lightbulb.png" />
+      <img src="../template/images/link.png" />
+      <img src="../template/images/link_pdf_hover.png" />
+      <img src="../template/images/link_pdf_normal.png" />
+      <img src="../template/images/logo-senac.png" />
+      <img src="../template/images/mark-icon.png" />
+      <img src="../template/images/mark-icon02.png" />
+      <img src="../template/images/midia.png" />
+      <img src="../template/images/monitor.png" />
+      <img src="../template/images/nao_curtir.png" />
+      <img src="../template/images/pergunta.png" />
+      <img src="../template/images/pesquisa.png" />
+      <img src="../template/images/play.png" />
+      <img src="../template/images/radio_flat.png" />
+      <img src="../template/images/refletir.png" />
+      <img src="../template/images/saiba_mais.png" />
+      <img src="../template/images/senac_loader.png" />
+      <img src="../template/images/tanamidia.png" />
+      <img src="../template/images/transcricao.png" />
+      <img src="../template/images/transcricao_small.png" />
+      <img src="../template/images/tv.png" />
+      <img src="../template/images/tv_bottom.png" />
+      <img src="../template/images/zoom.png" />
+      <img src="../template/images/zoom_ie.cur" />
+      <img src="../template/images/zoom_ie.png" />
+      <!-- adicionar as imagens customizadas aqui abaixo -->
+    </div>
 
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="../template/js/jquery.min.js"></script>
-  <script src="../template/js/bootstrap.min.js"></script>
-  <script src="../template/js/jquery.magnific-popup.min.js"></script>
-  <script src="../template/js/print.js"></script>
-  <script src="../template/js/template.config.js"></script>
-  <script src="../template/js/images.loader.js"></script>
-  <script src="../template/js/highlight.min.js"></script>
-  <script src="../template/js/parallax.min.js"></script>
-  <noscript>
-    <style media="screen">
-      .over-loader {
-        display: none;
-      }
-    </style>
-  </noscript>
-</body>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../template/js/jquery.min.js"></script>
+    <script src="../template/js/bootstrap.min.js"></script>
+    <script src="../template/js/jquery.magnific-popup.min.js"></script>
+    <script src="../template/js/print.js"></script>
+    <script src="../template/js/template.config.js"></script>
+    <script src="../template/js/images.loader.js"></script>
+    <script src="../template/js/highlight.min.js"></script>
+    <script src="../template/js/parallax.min.js"></script>
+    <noscript>
+      <style media="screen">
+        .over-loader {
+          display: none;
+        }
+      </style>
+    </noscript>
+  </body>
 </html>
 <script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-    document.querySelectorAll('pre code').forEach((el) => {
+  document.addEventListener("DOMContentLoaded", (event) => {
+    document.querySelectorAll("pre code").forEach((el) => {
       hljs.highlightElement(el);
     });
   });
   //inicializa zoom na imagem
-  $('.zoom-imagem').magnificPopup({
-    type: 'image',
-    mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+  $(".zoom-imagem").magnificPopup({
+    type: "image",
+    mainClass: "mfp-with-zoom", // this class is for CSS animation below
     zoom: {
       enabled: true, // By default it's false, so don't forget to enable it
 
       duration: 300, // duration of the effect, in milliseconds
-      easing: 'ease-in-out', // CSS transition easing function
+      easing: "ease-in-out", // CSS transition easing function
 
       // The "opener" function should return the element from which popup will be zoomed in
       // and to which popup will be scaled down
@@ -337,36 +1072,42 @@
       opener: function (openerElement) {
         // openerElement is the element on which popup was initialized, in this case its <a> tag
         // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-        return openerElement.is('img') ? openerElement : openerElement.find('img');
-      }
+        return openerElement.is("img")
+          ? openerElement
+          : openerElement.find("img");
+      },
     },
     image: {
-      markup: '<div class="mfp-figure">' +
+      markup:
+        '<div class="mfp-figure">' +
         '<div class="mfp-close"></div>' +
         '<div class="mfp-img"></div>' + // Floated left
-        '<div class="mfp-bottom-bar">' + '<figcaption>' + '<div class="mfp-title" style="text-align:center"></div>' +
-        '<div class="mfp-counter"></div>' + '</figcaption>' +
-        '</div>' +
-        '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+        '<div class="mfp-bottom-bar">' +
+        "<figcaption>" +
+        '<div class="mfp-title" style="text-align:center"></div>' +
+        '<div class="mfp-counter"></div>' +
+        "</figcaption>" +
+        "</div>" +
+        "</div>", // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
 
-      cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+      cursor: "mfp-zoom-out-cur", // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
 
-      tError: '<a href="%url%">A imagem</a> não pode ser carregada.' // Error message
-    }
+      tError: '<a href="%url%">A imagem</a> não pode ser carregada.', // Error message
+    },
   });
 
   //inicializa popover
   $(function () {
-    $('[data-toggle="popover"]').popover()
-  })
+    $('[data-toggle="popover"]').popover();
+  });
   //inicializa tooltip
   $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 
   /*------- Script de animação do botão -------*/
   var root = document.documentElement;
-  root.className += ' js';
+  root.className += " js";
 
   function boxTop(idBox) {
     var boxOffset = $(idBox).offset().top;
@@ -374,12 +1115,12 @@
   }
 
   $(document).ready(function () {
-    var $target = $('.animeStart'),
-      $target2 = $('.animeStop'),
-      targetBox = $('.box'),
-      animationClass = 'anime-init',
+    var $target = $(".animeStart"),
+      $target2 = $(".animeStop"),
+      targetBox = $(".box"),
+      animationClass = "anime-init",
       windowHeight = $(window).height(),
-      offset = windowHeight - (windowHeight / 4);
+      offset = windowHeight - windowHeight / 4;
 
     function animeScroll() {
       var documentTop = $(document).scrollTop();
@@ -400,15 +1141,13 @@
       animeScroll();
     });
   });
-
-
 </script>
 
 <script>
   var scriptElem = document.createElement("script");
-  scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
-    scriptElem.charset = "UTF-8",
-    scriptElem.onload = function () {
+  (scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js"),
+    (scriptElem.charset = "UTF-8"),
+    (scriptElem.onload = function () {
       window.ht = new HT({
         token: "bf5b7efb148a829a126a0e0c9fd533bf",
         align: "top",
@@ -422,11 +1161,11 @@
             size: "38px",
             horizontalMargin: "13px",
             bottomMargin: "140px",
-            rightMargin: "40px"
-          }
-        }
+            rightMargin: "40px",
+          },
+        },
       });
-      $('.ht-skip').attr("aria-hidden", "true")
-    },
+      $(".ht-skip").attr("aria-hidden", "true");
+    }),
     document.body.appendChild(scriptElem);
 </script>
