@@ -504,6 +504,12 @@ h5 {
   .evitar-quebra, .break-inside-avoid {
     page-break-inside: avoid;
   }
+  .pull-right{
+    float: none !important;
+    clear: both !important;
+    display: block !important;
+    width: 100px !important;
+  }
  /* FIM-/TAGS .print e .no-print */
 
  /*------------------------------*/
