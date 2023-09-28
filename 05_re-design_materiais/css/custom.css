@@ -13,7 +13,7 @@
 }
 */
 .bloco01 {
-  background: url("../imgs/background_inicio.png") no-repeat;
+  background: url("../imgs/background_inicio.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   z-index: 4;
@@ -39,7 +39,7 @@
 }
 
 .bloco02 {
-  background: url("../imgs/background.png") no-repeat;
+  background: url("../imgs/background.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   z-index: 4;

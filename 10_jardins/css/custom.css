@@ -8,7 +8,7 @@
 }
 
 .pagina {
-  background: url("../imgs/background.png") no-repeat;
+  background: url("../imgs/background.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   z-index: 4;

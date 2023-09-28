@@ -1,5 +1,5 @@
 body{
-  background: url('../imgs/img_2.png'), url('../imgs/img_1.png'), url('../imgs/background_branco.png');
+  background: url('../imgs/img_2.png'), url('../imgs/img_1.png'), url('../imgs/background_branco.jpg');
   background-position: right 20px top, left 20px top, center;
   background-repeat: no-repeat, no-repeat, repeat;
   background-attachment: auto, auto, fixed;
@@ -13,7 +13,7 @@ iframe {
 }
 @media screen and (max-width: 1050px) {
   body{
-    background: url('../imgs/background_branco.png');
+    background: url('../imgs/background_branco.jpg');
     background-position: center;
     background-repeat: repeat;
     background-attachment: fixed;

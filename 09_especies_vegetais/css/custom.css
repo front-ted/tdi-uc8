@@ -14,7 +14,7 @@ h4{
 }
 table.senac{width: 100%;}
 .bloco1{
-    background: url('../imgs/background.png') no-repeat;
+    background: url('../imgs/background.jpg') no-repeat;
     background-attachment: fixed;
 }
 .bloco1 .container{
@@ -64,19 +64,19 @@ color: #fff;
     font-size: 24px;
 }
 .arboreas{
-    background: url('../imgs/planta_1.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.png') repeat;
+    background: url('../imgs/planta_1.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.jpg') repeat;
 }
-.arbustos{background: url('../imgs/planta_2.png') no-repeat left 20px top 40px, url('../imgs/background_branco.png') repeat center / cover;}
-.floriferas{background: url('../imgs/planta_3.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.png') repeat;}
-.frutiferas{background: url('../imgs/planta_4.png') no-repeat left 20px top 40px, url('../imgs/background_branco.png') repeat center / cover;}
-.herbaceas{background: url('../imgs/planta_5.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.png') repeat;}
-.horticolas{background: url('../imgs/planta_6.png') no-repeat left 20px top 40px, url('../imgs/background_branco.png') repeat center / cover;}
-.forracao{background: url('../imgs/planta_7.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.png') repeat;}
-.gramados{background: url('../imgs/planta_8.png') no-repeat left 10px top 40px, url('../imgs/background_branco.png') repeat center / cover;}
+.arbustos{background: url('../imgs/planta_2.png') no-repeat left 20px top 40px, url('../imgs/background_branco.jpg') repeat center / cover;}
+.floriferas{background: url('../imgs/planta_3.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.jpg') repeat;}
+.frutiferas{background: url('../imgs/planta_4.png') no-repeat left 20px top 40px, url('../imgs/background_branco.jpg') repeat center / cover;}
+.herbaceas{background: url('../imgs/planta_5.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.jpg') repeat;}
+.horticolas{background: url('../imgs/planta_6.png') no-repeat left 20px top 40px, url('../imgs/background_branco.jpg') repeat center / cover;}
+.forracao{background: url('../imgs/planta_7.png') no-repeat left 20px top 40px, url('../imgs/background_petroleo.jpg') repeat;}
+.gramados{background: url('../imgs/planta_8.png') no-repeat left 10px top 40px, url('../imgs/background_branco.jpg') repeat center / cover;}
 
-.tendencias{background: url('../imgs/background_petroleo.png') repeat;}
+.tendencias{background: url('../imgs/background_petroleo.jpg') repeat;}
 .tendencias p{color: #fff;}
-.encerramento{background: url('../imgs/background_branco.png') repeat center / cover;}
+.encerramento{background: url('../imgs/background_branco.jpg') repeat center / cover;}
 
 .legenda{
     margin-bottom: 40px;
@@ -91,15 +91,15 @@ table.senac tr td img{margin-top: 20px;}
 
 
 @media screen and (max-width: 820px) {
-    .arboreas {background:url('../imgs/background_petroleo.png') repeat;}
-    .arbustos{background: url('../imgs/background_branco.png') repeat center / cover;}
-    .floriferas{background: url('../imgs/background_petroleo.png') repeat;}
-    .frutiferas{background: url('../imgs/background_branco.png') repeat center / cover;}
-    .herbaceas{background: url('../imgs/background_petroleo.png') repeat;}
-    .horticolas{background: url('../imgs/background_branco.png') repeat center / cover;}
-    .forracao{background: url('../imgs/background_petroleo.png') repeat;}
+    .arboreas {background:url('../imgs/background_petroleo.jpg') repeat;}
+    .arbustos{background: url('../imgs/background_branco.jpg') repeat center / cover;}
+    .floriferas{background: url('../imgs/background_petroleo.jpg') repeat;}
+    .frutiferas{background: url('../imgs/background_branco.jpg') repeat center / cover;}
+    .herbaceas{background: url('../imgs/background_petroleo.jpg') repeat;}
+    .horticolas{background: url('../imgs/background_branco.jpg') repeat center / cover;}
+    .forracao{background: url('../imgs/background_petroleo.jpg') repeat;}
     .gramados{
-        background: url('../imgs/background_branco.png') repeat center / cover;
+        background: url('../imgs/background_branco.jpg') repeat center / cover;
         padding-top: 0px;
     }
     .bloco{
@@ -118,15 +118,15 @@ table.senac tr td img{margin-top: 20px;}
         padding-left: 50px;
         padding-right: 50px;
     }
-    .arboreas {background:url('../imgs/background_petroleo.png') repeat;}
-    .arbustos{background: url('../imgs/background_branco.png') repeat center / cover;}
-    .floriferas{background: url('../imgs/background_petroleo.png') repeat;}
-    .frutiferas{background: url('../imgs/background_branco.png') repeat center / cover;}
-    .herbaceas{background: url('../imgs/background_petroleo.png') repeat;}
-    .horticolas{background: url('../imgs/background_branco.png') repeat center / cover;}
-    .forracao{background: url('../imgs/background_petroleo.png') repeat;}
+    .arboreas {background:url('../imgs/background_petroleo.jpg') repeat;}
+    .arbustos{background: url('../imgs/background_branco.jpg') repeat center / cover;}
+    .floriferas{background: url('../imgs/background_petroleo.jpg') repeat;}
+    .frutiferas{background: url('../imgs/background_branco.jpg') repeat center / cover;}
+    .herbaceas{background: url('../imgs/background_petroleo.jpg') repeat;}
+    .horticolas{background: url('../imgs/background_branco.jpg') repeat center / cover;}
+    .forracao{background: url('../imgs/background_petroleo.jpg') repeat;}
     .gramados{
-        background: url('../imgs/background_branco.png') repeat center / cover;
+        background: url('../imgs/background_branco.jpg') repeat center / cover;
         padding-top: 0px;
     }
     .tendencias, .encerramento{padding-top: 60px;}

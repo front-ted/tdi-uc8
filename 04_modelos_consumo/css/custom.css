@@ -2,7 +2,7 @@ header {
   margin-top: 100px;
 }
 body {
-  background: url("../imgs/background_vermelho.png") repeat;
+  background: url("../imgs/background_vermelho.jpg") repeat;
   background-attachment: fixed;
 }
 p,
@@ -23,14 +23,14 @@ td {
   background-size: contain;
 }
 .bloco.branco {
-  background: url("../imgs/background_branco.png") no-repeat;
+  background: url("../imgs/background_branco.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 .bloco.azul {
   background: url("../imgs/img_4.png"), url("../imgs/img_3.png"),
     url("../imgs/img_2.png"), url("../imgs/img_1.png"),
-    url("../imgs/background_petroleo.png");
+    url("../imgs/background_petroleo.jpg");
   background-position: right 20px bottom 50px, left 20px bottom 600px,
     right 20px center, top 100px left 20px, center;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
@@ -144,7 +144,7 @@ td {
 
 @media screen and (max-width: 1380px) {
   .bloco.azul {
-    background: url("../imgs/background_petroleo.png");
+    background: url("../imgs/background_petroleo.jpg");
     background-position: center;
     background-repeat: repeat;
   }
