@@ -1,6 +1,6 @@
 body {
   background: url("../imgs/img_lateral.png"),
-    url("../imgs/background_branco.png");
+    url("../imgs/background_branco.jpg");
   background-repeat: no-repeat, repeat;
   background-position: left top, unset;
   background-size: 20%, auto;
@@ -26,7 +26,7 @@ header {
 }
 
 .bloco.escuro {
-  background: url("../imgs/background_escuro.png") repeat;
+  background: url("../imgs/background_escuro.jpg") repeat;
 }
 .bloco.escuro h2,
 .bloco.escuro h3,
@@ -263,7 +263,7 @@ button {
 
 @media (max-width: 1500px) {
   body {
-    background: url("../imgs/background_branco.png") repeat;
+    background: url("../imgs/background_branco.jpg") repeat;
   }
   .bloco-plantas1 {
     background: unset;
