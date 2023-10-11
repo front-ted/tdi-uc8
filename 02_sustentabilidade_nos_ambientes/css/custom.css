@@ -37,9 +37,9 @@ header {
 
 .painel-tripe {
   position: relative;
-  padding: 10px 0;
-  height: 480px;
-  width: 953px;
+  height: 500px;
+  width: 550px;
+  margin: 30px auto;
 }
 .painel-tripe button,
 .painel.selos button {
@@ -68,8 +68,8 @@ button {
   height: 301px;
   width: 301px;
   position: absolute;
-  top: 35%;
-  left: 10%;
+  bottom: 0;
+  left: 0;
 }
 
 .botao-responsabilidade {
@@ -77,8 +77,8 @@ button {
   height: 301px;
   width: 301px;
   position: absolute;
-  right: 30%;
-  top: 35%;
+  right: 0;
+  bottom: 0;
 }
 
 .painel-sustentabilidade {
@@ -261,6 +261,8 @@ button {
   margin-bottom: 50px;
 }
 
+.w-50{width: 50%;}
+
 @media (max-width: 1500px) {
   body {
     background: url("../imgs/background_branco.jpg") repeat;
@@ -385,6 +387,7 @@ button {
     height: 180px;
     border-radius: 10px;
   }
+  .w-50{width: 90%;}
 }
 
 @media screen and (max-width: 480px) {
