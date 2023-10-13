@@ -194,7 +194,7 @@ h5 {
 .menu {
   width: 270px;
   height: 100%;
-  transform: translate3d(-340px, 0, 0);
+  transform: translate3d(-270px, 0, 0);
   transition: transform 0.35s;
   z-index: 1000;
 }
