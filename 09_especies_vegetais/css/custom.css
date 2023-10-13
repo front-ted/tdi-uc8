@@ -88,7 +88,7 @@ table.senac tr td{
 }
 table.senac tr td img{margin-top: 20px;}
 
-
+.w-70{max-width: 70%;}
 
 @media screen and (max-width: 820px) {
     .arboreas {background:url('../imgs/background_petroleo.jpg') repeat;}
