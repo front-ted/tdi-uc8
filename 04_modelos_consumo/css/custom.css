@@ -69,7 +69,8 @@ td {
   height: 825px;
   position: relative;
   background: url("../imgs/painel_clicavel.png") no-repeat;
-  margin: 50px auto;
+  margin: -100px auto;
+  transform: scale(0.7);
 }
 .painel2 button {
   height: 119px;
@@ -141,6 +142,12 @@ td {
   width: 400px;
   gap: 15px;
 }
+.w-70{max-width: 70%;}
+
+.modal-100 .modal-dialog .modal-content{
+  background: url('../imgs/background_modal_100.jpg') repeat top center;
+  background-attachment: fixed;
+}
 
 @media screen and (max-width: 1380px) {
   .bloco.azul {
@@ -150,6 +157,7 @@ td {
   }
 }
 @media screen and (max-width: 780px) {
+  .w-70{max-width: 100%;}
   .painel2 {
     margin: -50px -60px;
     transform: scale(0.8);
@@ -157,7 +165,7 @@ td {
 }
 @media screen and (max-width: 580px) {
   .painel2 {
-    margin: -180px -253px;
+    margin: -180px -230px;
     transform: scale(0.5);
   }
 }

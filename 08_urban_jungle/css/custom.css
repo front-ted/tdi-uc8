@@ -27,11 +27,13 @@ z-index: 4;
   position: absolute;
   left: 0%;
   z-index: 0;
+  width: 33%;
 }
 .img-inicio_dir{
   position: absolute;
   right: 0%;
   z-index: 0;
+  width: 33%;
 }
 
 .bloco_branco{
@@ -53,11 +55,6 @@ z-index: 4;
 
 .bloco_verde .caixa-destaque-livre p, .bloco_verde .modal-body p{
   color: #333 !important;
-}
-
-.container img{
-  max-width: 650px;
-  width: 100%;
 }
 
 .imgbg1{
@@ -283,10 +280,11 @@ ul.marcador-folha li{
   list-style-image: url('../imgs/infografico_bullet.png');
 }
 
-
-@media screen and (max-width: 1281px){
+.w-70{max-width: 70%;}
+.w-50{max-width: 50%;}
+@media screen and (max-width: 1400px){
   .img-inicio_esq, .img-inicio_dir{
-    width: 320px;
+    width: 230px;
     margin-top: 80px;
   }
   .img-plantas_2{
@@ -315,13 +313,16 @@ ul.marcador-folha li{
   }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1120px){
+  .img-inicio_esq, .img-inicio_dir{display: none;}
   .parallax {display: none;}
   .parallax-mirror {display: none;}
   .imgdireita{display: none;}
 }
 
 @media screen and (max-width: 820px){
+  .w-70{max-width: 100%;}
+  .w-50{max-width: 100%;}
   .painel-planta_casa{
     transform: scale(0.88);
     margin: -45px;

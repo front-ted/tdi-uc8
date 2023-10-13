@@ -84,6 +84,8 @@ button {
 .painel-sustentabilidade {
   position: relative;
   height: 1000px;
+  transform: scale(0.8);
+  margin: -70px auto;
 }
 
 .painel-sustentabilidade button {
@@ -261,7 +263,12 @@ button {
   margin-bottom: 50px;
 }
 
-.w-50{width: 50%;}
+.w-70{max-width: 70%;}
+
+.modal-100 .modal-dialog .modal-content{
+  background: url('../imgs/background_modal_100.png') repeat top center;
+  background-attachment: fixed;
+}
 
 @media (max-width: 1500px) {
   body {
@@ -299,6 +306,7 @@ button {
     flex-direction: column;
     align-items: center;
   }
+  .w-70{max-width: 100%;}
 }
 
 @media (max-width: 1000px) {
