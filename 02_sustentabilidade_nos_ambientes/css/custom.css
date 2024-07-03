@@ -37,9 +37,9 @@ header {
 
 .painel-tripe {
   position: relative;
-  height: 500px;
-  width: 550px;
-  margin: 30px auto;
+  padding: 10px 0;
+  height: 480px;
+  width: 953px;
 }
 .painel-tripe button,
 .painel.selos button {
@@ -68,8 +68,8 @@ button {
   height: 301px;
   width: 301px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: 35%;
+  left: 10%;
 }
 
 .botao-responsabilidade {
@@ -77,15 +77,13 @@ button {
   height: 301px;
   width: 301px;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 30%;
+  top: 35%;
 }
 
 .painel-sustentabilidade {
   position: relative;
   height: 1000px;
-  transform: scale(0.8);
-  margin: -70px auto;
 }
 
 .painel-sustentabilidade button {
@@ -263,13 +261,6 @@ button {
   margin-bottom: 50px;
 }
 
-.w-70{max-width: 70%;}
-
-.modal-100 .modal-dialog .modal-content{
-  background: url('../imgs/background_modal_100.png') repeat top center;
-  background-attachment: fixed;
-}
-
 @media (max-width: 1500px) {
   body {
     background: url("../imgs/background_branco.jpg") repeat;
@@ -306,7 +297,6 @@ button {
     flex-direction: column;
     align-items: center;
   }
-  .w-70{max-width: 100%;}
 }
 
 @media (max-width: 1000px) {
@@ -395,7 +385,6 @@ button {
     height: 180px;
     border-radius: 10px;
   }
-  .w-50{width: 90%;}
 }
 
 @media screen and (max-width: 480px) {

@@ -73,8 +73,7 @@ header {
   height: 5px;
   background-color: #4f7f7f;
 }
-.w-70{max-width: 70%;}
-.w-50{max-width: 50%;}
+
 
 @media (max-width: 1000px) {
   .imagem1 {
@@ -104,8 +103,6 @@ header {
 }
 
 @media (max-width: 820px) {
-  .w-70{max-width: 100%;}
-  .w-50{max-width: 100%;}
   .citacao {
     padding-left: 30%;
   }
